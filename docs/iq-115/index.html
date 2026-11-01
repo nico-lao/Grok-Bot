@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>聽力練習 · IQ 115（Asmongold）</title>
+<style>
+  :root {
+    --bg: #0f1115; --card: #1a1d24; --text: #e8eaed; --muted: #9aa0a6;
+    --accent: #8ab4f8; --ok: #81c995; --warn: #fdd663; --border: #2d3139;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: "Segoe UI", system-ui, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.55; font-size: 26px;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 72px; }
+  h1 { font-size: 1.85rem; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 16px; font-size: 1.02rem; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px; margin-bottom: 14px;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .stats { display: flex; gap: 16px; color: var(--muted); font-size: 1rem; margin-bottom: 8px; }
+  button {
+    appearance: none; border: 1px solid var(--border); background: #252830;
+    color: var(--text); border-radius: 8px; padding: 12px 16px;
+    font-size: 1.05rem; cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); color: #0f1115; border-color: transparent; font-weight: 600; }
+  button:disabled { opacity: 0.55; cursor: default; }
+  .meta { color: var(--muted); font-size: 1rem; }
+  .prompt {
+    margin: 10px 0 4px; color: var(--muted); font-size: 1.05rem;
+  }
+  .answer {
+    margin-top: 12px; padding: 14px 16px; border-radius: 10px;
+    background: #12151a; border: 1px solid var(--border);
+    font-size: 1.35rem; font-weight: 600; line-height: 1.45;
+    min-height: 3.2em;
+  }
+  .answer.hidden-text { color: transparent; user-select: none; text-shadow: 0 0 12px rgba(232,234,237,0.15); }
+  .answer.hidden-text::before {
+    content: '聽完後點「顯示原文」';
+    color: var(--muted); font-weight: 500; font-size: 1.05rem;
+    text-shadow: none; display: block;
+  }
+  .answer.revealed { color: var(--text); }
+  .answer.revealed::before { content: none; }
+  audio { width: 100%; margin-top: 10px; }
+  .note { font-size: 0.95rem; color: var(--muted); }
+  .playing-label { color: var(--ok); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>聽力練習 · IQ 115</h1>
+  <p class="sub">Asmongold 反應片（英語原音）。先聽一段，再點按鈕看原文。<br/>
+  來源：<a href="https://www.youtube.com/watch?v=kaCx0j-19OQ" target="_blank" rel="noopener">YouTube</a>
+  · <a href="../">返回 Critical Thinking 練習</a></p>
+
+  <div class="card">
+    <div class="stats">
+      <span id="progress">1 / 86</span>
+      <span id="timeRange" class="meta"></span>
+    </div>
+    <p class="prompt">第 <span id="num">1</span> 段 · 先播放，聽完再顯示原文</p>
+    <div class="row" style="margin-top:10px">
+      <button type="button" class="primary" id="btnPlay">▶ 播放</button>
+      <button type="button" id="btnReveal">顯示原文</button>
+      <button type="button" id="btnHide" disabled>隱藏原文</button>
+      <button type="button" id="btnReplay">再聽一次</button>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <button type="button" id="btnPrev">← 上一段</button>
+      <button type="button" id="btnNext">下一段 →</button>
+      <button type="button" id="btnYoutube">YouTube 對應時間</button>
+    </div>
+    <div id="answer" class="answer hidden-text" aria-live="polite"></div>
+    <p class="note" id="status"></p>
+    <audio id="player" controls preload="auto"></audio>
+  </div>
+
+  <div class="card">
+    <p class="note">用法：點「播放」只聽這一段（約 3–12 秒）。聽完後點「顯示原文」核對。不要先偷看。</p>
+    <p class="note">音訊載入中若失敗，請稍候或重新整理。本頁音訊來自 GitHub Release。</p>
+  </div>
+</main>
+<script>
+const SEGMENTS = [{"id": 1, "start": 10.72, "end": 17.73, "text": "Okay, let's see. My 115 IQ. Why do some groups lie about their IQ?"}, {"id": 2, "start": 17.8, "end": 26.69, "text": "IQ is the most consistently reliable predictor for success that we have. So much so that if we go simply by financial success at the end of life, it"}, {"id": 3, "start": 26.2, "end": 32.01, "text": "is better to be born poor with gifted IQ than born rich with mediocre IQ."}, {"id": 4, "start": 32.119, "end": 37.32, "text": "And that predicts more than just money, including impulse control, charisma, among others."}, {"id": 5, "start": 37.28, "end": 49.05, "text": "The stereotype of the socially awkward nerd as being the ones of high IQ is mostly a fiction. In reality, nerds aren't necessarily smarter, just more obsessively studious. Whereas those of"}, {"id": 6, "start": 48.52, "end": 54.93, "text": "genuinely higher IQs, even if they are not naturally charismatic, can learn how to improve their communication easily."}, {"id": 7, "start": 54.8, "end": 63.96, "text": "That's right. That's right. You just act that way, figure out what people want to hear, and then you just tell them what they want to hear. That's it. It's so simple."}, {"id": 8, "start": 63.32, "end": 68.2, "text": "This is intuitive, as IQ tests are just puzzles being solved with minimal information."}, {"id": 9, "start": 67.96, "end": 76.24, "text": "And IQ scores measure how well you did to other test-takers. Thus, having a higher IQ means you're better at problem-solving than someone with a lower score."}, {"id": 10, "start": 75.8, "end": 86.09, "text": "Wow. Unfortunately, IQ has become interwoven with ego in recent decades. Having a score that straight-up tells you if you're smarter or stupider than people will naturally lend itself to pride."}, {"id": 11, "start": 85.96, "end": 94.61, "text": "That's A lot of people think that having a high a high IQ means that they are Like I I think intelligence can be measured in like"}, {"id": 12, "start": 94.28, "end": 102.69, "text": "five or six different ways, right? Cuz there's a lot of different ways that somebody can be smart, but people put a lot of a lot of attention on IQ."}, {"id": 13, "start": 102.6, "end": 107.84, "text": "The only distinction between a human and an animal is intelligence. Uh-huh."}, {"id": 14, "start": 106.92, "end": 112.09, "text": "Whereas a religious society would argue the uniqueness of human beings stem from being made in the image of God."}, {"id": 15, "start": 112.8, "end": 123.062, "text": "society relies on intelligence as the sole differentiator. And the logical conclusion of that is the more intelligent, the more human. The consequence is the incredible insecurity"}, {"id": 16, "start": 123.012, "end": 133.582, "text": "most people exhibit regarding their perceived intelligence. This is obvious when you look at people's stances on IQ tests themselves. In general, the more mediocre someone's score is, the more"}, {"id": 17, "start": 133.132, "end": 138.782, "text": "likely they are to ignore IQ's objectively true predictive power and find excuses to ignore it."}, {"id": 18, "start": 138.612, "end": 146.662, "text": "I think this is absolutely true. People that think IQ doesn't matter, it obviously matters. It's not the only thing that matters and people can be"}, {"id": 19, "start": 146.132, "end": 156.372, "text": "good to other things that aren't just simply having high intelligence. But like on a very very basic level, uh yeah, it matters a lot. It absolutely does."}, {"id": 20, "start": 155.932, "end": 166.102, "text": "I've already done several videos on group IQ disparities focusing on groups that score low. Pride makes those groups less able to accept reality and instead lie, often appealing to socioeconomic"}, {"id": 21, "start": 166.212, "end": 171.212, "text": "factors or other environmental circumstances to mask their innate failings."}, {"id": 22, "start": 170.652, "end": 178.102, "text": "The 83 as well. Like I It's really funny because this guy does a lot of One of my favorite things about these videos is"}, {"id": 23, "start": 177.652, "end": 187.742, "text": "that these videos are There is a lot of like hidden information and hidden messaging here that a lot of people probably don't even notice. And that's"}, {"id": 24, "start": 187.332, "end": 194.342, "text": "what I like so much about it. Groups that score well can also fall victim to pride. After all, who doesn't want to be the best? Therefore, the"}, {"id": 25, "start": 193.772, "end": 203.542, "text": "insecure groups, even the ones that perform, may still lie to appear even smarter. Uncovering those lies will be the topic of today's video. And if you enjoyed, consider subscribing. It helps"}, {"id": 26, "start": 203.092, "end": 214.262, "text": "the channel. But we'll be doing so with tact. IQ is already a touchy subject, especially when we factor in disparities between identity groups. So when illustrating my points, instead of"}, {"id": 27, "start": 213.732, "end": 224.262, "text": "naming the actual groups, I'll stick to hypothetical identities. And if you notice any real-life parallels, that's you projecting your own preconceived notions. Actually, think about it. It"}, {"id": 28, "start": 223.652, "end": 232.702, "text": "actually makes you the racist. The three groups with the highest IQs in this fictional world are the West Circles who originate around here, the East Triangles who originate around here,"}, {"id": 29, "start": 232.532, "end": 235.382, "text": "It's just upside down. It's just upside"}, {"id": 30, "start": 239.812, "end": 247.774, "text": "Oh boy. and the Circle Stars who are actually a mix of the Circle population and the Star population that originated here and here Uh-huh."}, {"id": 31, "start": 246.814, "end": 252.304, "text": "and became insular. Of these three, the Circle Stars claim the highest average IQ of 115."}, {"id": 32, "start": 253.574, "end": 259.864, "text": "They are very, very high-level. They're so high-level that some people think they control the entire world."}, {"id": 33, "start": 259.774, "end": 265.544, "text": "dwarfing the scores of the West Circles and East Triangles Uh-huh. by nearly an entire standard deviation."}, {"id": 34, "start": 265.894, "end": 271.224, "text": "A point of great pride for them. Except for the fact that it's entirely a result of manipulating statistics."}, {"id": 35, "start": 271.494, "end": 279.824, "text": "Studies were done comparing the predicted IQs of Circle Star Stop talking. children in private kindergartens for Star people and compared against the general populace's children."}, {"id": 36, "start": 279.654, "end": 288.344, "text": "Uh-huh. The lack of controls in these studies were staggering. And even they had to concede that as the children age, their IQ drops towards the population average."}, {"id": 37, "start": 288.254, "end": 297.104, "text": "Never been IQ-tested. I have never been IQ-tested, ever. I I've never even looked at it or even like My my my opinion is that I don't think that I"}, {"id": 38, "start": 296.534, "end": 306.464, "text": "have a very, very high IQ. I just think that I'm extremely manipulative and I have an incredibly good memory that people perceive as intelligence. And"}, {"id": 39, "start": 305.934, "end": 310.534, "text": "because I can remember a lot of things, people think that I'm a lot smarter than I am."}, {"id": 40, "start": 309.894, "end": 315.344, "text": "To discover the true IQ of Circle Stars, all we have to do is visit their fictional country of Yahustan."}, {"id": 41, "start": 319.854, "end": 325.254, "text": "I've never heard of this place before. with an official average IQ of 94. 94."}, {"id": 42, "start": 324.494, "end": 331.224, "text": "Now, Circle Stars aren't the only identity group in Yahustan. They are in fact only about 33.6% of the population."}, {"id": 43, "start": 331.454, "end": 336.494, "text": "However, we actually know the IQ scores of the remaining population as you're seeing on screen."}, {"id": 44, "start": 336.534, "end": 342.654, "text": "Meaning we can simply calculate the Circle Star IQ with a maximum of 103, not 115."}, {"id": 45, "start": 343.414, "end": 351.784, "text": "I say maximum because the IQ score used for the Sand Stars is actually the lowest estimate, most generous situation for Circle Star IQ."}, {"id": 46, "start": 351.774, "end": 358.664, "text": "I think that if if I was going to edit this at all, I would call them Moon Stars because of the the crescent moon."}, {"id": 47, "start": 358.654, "end": 368.105, "text": "I I a small edit in my mind. If we were to use the upper end estimates for Sand Star IQ, Circle Stars would drop below 100. This is surprising"}, {"id": 48, "start": 368.015, "end": 377.465, "text": "news for a lot of people because in this fictional world, Circle Stars are often vastly overrepresented in many awards and high offices, which is often accredited to their debunked"}, {"id": 49, "start": 377.415, "end": 388.065, "text": "extraordinary intellect. And perhaps, that is exactly why their scores are lied about because maybe these awards and offices are not being truly distributed solely by merit as intended,"}, {"id": 50, "start": 388.295, "end": 392.545, "text": "but instead partially by tribal affiliation USING FAKE IQS."}, {"id": 51, "start": 393.695, "end": 404.905, "text": "WITH THE Circle Stars addressed, what about the triangles? Yes, they also blatantly cheat IQ scores, especially this country, Winnie-the-Pooh-land, which reports an average IQ of 105 to"}, {"id": 52, "start": 404.375, "end": 413.625, "text": "109. They do this in a pretty obvious way by primarily sampling only the richest and most developed provinces instead of something truly representative of their population."}, {"id": 53, "start": 413.895, "end": 422.305, "text": "You'd think if they were as smart as they say, they'd cheat in a less obvious way, but no. Winnie-the-Pooh-land has an incredible population of over 1 billion."}, {"id": 54, "start": 422.135, "end": 430.825, "text": "That's a lot of If their intelligence was as they claimed, they'd be an absolute factory for geniuses. So, why is it that instead of inventing anything, they rely on"}, {"id": 55, "start": 430.295, "end": 434.825, "text": "stealing technology and trade secrets from Circle countries? The other triangles cheat, too."}, {"id": 56, "start": 434.295, "end": 439.785, "text": "Wow, the other triangles cheat, too. OH LORD, DO THEY EVER?"}, {"id": 57, "start": 439.735, "end": 450.745, "text": "Triangle culture puts a massive emphasis on academia, test scores, and similar, and they start young making their children study hard for long hours since infancy. IQ scores are meant to measure"}, {"id": 58, "start": 450.495, "end": 460.095, "text": "raw intellect, not knowledge, but the tests we create are not perfect as it's really hard to design questions that don't lean on at least a tiny bit of prior knowledge."}, {"id": 59, "start": 460.055, "end": 468.185, "text": "That's why I never feel bad whenever I always try to make her feel better when Kacey flops out on one of her like little tests that she'll take on stream."}, {"id": 60, "start": 468.095, "end": 476.985, "text": "So, like I was asking her, she was telling me yesterday that she like she that she liked a lot of history, which now like you shouldn't have said that."}, {"id": 61, "start": 476.815, "end": 485.225, "text": "Do you know what this means for her? This means that she gets to watch a 2-hour documentary on YouTube about the Roman Empire soon. She's going to be"}, {"id": 62, "start": 484.695, "end": 492.267, "text": "seeing that this week. I need a refresher myself, honestly. I haven't watched any videos, but yeah, and she said it's important. And I I went"}, {"id": 63, "start": 491.857, "end": 495.937, "text": "through and I asked her like 50 questions, bro. I did. I asked her like 50 questions."}, {"id": 64, "start": 495.977, "end": 503.787, "text": "And she's going to learn. See, she's going to learn. And to be fair, to be credit to her, the one that she did know was Napoleon."}, {"id": 65, "start": 504.057, "end": 509.107, "text": "She knew Napoleon, and she knew, of course, Genghis Khan, where he was from."}, {"id": 66, "start": 509.177, "end": 519.547, "text": "She knew them for sure. So, a culture that puts abnormal focus on education early on will have their early life IQ scores skewed. Not only that, triangles have also shown an"}, {"id": 67, "start": 519.017, "end": 527.587, "text": "obsessive degree of pride in the pursuit of getting the highest score possible. One of the easiest ways to cheat IQ tests is to take another one, as they'll"}, {"id": 68, "start": 527.057, "end": 535.267, "text": "be more used to the types of questions. Whereas circles are more likely to see IQ scores as medical reports of useful information, triangles are more likely"}, {"id": 69, "start": 534.897, "end": 543.227, "text": "to see them as school grades. Meaning if they're dissatisfied, they'll keep retaking to try to get the maximum score, as they've likely been doing their entire life."}, {"id": 70, "start": 543.017, "end": 546.707, "text": "Of course. This reflects itself in their performance on other aspects of life."}, {"id": 71, "start": 546.857, "end": 550.947, "text": "IQ, not academics, is the best predictor of success we have."}, {"id": 72, "start": 550.777, "end": 559.947, "text": "It is, cuz like if you're smart, you can figure anything out. Like if if you are above average intelligence, and you have the mental capacity to figure things"}, {"id": 73, "start": 559.617, "end": 566.907, "text": "out, it doesn't matter what problem somebody gives you, you're just going to figure it out. Like that's why like whenever I have like a team of people"}, {"id": 74, "start": 566.577, "end": 574.907, "text": "that do things, I don't need to worry about like whether they're experienced in it or not. I can tell them like figure out how to"}, {"id": 75, "start": 575.177, "end": 582.217, "text": "uh how to make a slaughterhouse for pigs, and they'll figure that out. Be easy. But it's a less reliable for triangles than for circles."}, {"id": 76, "start": 581.817, "end": 592.907, "text": "in, bacon comes out. bit higher, yet perform at a level below what their IQ would predict. In other words, [music] below a circle with the same IQ, especially in innovation."}, {"id": 77, "start": 593.057, "end": 603.987, "text": "Man. Their overemphasis on academic scores does not compensate in the real world, and actually negatively impacts the economy, as it forces higher performing circles to waste time competing to get"}, {"id": 78, "start": 603.537, "end": 607.907, "text": "more useless academic accolades before being able to qualify for actual work."}, {"id": 79, "start": 607.737, "end": 615.588, "text": "I I thought this, too. I always thought if you graduate from business school, you should fail. Cuz like everybody that I knew that did anything important, all"}, {"id": 80, "start": 615.178, "end": 622.308, "text": "of them dropped out. They did. Like in like I get like okay, if you're trying to run a business, like all right, maybe"}, {"id": 81, "start": 621.978, "end": 631.058, "text": "you should get an MBA. But like if you graduate if you graduate from like entrepreneurship school, it's like well, obviously that didn't work, right? Very easy."}, {"id": 82, "start": 629.898, "end": 640.108, "text": "If a number one exists for raw intelligence, my bet would be the circles. It was circles who conquered the world, who developed the technology using to communicate. The ones everyone"}, {"id": 83, "start": 639.858, "end": 648.338, "text": "else tries to copy or emigrate to. Since IQ is just problem solving, long-term historical success is its best predictor."}, {"id": 84, "start": 647.858, "end": 659.828, "text": "Also, um America is a very bad country to look at IQ from. Uh because there are there's a massive combination of squares, circles, triangles, stars, and"}, {"id": 85, "start": 659.378, "end": 668.308, "text": "everything. So it's kind of like just kind of it's like grabbing out of uh you know, like a candy bucket with like all the different candies in it. Sometimes"}, {"id": 86, "start": 668.258, "end": 674.538, "text": "you're going to get, you know, a Jolly Rancher and other times you're going to get candy corn. It's not so good."}];
+const YT = "https://www.youtube.com/watch?v=kaCx0j-19OQ";
+const AUDIO_CANDIDATES = [
+  "https://github.com/nico-lao/Grok-Bot/releases/download/iq-115-audio-v1/iq-115.mp3",
+  "audio.mp3",
+  "./audio.mp3"
+];
+
+const player = document.getElementById('player');
+const answerEl = document.getElementById('answer');
+const progressEl = document.getElementById('progress');
+const numEl = document.getElementById('num');
+const timeEl = document.getElementById('timeRange');
+const statusEl = document.getElementById('status');
+const btnPlay = document.getElementById('btnPlay');
+const btnReveal = document.getElementById('btnReveal');
+const btnHide = document.getElementById('btnHide');
+const btnReplay = document.getElementById('btnReplay');
+const btnPrev = document.getElementById('btnPrev');
+const btnNext = document.getElementById('btnNext');
+const btnYoutube = document.getElementById('btnYoutube');
+
+let idx = 0;
+let revealed = false;
+let playToken = 0;
+let stopAtSec = 0;
+let audioReady = false;
+
+function fmt(sec) {
+  sec = Math.max(0, sec || 0);
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return m + ':' + String(s).padStart(2, '0');
+}
+
+function current() { return SEGMENTS[idx]; }
+
+function hideAnswer() {
+  revealed = false;
+  answerEl.classList.add('hidden-text');
+  answerEl.classList.remove('revealed');
+  answerEl.textContent = current().text;
+  btnHide.disabled = true;
+  btnReveal.disabled = false;
+}
+
+function showAnswer() {
+  revealed = true;
+  answerEl.classList.remove('hidden-text');
+  answerEl.classList.add('revealed');
+  answerEl.textContent = current().text;
+  btnHide.disabled = false;
+  btnReveal.disabled = true;
+}
+
+function render() {
+  const s = current();
+  progressEl.textContent = (idx + 1) + ' / ' + SEGMENTS.length;
+  numEl.textContent = String(idx + 1);
+  timeEl.textContent = fmt(s.start) + ' – ' + fmt(s.end);
+  hideAnswer();
+  btnPrev.disabled = idx <= 0;
+  btnNext.disabled = idx >= SEGMENTS.length - 1;
+  statusEl.textContent = '';
+  stopClip(false);
+}
+
+function resetPlayBtn() {
+  btnPlay.disabled = false;
+  btnPlay.textContent = '▶ 播放';
+  btnPlay.classList.remove('playing-label');
+}
+
+function stopClip(resetBtn = true) {
+  playToken += 1;
+  try { player.pause(); } catch (_) {}
+  if (resetBtn) resetPlayBtn();
+}
+
+function onTick() {
+  try {
+    if (player.currentTime >= stopAtSec - 0.04) {
+      const token = playToken;
+      try { player.pause(); } catch (_) {}
+      if (token === playToken) resetPlayBtn();
+    }
+  } catch (_) {}
+}
+
+async function playSeg() {
+  const s = current();
+  if (!audioReady) {
+    statusEl.textContent = '音訊還在載入，請稍候再按播放。';
+    return;
+  }
+  stopClip(false);
+  const token = ++playToken;
+  stopAtSec = s.end;
+  btnPlay.disabled = true;
+  btnPlay.textContent = '播放中…';
+  try {
+    player.currentTime = s.start;
+  } catch (_) {}
+  const startPlay = () => {
+    if (token !== playToken) return;
+    const p = player.play();
+    if (p && p.catch) p.catch(() => {
+      statusEl.textContent = '無法自動播放，請先點一下頁面或音訊控件。';
+      resetPlayBtn();
+    });
+  };
+  if (Math.abs(player.currentTime - s.start) > 0.35) {
+    const onSeeked = () => {
+      player.removeEventListener('seeked', onSeeked);
+      startPlay();
+    };
+    player.addEventListener('seeked', onSeeked);
+    try { player.currentTime = s.start; } catch (_) { startPlay(); }
+  } else {
+    startPlay();
+  }
+}
+
+btnPlay.addEventListener('click', playSeg);
+btnReplay.addEventListener('click', playSeg);
+btnReveal.addEventListener('click', showAnswer);
+btnHide.addEventListener('click', hideAnswer);
+btnPrev.addEventListener('click', () => { if (idx > 0) { idx -= 1; render(); } });
+btnNext.addEventListener('click', () => { if (idx < SEGMENTS.length - 1) { idx += 1; render(); } });
+btnYoutube.addEventListener('click', () => {
+  const s = current();
+  const url = YT + (YT.includes('?') ? '&' : '?') + 't=' + Math.floor(s.start) + 's';
+  window.open(url, '_blank', 'noopener');
+});
+
+player.addEventListener('timeupdate', onTick);
+player.addEventListener('ended', () => resetPlayBtn());
+
+async function loadAudio() {
+  for (const src of AUDIO_CANDIDATES) {
+    try {
+      await new Promise((resolve, reject) => {
+        const onOk = () => { cleanup(); resolve(); };
+        const onErr = () => { cleanup(); reject(new Error('fail')); };
+        const cleanup = () => {
+          player.removeEventListener('loadedmetadata', onOk);
+          player.removeEventListener('canplay', onOk);
+          player.removeEventListener('error', onErr);
+        };
+        player.addEventListener('loadedmetadata', onOk);
+        player.addEventListener('canplay', onOk);
+        player.addEventListener('error', onErr);
+        player.src = src;
+        player.load();
+      });
+      audioReady = true;
+      statusEl.textContent = '音訊已就緒。';
+      return;
+    } catch (_) {
+      /* try next */
+    }
+  }
+  statusEl.textContent = '音訊載入失敗：請檢查網路或稍後再試。';
+}
+
+render();
+loadAudio();
+</script>
+</body>
+</html>
