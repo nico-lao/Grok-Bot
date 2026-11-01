@@ -1,0 +1,4196 @@
+{
+  "title": "Critical Thinking · Asmongold",
+  "youtube": "https://www.youtube.com/watch?v=7cu09Uw5k38",
+  "audioFile": "critical-thinking.mp3",
+  "audioUrl": "https://github.com/nico-lao/Grok-Bot/releases/download/transcript-audio-v1/critical-thinking.mp3",
+  "durationHintSec": 2697.816,
+  "segmentCount": 337,
+  "enrichment": {
+    "zhCoverage": 337,
+    "segmentsWithTags": 50,
+    "phraseTags": 18,
+    "vocabTags": 47
+  },
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 6.0,
+      "t": "00:00:00",
+      "en": "Why people actually hate asman gold uh oh I find it quite strange how a lot of",
+      "zh": "為什麼大家真的那麼討厭 Asmongold——呃，喔，我覺得很奇怪，為什麼很多",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "I find it quite strange how…",
+          "native": "used when politely criticizing a puzzling social or online behavior",
+          "nativeZh": "溫和批評奇怪的網路／社會行為"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 2,
+      "start": 6.0,
+      "end": 14.0,
+      "t": "00:00:06",
+      "en": "People on the internet just jump to conclusions without any hint of evidence to see how critical thinking seems almost endangered among the chronically",
+      "zh": "網路上的人完全沒有任何證據就急著下定論；你會覺得批判思考在那些長期（字幕此句 chronically online 被拆到下一句，語意相連）",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "jump to conclusions",
+          "native": "used when criticizing someone for deciding before they have evidence",
+          "nativeZh": "批評還沒證據就下定論"
+        },
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        },
+        {
+          "k": "vocab",
+          "v": "endangered",
+          "native": "used metaphorically when saying a skill or value is disappearing",
+          "nativeZh": "比喻某種能力／價值快消失"
+        },
+        {
+          "k": "vocab",
+          "v": "chronically online",
+          "native": "describing people whose opinions are shaped by living on the internet",
+          "nativeZh": "形容觀點被網路生活形塑的人"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：jump to conclusions",
+          "ex": [
+            "Don't jump to conclusions before you finish the article."
+          ],
+          "use": "網路俚語，形容長期泡在網路上、世界觀被網路文化嚴重形塑的人。",
+          "native": "used when criticizing someone for deciding before they have evidence",
+          "nativeZh": "批評還沒證據就下定論"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 14.0,
+      "end": 25.0,
+      "t": "00:00:14",
+      "en": "Online a lot of people just follow trends of hatred without actually taking the time to find evidence to back up their accusations just because a lot of people are saying something doesn't make it true we've seen this happen with a",
+      "zh": "泡在網上的人當中幾乎快絕種了。很多人只是跟著仇恨潮流走，根本不花時間找證據來支持自己的指控——很多人這樣說，不代表那就是真的。我們已經在",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Just because X doesn't make Y true.",
+          "native": "used when rejecting bandwagon claims or 'everyone says so' arguments",
+          "nativeZh": "辯論時反駁「大家都這樣說」"
+        },
+        {
+          "k": "vocab",
+          "v": "back up",
+          "native": "used when asking someone to support a claim with sources",
+          "nativeZh": "要求用來源支持說法"
+        },
+        {
+          "k": "vocab",
+          "v": "accusation",
+          "native": "used when referring to a serious claim that someone did something wrong",
+          "nativeZh": "指某人做錯事的嚴重說法"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：back up",
+          "ex": [
+            "Can you back up that accusation with sources?"
+          ],
+          "use": "指控、控告式說法；討論爭議與公審時常用。",
+          "native": "used when asking someone to support a claim with sources",
+          "nativeZh": "要求用來源支持說法"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 25.0,
+      "end": 31.0,
+      "t": "00:00:25",
+      "en": "Lot of public figures especially in recent years a good example would be JK Rowling I'm convinced the majority of",
+      "zh": "很多公眾人物身上看過這種事，尤其是近年來；一個很好的例子就是 JK Rowling。我相信大多數",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 5,
+      "start": 31.0,
+      "end": 38.0,
+      "t": "00:00:31",
+      "en": "People who hate her do so simply because others do because it's become a popular Trend I remember watching a video on",
+      "zh": "討厭她的人，只是因為別人也討厭她——因為這變成了一種流行趨勢。我記得看過一支",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 6,
+      "start": 38.0,
+      "end": 45.0,
+      "t": "00:00:38",
+      "en": "Critical thinking by a teacher Warren Smith in this video Warren challenges a student of his to actually think for",
+      "zh": "關於批判思考的影片，講者是老師 Warren Smith。影片裡 Warren 挑戰他的學生，要真正為自己",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 45.0,
+      "end": 52.0,
+      "t": "00:00:45",
+      "en": "Themselves on this exact topic all he did was encourage his students to broaden his perspective and look into",
+      "zh": "思考，針對的就是這個議題。他只是鼓勵學生拓寬視野，自己去查",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 8,
+      "start": 52.0,
+      "end": 58.0,
+      "t": "00:00:52",
+      "en": "The situation himself using rationality and critical thinking so let's get specific though let's define bigoted",
+      "zh": "實際情況，用理性與批判思考。那我們講具體一點——我們先定義什麼叫偏執／歧視性的",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 58.0,
+      "end": 66.0,
+      "t": "00:00:58",
+      "en": "Opinions what opinions are bigot is we're going to treat this as a thought experiment I'm not going to say what's right or wrong or what way to think the whole point is to learn how to think not",
+      "zh": "觀點。什麼樣的意見算「偏執」？我們把這當成一個思想實驗。我不會說什麼對什麼錯、該怎麼想；重點是學會「如何思考」，而不是 （同段：the whole point is to learn how to think not what to think）",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Let's treat this as a thought experiment.",
+          "native": "used when cooling a heated debate so you can explore ideas without committing",
+          "nativeZh": "先降溫、當假設來討論"
+        },
+        {
+          "k": "phrase",
+          "v": "The whole point is to…",
+          "native": "used when pulling a discussion back to its real purpose",
+          "nativeZh": "把討論拉回真正目的"
+        },
+        {
+          "k": "vocab",
+          "v": "thought experiment",
+          "native": "used when proposing a hypothetical to test logic without endorsing it",
+          "nativeZh": "提出假設來測邏輯、未必採納"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：thought experiment",
+          "ex": [
+            "This is just a thought experiment, not a policy proposal."
+          ],
+          "use": "思想實驗：假設情境來測試推理，不代表立刻採納結論。",
+          "native": "used when proposing a hypothetical to test logic without endorsing it",
+          "nativeZh": "提出假設來測邏輯、未必採納"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 66.0,
+      "end": 71.0,
+      "t": "00:01:06",
+      "en": "What to think so when you say bigot you you're you're starting with the conclusion that given her bigoted",
+      "zh": "「該想什麼」。所以當你說「偏執者」時，你其實已經先下了結論：假定她那些觀點是偏執的 （承接上句 whole point）",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "The whole point is to…",
+          "native": "used when pulling a discussion back to its real purpose",
+          "nativeZh": "把討論拉回真正目的"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 11,
+      "start": 71.0,
+      "end": 82.0,
+      "t": "00:01:11",
+      "en": "Opinions first let's start with does she have this is the way most people start at the conclusion and they work backwards that's the way that most people think unfortunately so I guess",
+      "zh": "先問：她有沒有？——大多數人卻是先從結論出發，再往回找理由。很不幸，這就是多數人的思考方式。所以我想",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Start at the conclusion and work backwards.",
+          "native": "used when criticizing motivated reasoning that reverse-engineers a desired answer",
+          "nativeZh": "批評先有結論再倒推的推理"
+        },
+        {
+          "k": "vocab",
+          "v": "work backwards",
+          "native": "used when calling out reverse-engineered reasoning from a fixed conclusion",
+          "nativeZh": "批評從固定結論倒推找理由"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：work backwards",
+          "ex": [
+            "If you work backwards from a desired answer, you'll always 'find' proof."
+          ],
+          "use": "從結論倒推；在批評偏誤推理時常用。",
+          "native": "used when calling out reverse-engineered reasoning from a fixed conclusion",
+          "nativeZh": "批評從固定結論倒推找理由"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 82.0,
+      "end": 91.0,
+      "t": "00:01:22",
+      "en": "Now so now that we're looking at minutes lat there's not much difference between me or her do you think it's fair that she's being attacked by a large group of people and like you said at the",
+      "zh": "現在……我們看著這些片段，其實我和她之間沒那麼大差別。你覺得她被一大群人圍攻公平嗎？而且就像你在",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 13,
+      "start": 91.0,
+      "end": 101.0,
+      "t": "00:01:31",
+      "en": "Beginning of this conversation you said given the fact that JK Rowling is transphobic how do you feel about Harry Potter they start with the conclusion you're actively looking at that statement do you think that that was the",
+      "zh": "這段對話一開始說的：你說「既然 JK Rowling 恐跨，你對《哈利波特》有什麼感覺？」——他們先下結論。你仔細看那句話，你覺得那樣",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 14,
+      "start": 101.0,
+      "end": 110.0,
+      "t": "00:01:41",
+      "en": "Best way to phrase no I feel like an idiot now Warren Smith then apparently got fir no that makes that kid smarter than 90% of people on the internet 90%",
+      "zh": "措辭是最好的嗎？——「沒有，我現在覺得自己像個白痴。」Warren Smith 後來好像因此被炒……不，那反而說明那孩子比網路上九成的人還聰明。九成",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 15,
+      "start": 110.0,
+      "end": 116.0,
+      "t": "00:01:50",
+      "en": "Of people on the internet would have never said that but at the end of that they would have said oh bro you really a",
+      "zh": "網友大概永遠說不出那種話；到最後他們只會說：喔兄弟你真的是個",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 16,
+      "start": 116.0,
+      "end": 123.0,
+      "t": "00:01:56",
+      "en": "Transphobe though like oh bro this guy sucks from his teaching job for encouraging critical thinking so it",
+      "zh": "恐跨吧，喔這傢伙超爛——結果老師卻因為鼓勵批判思考而丟掉教職。所以",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 123.0,
+      "end": 136.0,
+      "t": "00:02:03",
+      "en": "Happened yesterday I was fired from my full-time teaching position yeah this decline in critical thinking is one of the many reasons I believe a lot of people dislike asmin gold in certain on",
+      "zh": "事情就發生了：昨天我被開除了全職教職。對，這種批判思考的衰退，是我認為很多人討厭 Asmongold 的原因之一——在某些",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 136.0,
+      "end": 142.0,
+      "t": "00:02:16",
+      "en": "People don't like critical thinking because critical thinking breaks down narratives and a lot of people that are",
+      "zh": "圈子裡。人們不喜歡批判思考，因為批判思考會拆解敘事；而很多",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 142.0,
+      "end": 150.0,
+      "t": "00:02:22",
+      "en": "In charge of Internet communities have more of a allegiance to a narrative than they do to the community or to truth",
+      "zh": "主導網路社群的人，對「敘事」的忠誠，大於對社群或對真相的忠誠。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 20,
+      "start": 150.0,
+      "end": 158.0,
+      "t": "00:02:30",
+      "en": "And so anybody like you think about it like this right if you apply critical thinking you come to conclusions that",
+      "zh": "所以你這樣想：如果你運用批判思考，就會得出一些",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 158.0,
+      "end": 168.0,
+      "t": "00:02:38",
+      "en": "Are inconvenient like for example I think that transports are like one example of that or you could look at it with climate change I would say or you could",
+      "zh": "讓人不舒服的結論。例如我覺得跨性別相關議題就是一例；或你也可以看氣候變遷；或你也可以",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 22,
+      "start": 168.0,
+      "end": 174.0,
+      "t": "00:02:48",
+      "en": "Look at it with other types of like human rights and if you apply critical thinking to these topics and you",
+      "zh": "看其他類型的人權議題。如果你對這些主題運用批判思考，並",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 174.0,
+      "end": 181.0,
+      "t": "00:02:54",
+      "en": "Evaluate them logically you come to conclusions that are often times oppositional to what side quote that",
+      "zh": "用邏輯去評估，你常常會得出跟你所屬「陣營」相反的結論。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 24,
+      "start": 181.0,
+      "end": 191.0,
+      "t": "00:03:01",
+      "en": "You're on and people don't want to be on the wrong side because one thing we've learned about the internet is that if you're wrong by 1% you might as well just be the opposite the more I looked",
+      "zh": "而人們不想站在「錯的那邊」，因為我們從網路學到一件事：你只要錯 1%，就幾乎等於站到對面去了。我越深入",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 25,
+      "start": 191.0,
+      "end": 199.0,
+      "t": "00:03:11",
+      "en": "Into this the weirder this Echo chamber became as M gold is just like someone who makes a living off stealing from of people like you're a racist asmin gold",
+      "zh": "看這件事，這個回音室就變得越詭異。有人說 Asmongold 就是靠偷別人的東西維生……你這個種族主義者；Asmongold",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "echo chamber",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：echo chamber",
+          "ex": [
+            "Social media can become an echo chamber."
+          ],
+          "use": "回音室：只聽到相似觀點、強化既有信念的環境。",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 199.0,
+      "end": 205.0,
+      "t": "00:03:19",
+      "en": "Is a fascist he's just like actually one of the purest examples of uh the the",
+      "zh": "是法西斯；他其實就是……呃……法西斯主義溫和派最純粹的例子之一。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 27,
+      "start": 205.0,
+      "end": 212.0,
+      "t": "00:03:25",
+      "en": "Moderate wing of fascism thing also asmin Gold's editor is a Nazi so ad junor my editor is a Nazi I guess we're",
+      "zh": "還有人說 Asmongold 的剪輯師是納粹。所以 Ad（剪輯）我的剪輯師是納粹？我猜我們",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 28,
+      "start": 212.0,
+      "end": 219.0,
+      "t": "00:03:32",
+      "en": "Not seeing his point of view that's too bad wow this is the fake laugh he does",
+      "zh": "沒看到他的觀點，太可惜了。哇——這就是他那種假笑，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 29,
+      "start": 219.0,
+      "end": 227.0,
+      "t": "00:03:39",
+      "en": "And I don't respect him at all I maybe his audience is like 12-year-old boys maybe they really buy this and think it's funny he's",
+      "zh": "我一點也不尊重他。也許他的觀眾都是十二歲男孩，也許他們真的買單、覺得好笑。他",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 30,
+      "start": 227.0,
+      "end": 235.0,
+      "t": "00:03:47",
+      "en": "Racist why people hate Asma gold in my research for this video I genuinely tried to find actual substantial reasons",
+      "zh": "是種族主義者？為什麼大家恨 Asmongold——為了做這支影片，我真心試著找那些仇恨背後、在謊言之外的實質理由。（對應 substantial reasons／實質理由）",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "substantial evidence",
+          "native": "used when demanding real proof, not vibes or rumors",
+          "nativeZh": "要求真憑實據、不要感覺論"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 31,
+      "start": 235.0,
+      "end": 245.0,
+      "t": "00:03:55",
+      "en": "For the hate outside of the lies I'm an advocate of trying to see both sides perspectives on any topic I find quite a few videos on YouTube that I'd like to unpack and try to understand why there",
+      "zh": "我主張任何議題都要試著看雙方觀點。我在 YouTube 上找到不少影片，想拆解並理解為什麼",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 32,
+      "start": 245.0,
+      "end": 254.0,
+      "t": "00:04:05",
+      "en": "Is so much hate against as gold first off by what I've seen a lot of the hate against Asma gold seems to have stemmed from other YouTubers disdain for react",
+      "zh": "對 Asmongold 的仇恨這麼多。首先，以我所見，很多對他的恨，似乎來自其他 YouTuber 對「反應／二創反應」內容的厭惡。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 33,
+      "start": 254.0,
+      "end": 260.0,
+      "t": "00:04:14",
+      "en": "Content in my what I found to be really funny about people getting mad about react content is that this has totally",
+      "zh": "我覺得很好笑的是：大家對 react 內容生氣這件事，現在完全",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 34,
+      "start": 260.0,
+      "end": 267.0,
+      "t": "00:04:20",
+      "en": "Done a U-turn is that now people are not mad that I'm reacting they're mad that I",
+      "zh": "大轉彎了——現在大家氣的不是我在反應，而是我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 35,
+      "start": 267.0,
+      "end": 277.0,
+      "t": "00:04:27",
+      "en": "Aren't reacting sorry that that I'm not reacting like there'll be a video that comes out and they'll be mad at me because I haven't watched it and and",
+      "zh": "沒在反應。抱歉，是我沒反應：會有一支影片出來，然後他們氣我還沒看，而且他們",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 36,
+      "start": 277.0,
+      "end": 284.0,
+      "t": "00:04:37",
+      "en": "They saw that and this happened with like the Elon Musk thing with Quinn's video it happened with I remember there",
+      "zh": "看到了這點。像 Elon Musk 跟 Quinn 那支影片就是這樣；我記得也有",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 37,
+      "start": 284.0,
+      "end": 293.0,
+      "t": "00:04:44",
+      "en": "Was some Bernie Sanders video people wanted me to watch and then it also happened with the Hassan content nuke from Ethan and so now the entire",
+      "zh": "Bernie Sanders 的影片大家要我看；後來 Ethan 對 Hasan 的 content nuke 也是。於是整個",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 38,
+      "start": 293.0,
+      "end": 300.0,
+      "t": "00:04:53",
+      "en": "Narrative has shifted from no longer am I this parasite but I'm now the I I'm",
+      "zh": "敘事變了：我不再是那個「寄生蟲」，我現在變成",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 39,
+      "start": 300.0,
+      "end": 308.0,
+      "t": "00:05:00",
+      "en": "The ring Giver I'm the person that they want me to react to the video because that legitimizes it so I think we've",
+      "zh": "發戒指的人——他們要我去反應那支影片，因為這樣才算「被認證」。所以我覺得我們",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 40,
+      "start": 308.0,
+      "end": 315.0,
+      "t": "00:05:08",
+      "en": "Totally turned this around as is bad why I don't like asmin gold videos by a channel called savior",
+      "zh": "完全把這件事翻過來了。Asmongold 很爛？為什麼我不喜歡 Asmongold——來自名為 Savior",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 41,
+      "start": 315.0,
+      "end": 327.0,
+      "t": "00:05:15",
+      "en": "3.0 so this in this video that he's reacting to my video he's going to talk about how reactions are bad okay here the usual rant about react content having a negative impact on other channels and",
+      "zh": "3.0 的頻道。所以在這支他反應我影片的影片裡，他要講反應內容有多糟。好，來了：老套抱怨 react 內容對其他頻道與",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 42,
+      "start": 327.0,
+      "end": 337.0,
+      "t": "00:05:27",
+      "en": "YouTube as a platform he get the benefit from all of this unpaid labor he gets the benefit from all of this hard work from other content creators but he doesn't actually have to do any of the",
+      "zh": "YouTube 平台有負面影響。他從這些無償勞動得到好處，從其他創作者的辛苦中受益，自己卻不用做任何",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 43,
+      "start": 337.0,
+      "end": 343.0,
+      "t": "00:05:37",
+      "en": "Heavy lifting this YouTuber then played an excerpt from a large and actually pretty popular Channel called Dark Viper",
+      "zh": "苦活。這位 YouTuber 接著播放了一個其實頗受歡迎的大頻道 DarkViperAU 的片段；",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 44,
+      "start": 343.0,
+      "end": 355.0,
+      "t": "00:05:43",
+      "en": "Au spoke in depth about why react content is bad for channels and the platform as a whole not this guy has been mad about me for like I think four or five years now it's been crazy how",
+      "zh": "DarkViperAU 深入講了為什麼 react 內容對頻道與整個平台有害。這傢伙生我的氣大概四五年了，久到誇張。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 45,
+      "start": 355.0,
+      "end": 366.0,
+      "t": "00:05:55",
+      "en": "Long this guy's been mad over the last few months I've learned that very few people seem to understand why react content is harmful react content is a system of exploitation that siphons an incalculable amount of money and",
+      "zh": "過去幾個月我發現，很少人真正懂 react 內容為什麼有害：它是一種剝削系統，把難以計算的金錢與曝光",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 46,
+      "start": 366.0,
+      "end": 373.0,
+      "t": "00:06:06",
+      "en": "Exposure away from the hardworking into the pockets of being incredibly lazy do viper had some decent points and clearly",
+      "zh": "從努力的人吸走，送進超級懶惰的人口袋。DarkViper 有些論點不錯，顯然也",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 47,
+      "start": 373.0,
+      "end": 381.0,
+      "t": "00:06:13",
+      "en": "Did a lot of research into this but somehow in this whole video he missed what I believe is the most important aspect of react content I'll actually",
+      "zh": "做了很多研究；但整支影片裡，他卻漏掉了我認為最重要的一點。我乾脆",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 48,
+      "start": 381.0,
+      "end": 391.0,
+      "t": "00:06:21",
+      "en": "Read a comment that I found while watching this video because I think it best describes the problem with this argument I don't agree with the idea that reaction content is stealing when",
+      "zh": "讀一則我看片時看到的留言，因為我覺得它最能說明這個論點的問題：我不同意「反應內容就是偷竊」的說法。看",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 49,
+      "start": 391.0,
+      "end": 397.0,
+      "t": "00:06:31",
+      "en": "Watching someone like asmin gold it's not about the original video content itself but rather about his personal",
+      "zh": "Asmongold 這類人時，重點往往不是原片內容本身，而是他個人的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 50,
+      "start": 397.0,
+      "end": 403.0,
+      "t": "00:06:37",
+      "en": "Take and commentary people watch him because they want to hear his thoughts see his reactions and experience his",
+      "zh": "解讀與評論。大家看他，是想聽他怎麼想、看他的反應、體驗他",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 51,
+      "start": 403.0,
+      "end": 410.0,
+      "t": "00:06:43",
+      "en": "Unique perspective his popularity is built on his personality and how he engages with the content not just the",
+      "zh": "獨特的視角。他的人氣建立在個性與他如何與內容互動，而不只是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 52,
+      "start": 410.0,
+      "end": 419.0,
+      "t": "00:06:50",
+      "en": "Content itself even if he simply talked about the videos without showing them his audience will still tune in because they're following him and his reactions",
+      "zh": "內容本身。就算他只談這些影片、不播出畫面，觀眾還是會來看，因為他們追的是他和他的反應，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 53,
+      "start": 419.0,
+      "end": 428.0,
+      "t": "00:06:59",
+      "en": "Not just the video being reacted to reaction content requires Charisma personal insight and the ability to entertain which is what draws viewers in",
+      "zh": "而不只是被反應的那支影片。反應內容需要魅力、個人洞見與娛樂能力，這才是吸引觀眾的東西。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 54,
+      "start": 428.0,
+      "end": 437.0,
+      "t": "00:07:08",
+      "en": "This is nearly a perfect comment well that's that's why a lot of people watch the videos that I do right I mean there are people that like you know there are",
+      "zh": "這則留言幾乎完美。對啊，這就是很多人看我影片的原因。我是說，有些人反應得……我記得",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 55,
+      "start": 437.0,
+      "end": 445.0,
+      "t": "00:07:17",
+      "en": "People who react and like I remember you know who really [ __ ] pissed me off about this was Emmy oh my [ __ ] god so",
+      "zh": "誰超他媽氣我這件事——Emmy，我的天。她本來要看我那支牛排影片，跟 Bonnie 一起看，整支片他們根本",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 56,
+      "start": 445.0,
+      "end": 454.0,
+      "t": "00:07:25",
+      "en": "She was going to watch my video about the stake and she was watching with Bonnie and the entire video they're not",
+      "zh": "沒在反應、也沒在討論我在做什麼；他們只是把",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 57,
+      "start": 454.0,
+      "end": 459.0,
+      "t": "00:07:34",
+      "en": "Even reacting or talking about the video that I'm doing at all they just have the",
+      "zh": "影片開著，自己聊別的亂七八糟的事。我當時",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 58,
+      "start": 459.0,
+      "end": 465.0,
+      "t": "00:07:39",
+      "en": "Video on while they're talking about some other random [ __ ] [ __ ] I was",
+      "zh": "快氣瘋了。對，很糟，他們連反應的方式都不對。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 59,
+      "start": 465.0,
+      "end": 471.0,
+      "t": "00:07:45",
+      "en": "Losing my mind getting mad about this I was yeah bad yeah they didn't even react",
+      "zh": "但唯一還能爭議的是：並非所有 react 內容",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 60,
+      "start": 471.0,
+      "end": 475.0,
+      "t": "00:07:51",
+      "en": "The right way but the only thing that is disputable is that not all react content",
+      "zh": "都出於善意；有些根本是赤裸裸的偷竊。The Act Man 有一支超棒的影片叫《The Dark",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 61,
+      "start": 475.0,
+      "end": 481.0,
+      "t": "00:07:55",
+      "en": "Is actually done in good faith some of it is blatant stealing the actman has a Fant fantastic video titled the Dark",
+      "zh": "Side of React Content》，我非常推薦。事實上他影片裡還提到 Asmongold 反應他的影片確實",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "in good faith",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：in good faith",
+          "ex": [
+            "I'm arguing in good faith—please don't twist my words."
+          ],
+          "use": "出於善意／真誠地討論或行動，不是故意找碴或抹黑。",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "start": 481.0,
+      "end": 492.0,
+      "t": "00:08:01",
+      "en": "Side of react content that I completely recommend on this subject in fact in his video he even mentions how asman gold reacting to one of his videos yes affected its viewership negatively but",
+      "zh": "對觀看數有負面影響，但他跟 Asmongold 談過，Asmongold 也同意以後會在影片上線幾天後再看。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 63,
+      "start": 492.0,
+      "end": 501.0,
+      "t": "00:08:12",
+      "en": "How he spoke to asman gold and asmin agreed to watch his videos a few days off the release in the future what I realized is that if you're a big Creator who's going to react to someone's video",
+      "zh": "我體悟到：如果你是大創作者要反應別人的影片，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 64,
+      "start": 501.0,
+      "end": 506.0,
+      "t": "00:08:21",
+      "en": "You should wait at least 4 days for it to be pushed in the algorithm naturally",
+      "zh": "至少該等四天，讓它先被演算法自然推送。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 65,
+      "start": 506.0,
+      "end": 515.0,
+      "t": "00:08:26",
+      "en": "And that's what asmin and I talked about and agreed on after he and I we're totally good like I I like the act man a lot we've talked about that number of other things too the actman then went on",
+      "zh": "那就是 Asmongold 跟我談妥的；之後我們完全沒問題。我很喜歡 The Act Man，我們也聊過很多別的事。接著 The Act Man 繼續",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 66,
+      "start": 515.0,
+      "end": 524.0,
+      "t": "00:08:35",
+      "en": "To talk about the positive impact reactors like asmin gold have had on his channel some might say but act man he's stealing views from you those views",
+      "zh": "談到像 Asmongold 這樣的反應者對他頻道的正面影響。有人會說：Act Man，他偷了你的觀看數，那些觀看",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 67,
+      "start": 524.0,
+      "end": 533.0,
+      "t": "00:08:44",
+      "en": "Belong to you maybe they do I can't say for certain but what I can say is a lot of people who are subscribed to my channel wouldn't be subscribed if asmin",
+      "zh": "本來該是你的。也許是吧，我不能確定；但我能說的是：我頻道上很多訂閱者，如果 Asmongold",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 68,
+      "start": 533.0,
+      "end": 541.0,
+      "t": "00:08:53",
+      "en": "Gold never made these videos although I agree with positives and negatives I I think that's the truth is with with react content there are positives and",
+      "zh": "從沒做那些影片，根本不會訂閱我。雖然我同意有好有壞——我覺得真相就是：react 內容有正面也有",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 69,
+      "start": 541.0,
+      "end": 548.0,
+      "t": "00:09:01",
+      "en": "Negatives um each case is going to be a little bit different I personally think that if you make the argument with react",
+      "zh": "負面，每個個案都不太一樣。我個人覺得，如果你用 react 內容的論點去講——",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 70,
+      "start": 548.0,
+      "end": 554.0,
+      "t": "00:09:08",
+      "en": "Content I actually and this is going to be maybe controversial I don't think that you",
+      "zh": "這可能有點爭議——我其實不認為你",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 71,
+      "start": 554.0,
+      "end": 560.0,
+      "t": "00:09:14",
+      "en": "Can't make that argument towards video games because I think that watching somebody play a video game can because",
+      "zh": "不能把同樣論點用到電玩上，因為我覺得看別人玩遊戲，可能也會……",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 72,
+      "start": 560.0,
+      "end": 567.0,
+      "t": "00:09:20",
+      "en": "The argument with react content is fundamentally that react content exists inside of the ecosystem and then",
+      "zh": "react 內容的核心論點是：它活在同一個生態系裡，因此會",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 73,
+      "start": 567.0,
+      "end": 575.0,
+      "t": "00:09:27",
+      "en": "Therefore cannibalizes use away from the original content and it effectively acts as a market replacement I think that a",
+      "zh": "蠶食原內容的使用／觀看，實質上變成市場替代。我覺得",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 74,
+      "start": 575.0,
+      "end": 581.0,
+      "t": "00:09:35",
+      "en": "Lot of people watch video game playthroughs instead of buying a video game themselves and I think if somebody",
+      "zh": "很多人看遊戲實況／通關，而不是自己買遊戲；如果有人",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 75,
+      "start": 581.0,
+      "end": 588.0,
+      "t": "00:09:41",
+      "en": "Does that you also have an instance where a person who is performing much less labor and much less work is getting",
+      "zh": "這樣做，你也會看到：付出勞動少很多的人，卻從別人的勞動中得到不成比例的好處，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 76,
+      "start": 588.0,
+      "end": 596.0,
+      "t": "00:09:48",
+      "en": "A disproportionate benefit from somebody else's labor and work that in some cases causes a market replacement for",
+      "zh": "在某些情況下會造成對「購買該作品」的市場替代。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 77,
+      "start": 596.0,
+      "end": 602.0,
+      "t": "00:09:56",
+      "en": "Purchasing said work so I think that you if you look at it from that perspective",
+      "zh": "所以如果從這個角度看，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 78,
+      "start": 602.0,
+      "end": 610.0,
+      "t": "00:10:02",
+      "en": "Reacting to a video is not that much different than reacting to playing a video game of Dark Viper au's video",
+      "zh": "反應一支影片，跟「反應／實況」一款遊戲，其實沒差那麼多。關於 DarkViperAU 的影片，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 79,
+      "start": 610.0,
+      "end": 620.0,
+      "t": "00:10:10",
+      "en": "There's something he says here at 15 minutes and 5 Seconds that I completely disagree with I hope by the end of this video that you will come to understand why this exposure and money would either",
+      "zh": "他在 15 分 5 秒說的這段我完全不同意。我希望看到最後你會明白：為什麼這些曝光與金錢，若非 Asmongold 介入，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 80,
+      "start": 620.0,
+      "end": 626.0,
+      "t": "00:10:20",
+      "en": "Entirely or almost entirely have gone to other content creators if not for asmin Gold's interference not just the people",
+      "zh": "幾乎會全部流向其他創作者——不只是那些",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 81,
+      "start": 626.0,
+      "end": 634.0,
+      "t": "00:10:26",
+      "en": "That asmin gold steals labor from but everyone in The Wider Market you can easily say the same thing about every single Channel on YouTube including Dark",
+      "zh": "Asmongold「偷走勞動」的人，而是整個更廣的市場。你也可以輕易對 YouTube 上每個頻道說同樣的話，包括 Dark",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 82,
+      "start": 634.0,
+      "end": 646.0,
+      "t": "00:10:34",
+      "en": "Viper Au Dark Viper has 1.5 billion views that could have otherwise gone somewhere else if he didn't have his channel bottom line a react video has the same value proposition as going to a movie with a friend seeing and",
+      "zh": "ViperAU。DarkViper 有 15 億觀看，若沒有他的頻道，那些觀看本來也可能去別處。說到底，反應影片的價值主張，就像跟朋友去看電影：一起看、",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 83,
+      "start": 646.0,
+      "end": 654.0,
+      "t": "00:10:46",
+      "en": "Discussing a movie with a friend can be more enjoyable than seeing it alone but you would never say that the friend who took you to the movie should get a cut of the movies proceeds for sitting in",
+      "zh": "一起討論，可能比自己看更有趣；但你絕不會說：帶你去看電影的朋友，因為坐在椅子上給了意見，就該分走電影票房。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 84,
+      "start": 654.0,
+      "end": 659.0,
+      "t": "00:10:54",
+      "en": "The chair and giving you his opinion on it this for me is a gross oversimplification",
+      "zh": "對我來說，這是嚴重過度簡化。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 85,
+      "start": 659.0,
+      "end": 669.0,
+      "t": "00:10:59",
+      "en": "What if you look at a movie critic would be a better example and also like with a lot of movie critics and people like that they do have substack and they do have ads on the places where they uh",
+      "zh": "如果你改用影評人當例子會更好；而且很多影評人確實有 Substack，也在評論電影的地方放廣告。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 86,
+      "start": 669.0,
+      "end": 677.0,
+      "t": "00:11:09",
+      "en": "Review the the movies Dark Viper au's video while incredibly wellmade also lacks a very basic understanding people",
+      "zh": "DarkViperAU 的影片製作得很精良，但也很缺一個基本認知：有些人就是比較想看 react，而不是原片。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 87,
+      "start": 677.0,
+      "end": 689.0,
+      "t": "00:11:17",
+      "en": "Prefer to watch react content over original videos behind it some people do some people don't like for a lot of people like that was actually one of the reasons too why there's a lot of video",
+      "zh": "有人喜歡、有人不喜歡。對很多人來說，這也是為什麼有很多影片",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 88,
+      "start": 689.0,
+      "end": 694.0,
+      "t": "00:11:29",
+      "en": "That I don't really react to them right away because I don't want to accidentally cannibalize views cuz I",
+      "zh": "我不會立刻去反應——我不想不小心蠶食別人的觀看數，因為我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 89,
+      "start": 694.0,
+      "end": 703.0,
+      "t": "00:11:34",
+      "en": "Know how the YouTube algorithm works very well and that was one of the other like kind of secondary or tertiary reasons why I didn't react to Ethan's video right away the argument that asmin",
+      "zh": "很懂 YouTube 演算法。這也是我沒立刻反應 Ethan 那支影片的次要／第三層原因之一。說 Asmongold",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 90,
+      "start": 703.0,
+      "end": 710.0,
+      "t": "00:11:43",
+      "en": "Gold interferes with other people's ability to make money is a massive OV exaggeration this video clumps people",
+      "zh": "干擾別人賺錢的能力，是嚴重誇大。這支影片把看 Asmongold 的人",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 91,
+      "start": 710.0,
+      "end": 717.0,
+      "t": "00:11:50",
+      "en": "Who watch asmin gold as this Collective hive mind that doesn't really think for itself I would consider myself an asmin",
+      "zh": "講成一個不會自己思考的集體蜂巢心智。我會把自己算成 Asmongold",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 92,
+      "start": 717.0,
+      "end": 723.0,
+      "t": "00:11:57",
+      "en": "Gold enjoyer and I have absolutely nothing to do with anyone else who watches asmin Gold's videos I just",
+      "zh": "的觀眾／喜歡他的人，但我跟其他看他影片的人完全沒有關係；我只是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 93,
+      "start": 723.0,
+      "end": 728.0,
+      "t": "00:12:03",
+      "en": "Choose what I want to do with my time as a casual guy going about my life what",
+      "zh": "作為過日常生活的普通人，選擇怎麼花自己的時間。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 94,
+      "start": 728.0,
+      "end": 738.0,
+      "t": "00:12:08",
+      "en": "You do not see is every time any reaction video appears where your video would have otherwise appeared any time where one of your videos would have gotten impression except it then went to a reaction video not true your your",
+      "zh": "你看不到的是：每一次反應影片出現、排擠了你影片本該出現的位置；每一次你本該拿到曝光、卻流向反應影片——這並不真的成立。你的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 95,
+      "start": 738.0,
+      "end": 747.0,
+      "t": "00:12:18",
+      "en": "Recommendeds are based off of the things that you watch so if I wasn't watching it then and if you weren't watching the original Channel it would have never been recommended in the first place you",
+      "zh": "推薦是根據你看過的東西；如果我本來就不看它，而你也不看原頻道，它一開始就不會被推薦給你。你",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 96,
+      "start": 747.0,
+      "end": 755.0,
+      "t": "00:12:27",
+      "en": "Also do not see every time a reaction video is chosen by a viewer instead of one of your videos now I am not saying what Dark Viper is arguing is entirely",
+      "zh": "也看不到每一次觀眾「選了反應片、沒選你的片」。我不是說 DarkViper 的論點完全",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 97,
+      "start": 755.0,
+      "end": 761.0,
+      "t": "00:12:35",
+      "en": "Untrue there are people who would have watched some of these videos without first having seen them through Asen gold",
+      "zh": "不成立——確實有人若不先透過 Asmongold 看到，可能還是會去看某些原片；",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 98,
+      "start": 761.0,
+      "end": 771.0,
+      "t": "00:12:41",
+      "en": "But there's absolutely no way of knowing this especially to what extent if it were as simple as Dark Viper Au puts it then I don't think react channels are the real issue anyway consumer I I I",
+      "zh": "但絕對無法知道比例到什麼程度。如果真像 DarkViperAU 講得那麼單純，那我反而不覺得反應頻道才是真正問題。消費者……我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 99,
+      "start": 771.0,
+      "end": 779.0,
+      "t": "00:12:51",
+      "en": "Think that's a net positive right I mean Mr Beast lets people react to his content I mean I think Mr Beast knows a lot about YouTube at the end of the day",
+      "zh": "覺得這整體是淨正面。MrBeast 也允許別人反應他的內容；我想 MrBeast 很懂 YouTube。說到底，",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "At the end of the day…",
+          "native": "used when wrapping up and stating what finally matters",
+          "nativeZh": "收束並點出最終關鍵"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 100,
+      "start": 779.0,
+      "end": 786.0,
+      "t": "00:12:59",
+      "en": "We the consumers are in charge we dictate who profits by where we spend our money or our time yes it's never",
+      "zh": "我們消費者才是主導者：我們用時間與金錢決定誰獲利。當然，作為消費者",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 101,
+      "start": 786.0,
+      "end": 795.0,
+      "t": "00:13:06",
+      "en": "Good as consumers to support something that is explicitly illegal or immoral but this is why I am challenging this idea that react content is just outright",
+      "zh": "支持明顯違法或不道德的事從來不好；但這就是為什麼我要挑戰「react 內容就是全面",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 102,
+      "start": 795.0,
+      "end": 807.0,
+      "t": "00:13:15",
+      "en": "Bad I think what Dark Viper Au is saying is ultimately in good faith and there is a lot of Truth in this video I recommend watching this video as it does have a lot of good points depending on context",
+      "zh": "很糟」這個想法。我覺得 DarkViperAU 整體是出於善意，影片裡也有很多真話。我推薦去看，因為確實有很多好論點——要看情境。",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Depending on context…",
+          "native": "used when refusing a one-size-fits-all judgment",
+          "nativeZh": "拒絕一刀切判斷"
+        },
+        {
+          "k": "vocab",
+          "v": "in good faith",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：in good faith",
+          "ex": [
+            "I'm arguing in good faith—please don't twist my words."
+          ],
+          "use": "出於善意／真誠地討論或行動，不是故意找碴或抹黑。",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "start": 807.0,
+      "end": 811.0,
+      "t": "00:13:27",
+      "en": "Yes there are a lot of Bad actors out there that actually do to steal content",
+      "zh": "對，外面確實有很多惡意行為者，真的會偷內容、",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "bad actor",
+          "native": "used when naming people who deliberately harm or manipulate a community",
+          "nativeZh": "指故意傷害／操弄社群的人"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：bad actor",
+          "ex": [
+            "Most creators are fine; a few bad actors ruin the reputation."
+          ],
+          "use": "惡意行為者；政策、社群與內容產業討論裡常用來指故意搞事的人。",
+          "native": "used when naming people who deliberately harm or manipulate a community",
+          "nativeZh": "指故意傷害／操弄社群的人"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "start": 811.0,
+      "end": 821.0,
+      "t": "00:13:31",
+      "en": "Without even giving any credit this does exist and I am all for breaking this culture where possible but I disagree with the argument that all of it is just plain destructive there's a spectrum I I",
+      "zh": "連署名都不給。這確實存在，我也支持盡可能打破這種文化；但我不同意「全部都純破壞」的說法。事情有光譜。我",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "There's a spectrum.",
+          "native": "used when refusing black-and-white labels; acknowledging degrees",
+          "nativeZh": "拒絕非黑即白、承認程度差"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 105,
+      "start": 821.0,
+      "end": 828.0,
+      "t": "00:13:41",
+      "en": "Think that there is definitely a spectrum like with us like what we try to do on like my channel is that",
+      "zh": "覺得確實有光譜。像我們頻道盡量做的是：",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "There's a spectrum.",
+          "native": "used when refusing black-and-white labels; acknowledging degrees",
+          "nativeZh": "拒絕非黑即白、承認程度差"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 106,
+      "start": 828.0,
+      "end": 834.0,
+      "t": "00:13:48",
+      "en": "Obviously we do a lot of reacts we do gameplay I do my own videos sometimes uh",
+      "zh": "我們當然做很多反應、也做遊戲實況、有時也做自己的影片；",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 107,
+      "start": 834.0,
+      "end": 845.0,
+      "t": "00:13:54",
+      "en": "You know there's a spectrum and uh you know if people are unhappy with it or they don't want to react to their videos I I don't react to the videos like I I have pretty much a a uh you know no",
+      "zh": "你知道，有光譜。如果有人不開心、或不希望我反應他們的影片，我就不反應。我基本上是",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "There's a spectrum.",
+          "native": "used when refusing black-and-white labels; acknowledging degrees",
+          "nativeZh": "拒絕非黑即白、承認程度差"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 108,
+      "start": 845.0,
+      "end": 854.0,
+      "t": "00:14:05",
+      "en": "Questions asked policy with that and um the only exceptions that I make are when the videos are a topic that is me right",
+      "zh": "「不問問題就尊重」的政策；唯一例外是當影片的主題就是我本人。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 109,
+      "start": 854.0,
+      "end": 860.0,
+      "t": "00:14:14",
+      "en": "If I am the topic of the video I will react to it even if you might not want me to but like that's about it the",
+      "zh": "如果我是影片主題，就算你可能不希望，我還是會反應——大概就這樣。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 110,
+      "start": 860.0,
+      "end": 867.0,
+      "t": "00:14:20",
+      "en": "Privilege of having asmin gold react to the very first video I made the current state of AAA gaming about four or five",
+      "zh": "有幸讓 Asmongold 反應我做的第一支影片《The Current State of AAA Gaming》，大概四五",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 111,
+      "start": 867.0,
+      "end": 875.0,
+      "t": "00:14:27",
+      "en": "Months ago because of this and as mold following up by watching four more of my videos my channel exploded I even MD him",
+      "zh": "個月前；再加上他又接著看了我另外四支，我的頻道爆了。我甚至私訊跟他說",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 112,
+      "start": 875.0,
+      "end": 886.0,
+      "t": "00:14:35",
+      "en": "About this pretty isn't perfectly balanced this all incels and Chads there it is subscribers aren't",
+      "zh": "這件事。訂閱數並不完全平衡……好，來了——「全是incel 跟 Chad」。訂閱數其實",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 113,
+      "start": 886.0,
+      "end": 892.0,
+      "t": "00:14:46",
+      "en": "Really the driving force behind YouTube success anymore the algorithm Now prioritizes videos with strong watch",
+      "zh": "不再是 YouTube 成功的主要動力；演算法現在更優先看「相對時長的完播／觀看時長」。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 114,
+      "start": 892.0,
+      "end": 902.0,
+      "t": "00:14:52",
+      "en": "Time relative to their length every time asmin gold has watched one of my videos thousands of people have popped in to leave a like comment or even subscribe",
+      "zh": "每次 Asmongold 看我的影片，都有成千上萬人跑進來按讚、留言甚至訂閱。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 115,
+      "start": 902.0,
+      "end": 910.0,
+      "t": "00:15:02",
+      "en": "Look at that wow what a surprise the obvious thing that any any reasonable person would know what happened happens",
+      "zh": "你看，哇，真令人驚訝——任何正常人都能預料到會發生的事發生了。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 116,
+      "start": 910.0,
+      "end": 919.0,
+      "t": "00:15:10",
+      "en": "But then naturally they click off and go about their day as they should it only takes a few seconds for them to do this but in the background YouTube is tracking how long people are actually",
+      "zh": "但他們通常看一下就點走、繼續過自己的日子，本來就該這樣。只要幾秒；但背景裡 YouTube 在追蹤人們實際",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 117,
+      "start": 919.0,
+      "end": 925.0,
+      "t": "00:15:19",
+      "en": "Watching the video as they visit my channel when thousands of viewers only stick around for under 10 seconds",
+      "zh": "在我頻道上停留多久。當成千上萬觀眾只待不到十秒，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 118,
+      "start": 925.0,
+      "end": 935.0,
+      "t": "00:15:25",
+      "en": "YouTube's algorithm starts flagging the video as not work recommending at the end of the day YouTube only cares about one thing advertising R which comes from",
+      "zh": "演算法就會標記這支影片「不值得推薦」。說到底 YouTube 只在意一件事：廣告收益，而它來自",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "At the end of the day…",
+          "native": "used when wrapping up and stating what finally matters",
+          "nativeZh": "收束並點出最終關鍵"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 119,
+      "start": 935.0,
+      "end": 940.0,
+      "t": "00:15:35",
+      "en": "Watch time money this is a negative but in the long run react content can still",
+      "zh": "觀看時長。這是負面；但長期來看，react 內容仍然",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 120,
+      "start": 940.0,
+      "end": 947.0,
+      "t": "00:15:40",
+      "en": "Be incredibly beneficial while the initial burst of traffic from a big Creator's reaction may not convert into",
+      "zh": "可以非常有幫助。大創作者反應帶來的流量爆發，也許不會立刻轉成",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 121,
+      "start": 947.0,
+      "end": 954.0,
+      "t": "00:15:47",
+      "en": "Consistent viewership right away it does something equally important it puts your content in front of a massive audience",
+      "zh": "穩定觀眾，但它做了同樣重要的事：把你的內容推到一大群",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 122,
+      "start": 954.0,
+      "end": 959.0,
+      "t": "00:15:54",
+      "en": "That would have otherwise never discovered you channels that I've watched and they've they've received a",
+      "zh": "本來永遠不會發現你的人面前。我看過的一些頻道，因為我看了他們的影片之類的，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 123,
+      "start": 959.0,
+      "end": 964.0,
+      "t": "00:15:59",
+      "en": "Pretty big boost by like just me seeing their videos or whatever I mean it it it",
+      "zh": "確實拿到不小的助推。這在邏輯上也說得通。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 124,
+      "start": 964.0,
+      "end": 970.0,
+      "t": "00:16:04",
+      "en": "It's logical that that would happen as well and yeah I think anybody could assume that percentage of these viewers",
+      "zh": "對，誰都能假設這些觀眾裡有一定比例",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 125,
+      "start": 970.0,
+      "end": 978.0,
+      "t": "00:16:10",
+      "en": "Don't stick around small fraction will those who genuinely enjoy your content beyond the reaction will come back and",
+      "zh": "不會留下；但一小部分會。真正喜歡你內容、不只是看反應的人，會回來",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 126,
+      "start": 978.0,
+      "end": 984.0,
+      "t": "00:16:18",
+      "en": "Watch more of your videos and engage with your channel over time these are the people who become part of your core",
+      "zh": "看更多、長期互動；這些人會成為你的核心",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 127,
+      "start": 984.0,
+      "end": 991.0,
+      "t": "00:16:24",
+      "en": "Audience the ones who comment regularly watch your videos and support your growth beyond that exposure from react",
+      "zh": "觀眾：常留言、常看、支持你成長。除此之外，react 曝光也",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 128,
+      "start": 991.0,
+      "end": 999.0,
+      "t": "00:16:31",
+      "en": "Content can also boost credibility when a well-known Creator reacts to your work it signals audience that you're someone",
+      "zh": "能提升可信度：知名創作者反應你的作品，等於向觀眾示意你值得一看。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 129,
+      "start": 999.0,
+      "end": 1007.0,
+      "t": "00:16:39",
+      "en": "Worth checking out in my case having Asen gold react to my videos helped give me credibility as a voice in the gaming",
+      "zh": "以我來說，Asmongold 反應我的影片，幫我在遊戲領域建立了發言可信度。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 130,
+      "start": 1007.0,
+      "end": 1014.0,
+      "t": "00:16:47",
+      "en": "Space I'm going to be honest like this guy he's really cooking with this video I actually think this is probably the one of the best dissections of like the",
+      "zh": "老實說這傢伙這支片真的在輸出；我覺得這大概是我看過對「這些事情在遊戲裡為什麼發生」最好的拆解之一。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 131,
+      "start": 1014.0,
+      "end": 1021.0,
+      "t": "00:16:54",
+      "en": "Philosophy behind why these things happen in games that like I've seen this is good it's also one of the reasons why",
+      "zh": "這很好。這也是為什麼並非所有 react 內容都等價；我覺得也是很多人看我影片的原因——我用正面的方式談，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 132,
+      "start": 1021.0,
+      "end": 1029.0,
+      "t": "00:17:01",
+      "en": "All react content isn't created equal and I think also that's why a lot of people watch my videos it's because I talk about it in a way that's positive",
+      "zh": "也會主動找我認為有幫助的影片。我通常不太「恨意觀看」很多影片；當然有時會，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 133,
+      "start": 1029.0,
+      "end": 1038.0,
+      "t": "00:17:09",
+      "en": "And I also try to actively look for videos that I think will be beneficial like I generally don't hate watch a lot of videos now obviously I do sometimes",
+      "zh": "但平常不會。你有沒有為了錢做過？我有沒有為了錢去反應一支 YouTube 影片？技術上答案是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 134,
+      "start": 1038.0,
+      "end": 1046.0,
+      "t": "00:17:18",
+      "en": "But uh you know regularly no have you done it for money have I ever reacted to a YouTube video for money so the answer",
+      "zh": "但平常不會。你有沒有為了錢做過？我有沒有為了錢去反應一支 YouTube 影片？技術上答案是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 135,
+      "start": 1046.0,
+      "end": 1051.0,
+      "t": "00:17:26",
+      "en": "To that is a technical yes because uh I've been paid in a sponsorship to react",
+      "zh": "技術上答案是有，因為我曾在贊助案裡被付錢去反應",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 136,
+      "start": 1051.0,
+      "end": 1056.0,
+      "t": "00:17:31",
+      "en": "To a trailer of a game and that was part of the sponsorship but you're asking has",
+      "zh": "一款遊戲的預告片，那是贊助的一部分；但你問的是：有沒有",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 137,
+      "start": 1056.0,
+      "end": 1063.0,
+      "t": "00:17:36",
+      "en": "Another YouTuber paid me money to watch their video the answer to that question would be no and has opened doors to",
+      "zh": "其他 YouTuber 付錢要我看他們的影片？答案是沒有。而這也打開了",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 138,
+      "start": 1063.0,
+      "end": 1074.0,
+      "t": "00:17:43",
+      "en": "Collaboration technically sponsors and other opportunities that wouldn't have otherwise been possible I also think that a potential fix would be a system where YouTube splits revenue from react",
+      "zh": "合作、技術上還有贊助與其他原本不可能的機會。我也覺得一個可能解法是系統：讓 YouTube 從 react",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 139,
+      "start": 1074.0,
+      "end": 1088.0,
+      "t": "00:17:54",
+      "en": "Channels creating a more collaborative platform but this is just wishful thinking just a quick side note on this I've recently been seeing people say that Asma Gold's React videos are just him nodding or agreeing or raising his",
+      "zh": "頻道分潤，創造更協作的平台——不過這只是一廂情願。順便一提：我最近常看到人說 Asmongold 的反應片只是他一直點頭、同意或挑",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 140,
+      "start": 1088.0,
+      "end": 1096.0,
+      "t": "00:18:08",
+      "en": "Eyebrows the whole time asman go gets involved that's right the guy that will play a YouTube video in its entirety occasionally raises eyebrows and says",
+      "zh": "眉。Asmongold 會介入——對，就是那個會把整支 YouTube 影片完整播完、偶爾挑眉、然後一直說",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 141,
+      "start": 1096.0,
+      "end": 1104.0,
+      "t": "00:18:16",
+      "en": "The word sure a lot like the person true anyone who actually takes a few minutes to look into this would see that this is just not true just look at my video side",
+      "zh": "「sure」很多的人。誰真的花幾分鐘查一下就會發現這根本不真。把我的影片跟他的反應並排看，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 142,
+      "start": 1104.0,
+      "end": 1109.0,
+      "t": "00:18:24",
+      "en": "By side the reactions he made on them he clearly adds a lot to the conversations",
+      "zh": "他做的那些反應，明顯大幅加入了對話。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 143,
+      "start": 1109.0,
+      "end": 1119.0,
+      "t": "00:18:29",
+      "en": "Now beyond the react content arguments going back to savor 3.0 video he then tries to go deeper into the premise that asmin gold is the most nihilistic person",
+      "zh": "現在，在 react 內容論點之外，回到 Savior 3.0 的影片：他接著想更深主張 Asmongold 是他見過最虛無主義的人。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 144,
+      "start": 1119.0,
+      "end": 1127.0,
+      "t": "00:18:39",
+      "en": "He has ever seen he doesn't well that's partially true he doesn't hold much moral values he seems to basically",
+      "zh": "他並不……嗯那算部分對。他沒抱持多少道德價值，似乎會",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 145,
+      "start": 1127.0,
+      "end": 1134.0,
+      "t": "00:18:47",
+      "en": "Flip-flop between any type of argument which basically benefits him to his audience he doesn't yeah well that is a",
+      "zh": "在任何對他觀眾有利的論點之間反覆橫跳。他沒有……對，嗯，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 146,
+      "start": 1134.0,
+      "end": 1145.0,
+      "t": "00:18:54",
+      "en": "Moral value is this good for me or not good for me it's good for me okay then I like it it's bad for me okay I don't like it have any moral consistency it",
+      "zh": "「這對我好不好」本身也是一種道德價值：對我好我就喜歡，對我不好我就不喜歡。看起來他沒有道德一致性。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 147,
+      "start": 1145.0,
+      "end": 1154.0,
+      "t": "00:19:05",
+      "en": "Seems like from a lot of his advice and a lot of the stuff that he talks about it seems asmin gold views values as baseless and he doesn't hold religion or",
+      "zh": "從他很多建議與談論的內容看，Asmongold 似乎把價值觀當成沒有根基，也不太把宗教或",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 148,
+      "start": 1154.0,
+      "end": 1163.0,
+      "t": "00:19:14",
+      "en": "Morality with much regard true he might sometimes communicate the usefulness in the individual and society and",
+      "zh": "道德當一回事——這點算真。他有時會談到對個人與社會有用、",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 149,
+      "start": 1163.0,
+      "end": 1170.0,
+      "t": "00:19:23",
+      "en": "Benefiting society and all that stuff but it seems like most of his arguments because he is literally living",
+      "zh": "造福社會之類；但他多數論點看起來……因為他簡直活在",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 150,
+      "start": 1170.0,
+      "end": 1179.0,
+      "t": "00:19:30",
+      "en": "In a tiny little Echo chamber of basically a redditor addicted gamer who somehow got famous there's almost",
+      "zh": "一個小小的回音室裡：基本上是個沉迷遊戲的 Reddit 用戶，不知怎麼紅了。幾乎",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "echo chamber",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：echo chamber",
+          "ex": [
+            "Social media can become an echo chamber."
+          ],
+          "use": "回音室：只聽到相似觀點、強化既有信念的環境。",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "start": 1179.0,
+      "end": 1187.0,
+      "t": "00:19:39",
+      "en": "No okay a tiny Echo chamber it's I think it's a pretty big Echo chamber personally but you know that's all right",
+      "zh": "沒有——好吧「小小回音室」？我個人覺得那回音室挺大的，不過算了。",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "echo chamber",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：echo chamber",
+          "ex": [
+            "Social media can become an echo chamber."
+          ],
+          "use": "回音室：只聽到相似觀點、強化既有信念的環境。",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "start": 1187.0,
+      "end": 1199.0,
+      "t": "00:19:47",
+      "en": "No evidence in his video that he has actually ever watched an asthma Gold Video because he even states that asmin gold preaches his lifestyle to his massive audience which clearly couldn't be further from the truth the problem",
+      "zh": "他影片裡幾乎沒證據顯示他真看過 Asmongold 的影片；他甚至說 Asmongold 向龐大觀眾宣揚自己的生活方式，這明顯離事實很遠。問題是：",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 153,
+      "start": 1199.0,
+      "end": 1206.0,
+      "t": "00:19:59",
+      "en": "With that is if he doesn't have any educational insights if he doesn't do any self-development of himself but he's",
+      "zh": "如果他自己沒有教育洞見、也不自我成長，卻在",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 154,
+      "start": 1206.0,
+      "end": 1214.0,
+      "t": "00:20:06",
+      "en": "Preaching educational ideas to the m I'm preaching educational ideas that's interesting I wonder when I do that this",
+      "zh": "對大眾宣揚教育理念——我在宣揚教育理念？有意思，我想知道我什麼時候這樣做。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 155,
+      "start": 1214.0,
+      "end": 1220.0,
+      "t": "00:20:14",
+      "en": "Was a guide on how to cook a steak I think it was a good guide it was it was",
+      "zh": "那是一支教你煎牛排的指南，我覺得是個好指南；它是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 156,
+      "start": 1220.0,
+      "end": 1226.0,
+      "t": "00:20:20",
+      "en": "A great steak I remember eating that steak such a good Stak one of the best Stakes I've made probably in my top 100",
+      "zh": "一塊超棒的牛排，我記得吃那塊牛排，真的好吃，大概能進我做過的前一百名",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 157,
+      "start": 1226.0,
+      "end": 1237.0,
+      "t": "00:20:26",
+      "en": "Best Stakes now to probably what he is saying yes as mold has definitely shared some nihilistic takes in the past but I wouldn't say he has fully embraced nihilism in its traditional sense for",
+      "zh": "牛排。回到他大概想說的：對，Asmongold 過去確實分享過一些虛無主義論點，但我不會說他完全擁抱傳統意義上的虛無主義。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 158,
+      "start": 1237.0,
+      "end": 1242.0,
+      "t": "00:20:37",
+      "en": "Those who aren't aware nihilism is defined as the rejection of all religious and moral principles in the",
+      "zh": "不了解的人可以這樣定義：虛無主義是拒絕一切宗教與道德原則，並",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 159,
+      "start": 1242.0,
+      "end": 1255.0,
+      "t": "00:20:42",
+      "en": "Belief that life is meaningless yes as mold has shared his take on how he believes life is meaningless in the grand scheme of things I place like pretty much no value and like principles or morality I I think that these are top",
+      "zh": "相信人生沒有意義。對，Asmongold 分享過他認為從宏觀看人生沒意義的想法。我幾乎不把原則或道德當一回事；我覺得那些是由上而下",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 160,
+      "start": 1255.0,
+      "end": 1264.0,
+      "t": "00:20:55",
+      "en": "Down ideas that are given to you by the elites and I think that if you look at most people that are in like a an advantageous position those people don't",
+      "zh": "由精英灌給你的觀念；而且你看多數處於優勢位置的人，那些人根本",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 161,
+      "start": 1264.0,
+      "end": 1270.0,
+      "t": "00:21:04",
+      "en": "Follow any of those morals or ideals at all but at the same time it also seems to balance I learned that uh my dad",
+      "zh": "不遵守那些道德或理想。但同時似乎也有平衡。我學到……我爸",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 162,
+      "start": 1270.0,
+      "end": 1276.0,
+      "t": "00:21:10",
+      "en": "Taught me that the first time that I went to Blazer laser tag my dad he",
+      "zh": "第一次帶我去 Blazer 雷射槍戰時教我的：我爸",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 163,
+      "start": 1276.0,
+      "end": 1283.0,
+      "t": "00:21:16",
+      "en": "Pointed at the rules on the on the wall and I was like he says you look at that I'm like yep I see it he says that's",
+      "zh": "指著牆上的規則，說你看那個——我說嗯我看到了——他說那就是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 164,
+      "start": 1283.0,
+      "end": 1292.0,
+      "t": "00:21:23",
+      "en": "What you have to do to win and the thing is that I won I did immediately it wasn't even close",
+      "zh": "你要贏必須做的。結果我立刻贏了，根本不是對手。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 165,
+      "start": 1292.0,
+      "end": 1300.0,
+      "t": "00:21:32",
+      "en": "Arguing that if life has no built- in meaning we can still create our own because it's not like an aimless life I",
+      "zh": "論點是：即使人生沒有內建意義，我們仍可創造自己的意義，因為那並非漫無目的的人生。我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 166,
+      "start": 1300.0,
+      "end": 1308.0,
+      "t": "00:21:40",
+      "en": "Do what I want to do so you have goals I do have some goals yeah I have things that I want to do right but he by no means has ever encouraged or preached at",
+      "zh": "做我想做的事。所以你有目標？對，我有一些目標，有想做的事。但他絕沒有鼓勵或宣揚",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 167,
+      "start": 1308.0,
+      "end": 1318.0,
+      "t": "00:21:48",
+      "en": "His audience to have the same mindset that he has himself it's weird that people say that I'm like super nihilistic in that way because like I'm actually one of the like I I do stuff",
+      "zh": "觀眾要跟他同一個心態。很怪大家說我超虛無，因為我其實是那種一直在",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 168,
+      "start": 1318.0,
+      "end": 1327.0,
+      "t": "00:21:58",
+      "en": "All the time like I'm always being active like yesterday as I said I didn't do [ __ ] anything right but it was like that was a super super rare day uh",
+      "zh": "做事、總是很活躍的人。昨天我是說我什麼都沒幹，但那是超罕見的一天；",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 169,
+      "start": 1327.0,
+      "end": 1337.0,
+      "t": "00:22:07",
+      "en": "For the most part I always am am being active I'm always doing things I'm always working at something I'm always being you know involved with something",
+      "zh": "多數時候我總在活動、總在做事、總在推進什麼、總在參與什麼。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 170,
+      "start": 1337.0,
+      "end": 1344.0,
+      "t": "00:22:17",
+      "en": "Uh everything my my for my whole life nobody should watch My Stream and say I want to be like this this animal listen",
+      "zh": "我這輩子……不該有人看我的實況然後說「我想變成這隻動物」。聽著，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 171,
+      "start": 1344.0,
+      "end": 1355.0,
+      "t": "00:22:24",
+      "en": "I don't think anybody with a successful life should want to be like me and I really mean that I I I genuinely mean that you don't want to live the way that I live the way that I live is not",
+      "zh": "我不覺得任何人生成功的人會想跟我一樣；我是認真的。你不會想過我過的那種生活：那不是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 172,
+      "start": 1355.0,
+      "end": 1367.0,
+      "t": "00:22:35",
+      "en": "Some sort of enlightened in Buddhist Nirvana it is absolute pure degeneracy there's this natural tendency that we have as humans that's right I've said this many times nobody wants to be what I am yeah it feels like you're super",
+      "zh": "什麼開悟的佛教涅槃，那是絕對純粹的墮落。我們作為人類有這種自然傾向——對，我說過很多次：沒人想變成我這樣。對，感覺你超",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 173,
+      "start": 1367.0,
+      "end": 1378.0,
+      "t": "00:22:47",
+      "en": "Nihilistic but at the same time you're not the presence of nihilism does not precipitate the absence of a degree of",
+      "zh": "虛無，但同時你又不是。虛無主義的存在，並不必然導致完全沒有某種程度的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 174,
+      "start": 1378.0,
+      "end": 1388.0,
+      "t": "00:22:58",
+      "en": "Uh optimism I think that the idea that there's no Divine ordering of the world can be replaced with the opportunity of",
+      "zh": "樂觀。我覺得「世界沒有神聖秩序」這個想法，可以被「用你認為合適的方式去",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 175,
+      "start": 1388.0,
+      "end": 1395.0,
+      "t": "00:23:08",
+      "en": "Ordering it in a way that you see uh fit and I think the enthusiasm for that can",
+      "zh": "排序世界」的機會取代；而對那件事的熱情，可以",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 176,
+      "start": 1395.0,
+      "end": 1402.0,
+      "t": "00:23:15",
+      "en": "Replace what people can consider religion or something like that and this has been a very this very very commonly",
+      "zh": "取代人們所謂的宗教之類的東西。這其實是個被談得非常非常多的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 177,
+      "start": 1402.0,
+      "end": 1409.0,
+      "t": "00:23:22",
+      "en": "Talked about uh you know like philosophical idea to automatically put up a guard against belever or World",
+      "zh": "哲學觀念。我們會自動對完全陌生、或與自己信念相反的世界觀豎起防線。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 178,
+      "start": 1409.0,
+      "end": 1418.0,
+      "t": "00:23:29",
+      "en": "Views that are either completely unfamiliar to us or contrary to what we ourselves believe not everyone is like this but a lot of us are like this nihilism is easy to correlate with",
+      "zh": "不是每個人都這樣，但很多人是。虛無主義很容易被聯想到",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 179,
+      "start": 1418.0,
+      "end": 1431.0,
+      "t": "00:23:38",
+      "en": "Historical or fictional figures who have had a negative impact on their society some of us might have even experience personal grief from people with similar World Views but this in no way gives ground for automatic hate nor does it",
+      "zh": "對社會有負面影響的歷史或虛構人物；有些人甚至曾被持相似世界觀的人傷害過。但這絕不構成自動仇恨的理由，也不構成",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 180,
+      "start": 1431.0,
+      "end": 1438.0,
+      "t": "00:23:51",
+      "en": "Give justification for spreading lies now I do want to ask please do not go onto savior's channel to harass him or",
+      "zh": "散播謊言的正當化。現在我要拜託：請不要去 Savior 的頻道騷擾他或",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 181,
+      "start": 1438.0,
+      "end": 1446.0,
+      "t": "00:23:58",
+      "en": "Attack him he's genuinely trying to convey a message he deeply believes in and I would say good for him for doing that we can simply disagree and move on",
+      "zh": "攻擊他。他真心想傳達他深信的訊息，我覺得他這樣做很好。我們可以單純不同意，然後繼續走。 （對應：we can simply disagree and move on）",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Disagreement is not the same as hate.",
+          "native": "used when pushing back on people who treat criticism as hostility",
+          "nativeZh": "反駁把批評當成仇恨"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 182,
+      "start": 1446.0,
+      "end": 1452.0,
+      "t": "00:24:06",
+      "en": "As Aristotle once wrote it is a mark of an educated mind to be able to entertain a thought without accepting see this",
+      "zh": "正如亞里斯多德所寫：有教養的心靈標誌，是能夠思索一個想法卻不必採納它。你看這裡——",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "It is a mark of an educated mind to entertain a thought without accepting it.",
+          "native": "used when praising open-minded thinking without instant agreement",
+          "nativeZh": "稱讚能思考卻不必立刻接受"
+        },
+        {
+          "k": "vocab",
+          "v": "entertain a thought",
+          "native": "used when considering an idea carefully without agreeing yet",
+          "nativeZh": "認真考慮想法但尚未同意"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：entertain a thought",
+          "ex": [
+            "Just entertain the thought for a minute."
+          ],
+          "use": "暫時認真考慮某個想法，不代表採納；批判思考關鍵動詞。",
+          "native": "used when considering an idea carefully without agreeing yet",
+          "nativeZh": "認真考慮想法但尚未同意"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "start": 1452.0,
+      "end": 1458.0,
+      "t": "00:24:12",
+      "en": "Right here you hear this this is that you can't do that anymore you can't do",
+      "zh": "你聽到了嗎？這種事你現在不能再做了，你不能再",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 184,
+      "start": 1458.0,
+      "end": 1470.0,
+      "t": "00:24:18",
+      "en": "See this we're way past this we already had the foundation for this for this [ __ ] 2,000 years ago 3,000 years ago some [ __ ] right but but for some reason",
+      "zh": "這樣——你看，我們早就過了這個階段。兩千年前、三千年前就已經有這個基礎了，什麼鬼；但不知為何",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 185,
+      "start": 1470.0,
+      "end": 1475.0,
+      "t": "00:24:30",
+      "en": "We got to go back to that censorship [ __ ] all the time all the [ __ ] time",
+      "zh": "我們總是要一再回到那種審查的鬼東西，一天到晚、整天都是。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 186,
+      "start": 1475.0,
+      "end": 1481.0,
+      "t": "00:24:35",
+      "en": "Brings me to my next point on why some people dislike asmin gold there's a strange tendency especially among those",
+      "zh": "這把我帶到下一個點：為什麼有些人不喜歡 Asmongold。有一種奇怪的傾向，尤其是在那些",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 187,
+      "start": 1481.0,
+      "end": 1491.0,
+      "t": "00:24:41",
+      "en": "Chronically online to equate disagreeing with someone to hating them yeah that's [ __ ] true it's some pretty crazy unhinged stuff and he doesn't back down",
+      "zh": "長期泡在網上的人當中：把「不同意某人」等同於「仇恨某人」。對，這他媽是真的。相當瘋狂失控的事，而他也不退讓； （對應：equate disagreeing with someone to hating them）",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Disagreement is not the same as hate.",
+          "native": "used when pushing back on people who treat criticism as hostility",
+          "nativeZh": "反駁把批評當成仇恨"
+        },
+        {
+          "k": "vocab",
+          "v": "chronically online",
+          "native": "describing people whose opinions are shaped by living on the internet",
+          "nativeZh": "形容觀點被網路生活形塑的人"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：chronically online",
+          "ex": [
+            "That take feels chronically online."
+          ],
+          "use": "網路俚語，形容長期泡在網路上、世界觀被網路文化嚴重形塑的人。",
+          "native": "describing people whose opinions are shaped by living on the internet",
+          "nativeZh": "形容觀點被網路生活形塑的人"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "start": 1491.0,
+      "end": 1498.0,
+      "t": "00:24:51",
+      "en": "And we all know people don't like it when others are like this America deserve 911 dude it I'm saying it",
+      "zh": "我們都知道人們不喜歡別人這樣。美國活該 911……我是在舉例。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 189,
+      "start": 1498.0,
+      "end": 1504.0,
+      "t": "00:24:58",
+      "en": "Example of this would be the controversies surrounding asmin Gold's take on AI and art last year artists",
+      "zh": "這類例子也包括去年圍繞 Asmongold 對 AI 與藝術看法的爭議。藝術家的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 190,
+      "start": 1504.0,
+      "end": 1512.0,
+      "t": "00:25:04",
+      "en": "Opinions don't matter because what matters is the opinion of you remember how mad all those fies got over this",
+      "zh": "意見不重要，因為重要的是……你還記得那些人對這件事有多生氣嗎？",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 191,
+      "start": 1512.0,
+      "end": 1519.0,
+      "t": "00:25:12",
+      "en": "[ __ ] you know what those FES are doing now door Dash and you know why it's",
+      "zh": "你知道那些人現在在幹嘛嗎？跑 DoorDash；你知道為什麼嗎？",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 192,
+      "start": 1519.0,
+      "end": 1527.0,
+      "t": "00:25:19",
+      "en": "Because I was right it's genuinely sad that people seem unable to disagree in a healthy constructive way asmin gold",
+      "zh": "因為我是對的。人們似乎無法以健康、建設性的方式不同意，這真的很悲哀。Asmongold",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 193,
+      "start": 1527.0,
+      "end": 1533.0,
+      "t": "00:25:27",
+      "en": "Doesn't shy away from controversial takes and some people don't like this I've gone around many twitch what the",
+      "zh": "不迴避爭議立場，有些人就是不喜歡這點。我跑了很多 Twitch……什麼",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 194,
+      "start": 1533.0,
+      "end": 1539.0,
+      "t": "00:25:33",
+      "en": "What are the tweets about what are the people saying uh I was beginning watching as going stream people reaction",
+      "zh": "推文在講什麼？大家在說什麼？我開始看 Asmongold 實況，大家的反應是：",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 195,
+      "start": 1539.0,
+      "end": 1547.0,
+      "t": "00:25:39",
+      "en": "The guy has audacity to double down not how clearly AI art can literally not function what is this stupid [ __ ] talking about filthy AI art detection",
+      "zh": "這傢伙居然敢加碼堅持。AI 藝術根本不能運作是什麼蠢話……骯髒的 AI 藝術偵測",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "double down",
+          "native": "used when describing someone who digs in harder after pushback",
+          "nativeZh": "形容挨批後反而更堅持"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：double down",
+          "ex": [
+            "Instead of apologizing, he doubled down."
+          ],
+          "use": "不但不退讓，反而更加堅持原立場；常帶批評語氣。",
+          "native": "used when describing someone who digs in harder after pushback",
+          "nativeZh": "形容挨批後反而更堅持"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "start": 1547.0,
+      "end": 1556.0,
+      "t": "00:25:47",
+      "en": "This is it's so funny to see these people crying about this I'm going to give you guys a little bit of a hint a lot of companies now are already using",
+      "zh": "太好笑了看這些人哭這個。我給你們一點提示：現在很多公司已經在用",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 197,
+      "start": 1556.0,
+      "end": 1567.0,
+      "t": "00:25:56",
+      "en": "AI art and they're just not telling you I've gone around many twitch and YouTube channels throughout the last year and I find it fascinating how most channels are easily seen as many Echo Chambers",
+      "zh": "AI 藝術，只是不告訴你。過去一年我跑了很多 Twitch 與 YouTube 頻道，我發現大多數頻道很容易被看成很多回音室；",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "echo chamber",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：echo chamber",
+          "ex": [
+            "Social media can become an echo chamber."
+          ],
+          "use": "回音室：只聽到相似觀點、強化既有信念的環境。",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "start": 1567.0,
+      "end": 1576.0,
+      "t": "00:26:07",
+      "en": "But I can also see how those who don't actually watch asmin gold can point fingers at his channel and say the same thing but I've actually never seen a content creator who sides against his",
+      "zh": "但我也理解那些沒真正看過 Asmongold 的人，會用手指他的頻道說同樣的話。不過我幾乎沒見過哪個創作者像 Asmongold 這樣，經常在直播裡站到",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 199,
+      "start": 1576.0,
+      "end": 1584.0,
+      "t": "00:26:16",
+      "en": "Entire audience live as much as asman gold does I really do that a lot don't I people get mad the man has even riled me",
+      "zh": "整個觀眾的對立面。我真的很常這樣，對吧？大家會生氣。這個人有時連我都會被他某些立場惹毛，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 200,
+      "start": 1584.0,
+      "end": 1592.0,
+      "t": "00:26:24",
+      "en": "Up at times with some of his takes like the fact that Halo infinite didn't launch with an official Battle Royale mode is unforgivable but I believe this",
+      "zh": "像是 Halo Infinite 上市沒有正式大逃殺模式就不可原諒——但我相信這",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 201,
+      "start": 1592.0,
+      "end": 1605.0,
+      "t": "00:26:32",
+      "en": "Is actually healthy and I'll hey hey 343 Studios if at first you don't succeed well you keep failing for 10 years but they're going to get it right next time because they renamed the studio yeah I",
+      "zh": "其實是健康的。嘿 343 Studios，如果一次不成功……那你們就失敗十年吧，但下次會對，因為他們把工作室改名了。對，我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 202,
+      "start": 1605.0,
+      "end": 1612.0,
+      "t": "00:26:45",
+      "en": "Came across this video titled the most disgusting man of all time asman Gold by a YouTuber named the angry Asian I",
+      "zh": "看到這支影片，標題是《史上最噁心的男人 Asmongold》，作者是 The Angry Asian。我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 203,
+      "start": 1612.0,
+      "end": 1618.0,
+      "t": "00:26:52",
+      "en": "Watched hoping he'd present a solid argument with some real weight to it unfortunately despite the video being 13",
+      "zh": "抱著希望去看，以為他會提出有分量的扎實論點。可惜儘管影片長 13",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 204,
+      "start": 1618.0,
+      "end": 1624.0,
+      "t": "00:26:58",
+      "en": "Minutes and 38 seconds long he only spent about 1 minute actually accusing asmin gold of anything substantial",
+      "zh": "分 38 秒，他真正拿實質內容指控 Asmongold 的時間大概只有一分鐘。（對應 anything substantial）",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "substantial evidence",
+          "native": "used when demanding real proof, not vibes or rumors",
+          "nativeZh": "要求真憑實據、不要感覺論"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 205,
+      "start": 1624.0,
+      "end": 1631.0,
+      "t": "00:27:04",
+      "en": "That's longer than I would expect that's pretty good how about that the most racist and misogynistic takes on gaming",
+      "zh": "比我預期的還長，不錯嘛。關於遊戲、以及一般來說我聽過最種族主義、最厭女的言論——",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 206,
+      "start": 1631.0,
+      "end": 1640.0,
+      "t": "00:27:11",
+      "en": "And just in general that I've ever am I the racist the most racist and misogynistic person sometimes this is",
+      "zh": "我是種族主義者？最種族主義、最厭女的人？有時這是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 207,
+      "start": 1640.0,
+      "end": 1651.0,
+      "t": "00:27:20",
+      "en": "Me being racist agreeing with a guy who's black that Assassin's Creed Shadows is problematic but I'm the one that's racist because so if I was racist why would I agree with a black person like where's the logic here there's no",
+      "zh": "我「在當種族主義者」：同意一個黑人說《刺客教條：影》有問題——結果我才是種族主義者？如果我是種族主義者，為什麼會同意一個黑人？邏輯在哪？根本沒有",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 208,
+      "start": 1651.0,
+      "end": 1660.0,
+      "t": "00:27:31",
+      "en": "Logic it's just feeling and thinking like there's no there's no thinking involved in this at all this guy literally spent the rest of the whole video ranting about asmin Gold's living",
+      "zh": "邏輯，只剩感覺，完全沒有思考。這傢伙整支影片剩下的時間都在抱怨 Asmongold 的生活方式",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 209,
+      "start": 1660.0,
+      "end": 1670.0,
+      "t": "00:27:40",
+      "en": "Choices and hygiene how do people view asmin gold as a respected streamer and they value his opinions on G he's mad so",
+      "zh": "與衛生。人們怎麼會把 Asmongold 當受尊敬的實況主、還重視他對遊戲的意見？他很氣，所以",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 210,
+      "start": 1670.0,
+      "end": 1678.0,
+      "t": "00:27:50",
+      "en": "I am a homeless crackhead living in a crack house which I actually believe is a crack home and so that means I'm",
+      "zh": "我是住在毒窟的遊民癮君子——我其實覺得那是毒宅——所以那表示我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 211,
+      "start": 1678.0,
+      "end": 1686.0,
+      "t": "00:27:58",
+      "en": "Already playing it on hard mode so if I'm still getting through to people doesn't that mean that my message is even stronger because like it can",
+      "zh": "已經在困難模式開打；如果我还能打動人，不就表示我的訊息更強？因為它能",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 212,
+      "start": 1686.0,
+      "end": 1694.0,
+      "t": "00:28:06",
+      "en": "Override those biases that's how true it is substantial hate that comes from a place of genuine critical thinking will",
+      "zh": "壓過那些偏見，正因如此才更真。來自真正批判思考的實質仇恨，",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "start": 1694.0,
+      "end": 1703.0,
+      "t": "00:28:14",
+      "en": "Always result in real evidence of why there is the hate if we look at history or even fiction there are many figures that automatically draw hate out of us",
+      "zh": "總會帶來為什麼恨的真實證據。如果看歷史甚至虛構，很多人物會自動讓我們生出恨意，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 214,
+      "start": 1703.0,
+      "end": 1711.0,
+      "t": "00:28:23",
+      "en": "Mostly because of at least one fundamental cause at least one decision that these figures have made that have brought this hate upon themselves and it",
+      "zh": "多半至少因為一個根本原因：這些人物做過至少一個決定，把恨招到自己身上；而那",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 215,
+      "start": 1711.0,
+      "end": 1718.0,
+      "t": "00:28:31",
+      "en": "Is always a decision that has affected other beings saying that you hate asman gold because you think he is gross when",
+      "zh": "總是影響到其他生命的決定。說你恨 Asmongold 是因為你覺得他很髒，而",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 216,
+      "start": 1718.0,
+      "end": 1726.0,
+      "t": "00:28:38",
+      "en": "His decisions actually don't negatively impact anyone but himself shows me that there is a problem with you more than",
+      "zh": "他的決定其實只傷害自己、不負面影響任何人——這更像是你有問題，而不是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 217,
+      "start": 1726.0,
+      "end": 1733.0,
+      "t": "00:28:46",
+      "en": "There is a problem with asmon I would understand wanting to show him maybe Compassion or sympathy but this has no",
+      "zh": "Asmongold 有問題。我能理解想對他展現同情或憐憫；但這完全沒有",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 218,
+      "start": 1733.0,
+      "end": 1743.0,
+      "t": "00:28:53",
+      "en": "Grounds for hate I would completely understand the hate if he had maybe a one wife or a child or a pet that he was directly affecting but he doesn't why",
+      "zh": "構成仇恨的理由。如果他有妻子、孩子或寵物被他直接影響，我完全能理解那種恨；但他沒有。為什麼？",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 219,
+      "start": 1743.0,
+      "end": 1749.0,
+      "t": "00:29:03",
+      "en": "Look I have a plan I have had this Elden ring plant for a while anyway uh this is",
+      "zh": "聽著，我有個計畫：我養這盆《艾爾登法環》的植物一陣子了。這是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 220,
+      "start": 1749.0,
+      "end": 1755.0,
+      "t": "00:29:09",
+      "en": "A plant that I got uh Bandy Namco sent me this on the release of Elden ring and",
+      "zh": "Bandai Namco 在《艾爾登法環》發行時寄給我的，我種下並一直照顧。這些……看起來不太好，我也不知道為什麼這些沒養好，就這樣吧；但這邊這株是綠的，你",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 221,
+      "start": 1755.0,
+      "end": 1765.0,
+      "t": "00:29:15",
+      "en": "I planted it and I've been taking care now these these not so good right I mean like I I don't know why these ones didn't they they you know it is what it is but this right here this is green you",
+      "zh": "看到了嗎？這株植物撐過了整個《艾爾登法環》，也撐過了 DLC，大概還會撐到",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 222,
+      "start": 1765.0,
+      "end": 1773.0,
+      "t": "00:29:25",
+      "en": "See that this plant has survived the entirety of Elden ring and it survived the DLC it's probably going to survive",
+      "zh": "《Nightreign》。然後還有那麼多人因此對 Asmongold 丟仇恨與羞辱。現在來看",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 223,
+      "start": 1773.0,
+      "end": 1781.0,
+      "t": "00:29:33",
+      "en": "Until night rain is it then that's so many people throw hate and shame at asmin gold for this now let's look at",
+      "zh": "另一個恨他的理由：種族主義。這個完全沒有實質，我知道，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 224,
+      "start": 1781.0,
+      "end": 1786.0,
+      "t": "00:29:41",
+      "en": "Another reason for the hate against as RAC this one has no substance and I know",
+      "zh": "因為我真心去找過證據；但在某些社群裡，我們看到人們不斷想……「我恨",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 225,
+      "start": 1786.0,
+      "end": 1792.0,
+      "t": "00:29:46",
+      "en": "Because I genuinely try to find evidence of this but within some communities we see people constantly trying I hate",
+      "zh": "黑人、恨女人、恨同性戀、恨跨性別……還有誰我恨？」把 Asmongold 講成法西斯、種族主義、性別歧視與",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 226,
+      "start": 1792.0,
+      "end": 1804.0,
+      "t": "00:29:52",
+      "en": "Black people I hate women hate gay people hate trans people hate uh let's see who who else do I hate out asmin gold as a fascist racist sexist and",
+      "zh": "恐跨。幾乎所有這類論點要嘛完全沒根據，要嘛根本是假的。我能找到最接近",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 227,
+      "start": 1804.0,
+      "end": 1811.0,
+      "t": "00:30:04",
+      "en": "Transphobe almost every argument on this is either completely baseless or just plain false the closest thing to actual",
+      "zh": "實質、用來支持這項種族主義指控的證據，是 Asmongold 去年十月在 Twitch",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 228,
+      "start": 1811.0,
+      "end": 1818.0,
+      "t": "00:30:11",
+      "en": "Evidence that I can find to support this accusation of racism is asmin Gold's controversy around his suspension on",
+      "zh": "被停權的爭議。多數人已知道發生什麼，但我想分享我的看法，讓你理解我的視角。說到底，Asmongold 對這件事的反應，",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "accusation",
+          "native": "used when referring to a serious claim that someone did something wrong",
+          "nativeZh": "指某人做錯事的嚴重說法"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：accusation",
+          "ex": [
+            "That's a serious accusation—where's the proof?"
+          ],
+          "use": "指控、控告式說法；討論爭議與公審時常用。",
+          "native": "used when referring to a serious claim that someone did something wrong",
+          "nativeZh": "指某人做錯事的嚴重說法"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "start": 1818.0,
+      "end": 1827.0,
+      "t": "00:30:18",
+      "en": "Twitch from October last year most people already know what happened but I want to share my view on it so you can understand from my perspective at the end of the day asman Gold's reaction to",
+      "zh": "從他觀眾那裡得到的尊重，比失去的還多。首先，Asmongold 搞砸了：他說了明顯對整個",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "At the end of the day…",
+          "native": "used when wrapping up and stating what finally matters",
+          "nativeZh": "收束並點出最終關鍵"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 230,
+      "start": 1827.0,
+      "end": 1837.0,
+      "t": "00:30:27",
+      "en": "This gain more respect from hise audience then had lost first off as gold messed up he said something that was blatantly prejudice against an entire",
+      "zh": "文化帶有偏見的話。從極端宗教的角度看確實有某種層次的事實；但 Asmongold 不是那樣說，而是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 231,
+      "start": 1837.0,
+      "end": 1843.0,
+      "t": "00:30:37",
+      "en": "Culture there is a level of truth from the perspective of extremist religions but asman gold didn't say this instead",
+      "zh": "用很粗的筆觸一筆帶過，點名整個文化。他搞砸了；但你知道誰也覺得自己真的搞砸了嗎？Asmongold 自己。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 232,
+      "start": 1843.0,
+      "end": 1852.0,
+      "t": "00:30:43",
+      "en": "He broad brush stroked his point and called out an entire culture he messed up but you know who also believes he really messed up here asman gold and",
+      "zh": "這也是為什麼從那之後我試著做得更好——因為我覺得當我做這種事時：我這樣算公平嗎？我有沒有把一個",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 233,
+      "start": 1852.0,
+      "end": 1860.0,
+      "t": "00:30:52",
+      "en": "This is why I've tried to do better uh since then because I like I feel like when I do something like this is this me",
+      "zh": "想法用有效的方式傳達好？",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 234,
+      "start": 1860.0,
+      "end": 1867.0,
+      "t": "00:31:00",
+      "en": "Being fair am I doing a good job of being a person that is communicating an",
+      "zh": "答案是沒有。我說了一些",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 235,
+      "start": 1867.0,
+      "end": 1874.0,
+      "t": "00:31:07",
+      "en": "Idea in an effective way the answer is no I'm not I I said something about it",
+      "zh": "噁心的話。對，我說過我不在乎無辜的人被另一股力量殺害之類的，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 236,
+      "start": 1874.0,
+      "end": 1882.0,
+      "t": "00:31:14",
+      "en": "That was disgusting yeah I said that I didn't care about innocent people getting killed by another Force spite",
+      "zh": "我想說：有證據顯示這是我之後有帶著走、有反省的事。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 237,
+      "start": 1882.0,
+      "end": 1888.0,
+      "t": "00:31:22",
+      "en": "Anything and I want to say that evidence that this is something that I have carried forward",
+      "zh": "在兩週 Twitch 停權期間，我忍不住發現 X 上對這件事幾乎只有兩種極端觀點：一邊",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 238,
+      "start": 1888.0,
+      "end": 1898.0,
+      "t": "00:31:28",
+      "en": "During the two we twitch suspension as gold faced I couldn't help but find either one of these two extreme views on the situation all over X on one side",
+      "zh": "為 Asmongold 辯護、說他在講事實；另一邊叫他種族主義者、法西斯，還有些字我甚至",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 239,
+      "start": 1898.0,
+      "end": 1906.0,
+      "t": "00:31:38",
+      "en": "People were defending asmin gold and saying he was stating facts and on the other side we had people calling him racist fascist and words I don't even",
+      "zh": "不想在這裡重複。但有一件事無可爭議：Asmongold 確實搞砸了。他對自己說出口的話做了糟糕的判斷，並承擔後果。而這裡是我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 240,
+      "start": 1906.0,
+      "end": 1916.0,
+      "t": "00:31:46",
+      "en": "Want to repeat here but one thing that can't be disputed here is the fact that asmin gold actually messed up he made an awful judgment on what he said and he faced the consequences now this is where",
+      "zh": "個人對他產生巨大敬意的地方：Asmongold 為自己的行為負責。他沒有對抗它；",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 241,
+      "start": 1916.0,
+      "end": 1925.0,
+      "t": "00:31:56",
+      "en": "I personally Garner enormous respect for him asmin gold took responsibility for his actions he didn't fight against it",
+      "zh": "事實上他甚至對被要求負責表示感激，因為他能退一步，看到自己正變成他覺得可惡的人。這件事超瘋狂——",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 242,
+      "start": 1925.0,
+      "end": 1936.0,
+      "t": "00:32:05",
+      "en": "In fact he even showed gratitude for being held to account because he was able to take a back step and see himself becoming someone that he found detestable this is what's so crazy about",
+      "zh": "我覺得這已經持續大概兩年了。這又是更多證據：我是最謙虛的實況主，大家都知道。他對（對應 held to account）",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "hold accountable",
+          "native": "used when insisting someone face consequences for what they did",
+          "nativeZh": "要求某人為行為承擔後果"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 243,
+      "start": 1936.0,
+      "end": 1945.0,
+      "t": "00:32:16",
+      "en": "It I think this has been going on now for like 2 years this is again more evidence about how I am the most humble streamer everybody knows this though his",
+      "zh": "這件事的回應真正顯示了他的本色：他扛下了，也道歉了。接著我簡直不敢相信他自己部分觀眾對道歉的反應：有些人覺得 Asmongold 遵守一條不成文的金科玉律——",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 244,
+      "start": 1945.0,
+      "end": 1959.0,
+      "t": "00:32:25",
+      "en": "Response to the situation really shows his true colors he took the Al and he apologized I then couldn't believe the reaction from some of his own audience when he apologized some of them believed asman gold followed an Unwritten Golden",
+      "zh": "任何情況下都永不道歉——這明顯完全誤解了他真正的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 245,
+      "start": 1959.0,
+      "end": 1966.0,
+      "t": "00:32:39",
+      "en": "Rule of never apologizing under any circumstances which is clearly a complete misinterpretation of his actual",
+      "zh": "立場。他們那樣說，只是因為他們同意我說的話，並氣我承認那其實沒有他們想像中那麼準確。我覺得這是很多",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 246,
+      "start": 1966.0,
+      "end": 1977.0,
+      "t": "00:32:46",
+      "en": "Stance just said that because they agreed with what I said and they were mad that I said that it wasn't really as accurate as I as they had imagined it to be this is a big problem that I think a",
+      "zh": "群體的大問題：他們透過「佔上風／失分」的透鏡看一切；",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 247,
+      "start": 1977.0,
+      "end": 1985.0,
+      "t": "00:32:57",
+      "en": "Lot of group groups of people have is that they view everything through the lens of gaining ground or losing ground",
+      "zh": "但有時輸戰役是為了贏戰爭。我覺得當你不把惡意行為者——包括你自己——",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 248,
+      "start": 1985.0,
+      "end": 1993.0,
+      "t": "00:33:05",
+      "en": "But sometimes it's better to lose battles to win Wars and I think that when you don't hold people who are Bad actors accountable including yourself",
+      "zh": "對有問題的行為追究責任時，你最後會贏了戰役、輸了戰爭。他一貫堅持的",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "bad actor",
+          "native": "used when naming people who deliberately harm or manipulate a community",
+          "nativeZh": "指故意傷害／操弄社群的人"
+        },
+        {
+          "k": "vocab",
+          "v": "hold accountable",
+          "native": "used when insisting someone face consequences for what they did",
+          "nativeZh": "要求某人為行為承擔後果"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：bad actor",
+          "ex": [
+            "Most creators are fine; a few bad actors ruin the reputation."
+          ],
+          "use": "追究責任、要求負責；新聞與社群治理用語。",
+          "native": "used when naming people who deliberately harm or manipulate a community",
+          "nativeZh": "指故意傷害／操弄社群的人"
+        }
+      ]
+    },
+    {
+      "id": 249,
+      "start": 1993.0,
+      "end": 2001.0,
+      "t": "00:33:13",
+      "en": "Accountable for doing things that are problematic you end up winning battles and losing Wars always stood by the",
+      "zh": "原則是：不為了迎合假和平或假寬容去道歉。他一直",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 250,
+      "start": 2001.0,
+      "end": 2008.0,
+      "t": "00:33:21",
+      "en": "Principle of not apologizing in the context of pandering to people for a level of false peace or tolerance he has",
+      "zh": "反對在你並不相信自己做錯時道歉。若道歉是真誠的，它從來不是弱點。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 251,
+      "start": 2008.0,
+      "end": 2016.0,
+      "t": "00:33:28",
+      "en": "Always been against apologizing if you don't believe you've done anything wrong apologizing is never a weakness if it's",
+      "zh": "我相信 Asmongold 的反應讓不少觀眾變好了：看到他這樣回應，也挑戰了他們。也許不夠多",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 252,
+      "start": 2016.0,
+      "end": 2025.0,
+      "t": "00:33:36",
+      "en": "Genuine I believe asman Gold's reaction bettered quite a lot of his audience people seeing him respond like this challenged them as well maybe not enough",
+      "zh": "人真正看到發生了什麼；但那是我希望在其他創作者或網紅身上也看到的真誠品格跡象。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 253,
+      "start": 2025.0,
+      "end": 2032.0,
+      "t": "00:33:45",
+      "en": "People actually saw what really happened here but it was a genuine sign of good character that I wish I saw and other",
+      "zh": "這就是為什麼人們會生氣；也是很多政治上對立於我的人會被大量仇恨的原因：他們",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 254,
+      "start": 2032.0,
+      "end": 2043.0,
+      "t": "00:33:52",
+      "en": "Content creators or influencers this is the reason why people get mad right and this is the problem that a lot of people that are like oppositional to me politically get a bunch of hate is that",
+      "zh": "不道歉，從不試著收回過火的言論，也不",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 255,
+      "start": 2043.0,
+      "end": 2051.0,
+      "t": "00:34:03",
+      "en": "They don't apologize they don't ever try to walk back statements that were a little bit too extreme and they don't",
+      "zh": "在很多情況下也不追究社群與——你怎麼說——實況裡惡意行為者的責任。例如大家看那段納粹片段，而大家",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 256,
+      "start": 2051.0,
+      "end": 2063.0,
+      "t": "00:34:11",
+      "en": "Hold Bad actors in their community and in their uh what do you call it in their streams accountable in a lot of cases and like for example like people look at that that Nazi clip and what people",
+      "zh": "在很多情況下追究社群與實況裡惡意行為者的責任。例如大家看那段納粹片段，而大家",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "bad actor",
+          "native": "used when naming people who deliberately harm or manipulate a community",
+          "nativeZh": "指故意傷害／操弄社群的人"
+        },
+        {
+          "k": "vocab",
+          "v": "hold accountable",
+          "native": "used when insisting someone face consequences for what they did",
+          "nativeZh": "要求某人為行為承擔後果"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：bad actor",
+          "ex": [
+            "Most creators are fine; a few bad actors ruin the reputation."
+          ],
+          "use": "追究責任、要求負責；新聞與社群治理用語。",
+          "native": "used when naming people who deliberately harm or manipulate a community",
+          "nativeZh": "指故意傷害／操弄社群的人"
+        }
+      ]
+    },
+    {
+      "id": 257,
+      "start": 2063.0,
+      "end": 2070.0,
+      "t": "00:34:23",
+      "en": "Didn't see about that is like all the people saying W nais is that all the those people were banned immediately and",
+      "zh": "沒看到的是：所有說「W Nazis」之類的人立刻都被 ban 了，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 258,
+      "start": 2070.0,
+      "end": 2078.0,
+      "t": "00:34:30",
+      "en": "Even my chat and mods reported them and banned all of them and we got their accounts banned even so the the entire",
+      "zh": "甚至我的聊天室與管理員檢舉並 ban 了他們，還讓那些帳號被 ban。所以整件事的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 259,
+      "start": 2078.0,
+      "end": 2085.0,
+      "t": "00:34:38",
+      "en": "Premise of that was completely fake one of my favorite words in the world is the word accountable humans are extremely",
+      "zh": "前提完全是假的。我最喜歡的詞之一就是 accountable（可被究責）。人類極度（對應 accountable）",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "hold accountable",
+          "native": "used when insisting someone face consequences for what they did",
+          "nativeZh": "要求某人為行為承擔後果"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 260,
+      "start": 2085.0,
+      "end": 2091.0,
+      "t": "00:34:45",
+      "en": "Fallible and we can have some pretty terrible blind spots in our lives so any content creator that advocates for",
+      "zh": "容易犯錯，生活中也可能有相當可怕的盲點；所以任何倡導",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "fallible",
+          "native": "used when reminding people (including experts) that they can be wrong",
+          "nativeZh": "提醒人（含專家）都會犯錯"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：fallible",
+          "ex": [
+            "Everyone is fallible—own your mistakes."
+          ],
+          "use": "會犯錯的、不完美的；談謙遜與問責時常用。",
+          "native": "used when reminding people (including experts) that they can be wrong",
+          "nativeZh": "提醒人（含專家）都會犯錯"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "start": 2091.0,
+      "end": 2100.0,
+      "t": "00:34:51",
+      "en": "Accountability is a content creator that I believe is worth following I don't believe this controversy makes asman gold a racist it actually just reaffirms",
+      "zh": "問責的創作者，我都覺得值得追隨。我不認為這場爭議讓 Asmongold 變成種族主義者；它其實更再確認",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 262,
+      "start": 2100.0,
+      "end": 2108.0,
+      "t": "00:35:00",
+      "en": "Asman gold as being a genuine fallible dude who can own his faults and advocate for bettering himself like asman gold is",
+      "zh": "Asmongold 是個真誠、會犯錯、能承認缺點並主張自我改進的人。像 Asmongold，",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "fallible",
+          "native": "used when reminding people (including experts) that they can be wrong",
+          "nativeZh": "提醒人（含專家）都會犯錯"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：fallible",
+          "ex": [
+            "Everyone is fallible—own your mistakes."
+          ],
+          "use": "會犯錯的、不完美的；談謙遜與問責時常用。",
+          "native": "used when reminding people (including experts) that they can be wrong",
+          "nativeZh": "提醒人（含專家）都會犯錯"
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "start": 2108.0,
+      "end": 2115.0,
+      "t": "00:35:08",
+      "en": "He tends to play Devil's Advocates against himself asman gold has this beautiful ability at times to approach",
+      "zh": "他常常對自己唱反調／當魔鬼代言人。Asmongold 有時有種很美的能力：能以善意處理",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "play devil's advocate",
+          "native": "used when arguing the opposite side on purpose to stress-test an idea",
+          "nativeZh": "故意辯護反方來壓力測試論點"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：play devil's advocate",
+          "ex": [
+            "Let me play devil's advocate for a second."
+          ],
+          "use": "故意站在反對立場提問，用來檢驗論點是否站得住腳。",
+          "native": "used when arguing the opposite side on purpose to stress-test an idea",
+          "nativeZh": "故意辯護反方來壓力測試論點"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "start": 2115.0,
+      "end": 2123.0,
+      "t": "00:35:15",
+      "en": "Controversial subjects in good faith it's something I've noticed about him over the years and it's definitely a quality I hope he never loses he doesn't",
+      "zh": "爭議話題。這是我這些年注意到的特質，也絕對希望他別失去。他不",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "in good faith",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：in good faith",
+          "ex": [
+            "I'm arguing in good faith—please don't twist my words."
+          ],
+          "use": "出於善意／真誠地討論或行動，不是故意找碴或抹黑。",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ]
+    },
+    {
+      "id": 265,
+      "start": 2123.0,
+      "end": 2129.0,
+      "t": "00:35:23",
+      "en": "Always do this but when he does I find myself personally challenged this has naturally encouraged his audience",
+      "zh": "總是這樣做；但當他這樣做時，我會覺得自己被挑戰。這自然也鼓勵了他的觀眾——",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 266,
+      "start": 2129.0,
+      "end": 2138.0,
+      "t": "00:35:29",
+      "en": "Including me to have a slightly broader perspective when looking into controversial topics where people usually have an established bias take",
+      "zh": "包括我——在看待通常已有既定偏見的爭議話題時，視角稍微更寬一點。例如",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 267,
+      "start": 2138.0,
+      "end": 2146.0,
+      "t": "00:35:38",
+      "en": "For instance a post on X last year from Kelly Lombardi a global games product marketing manager at Xbox given how",
+      "zh": "去年 X 上 Kelly Lombardi（Xbox 全球遊戲產品行銷經理）的一則貼文。鑒於近年",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 268,
+      "start": 2146.0,
+      "end": 2154.0,
+      "t": "00:35:46",
+      "en": "Polarizing the gaming industry has become in recent years it would be easy to look at her post and label her as an anti-white liberal elitist and move on",
+      "zh": "遊戲產業有多兩極化，很容易看了她的貼文就把她標成反白人的自由派精英，然後了事。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 269,
+      "start": 2154.0,
+      "end": 2161.0,
+      "t": "00:35:54",
+      "en": "If anyone had the prerogative to lean into that narrative it would be asman gold but instead asman gold challenged",
+      "zh": "若有誰有資格順勢踩進那個敘事，會是 Asmongold；但 Asmongold 反而挑戰了",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 270,
+      "start": 2161.0,
+      "end": 2170.0,
+      "t": "00:36:01",
+      "en": "His audience and himself by sharing how he viewed kayy's post from her perspective am I the person that's going to have to have the hot take that this isn't really that big of a deal and I",
+      "zh": "他的觀眾與他自己，分享他如何從 Kelly 的視角看那則貼文。我是不是那個得放「這其實沒那麼嚴重、我也不",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 271,
+      "start": 2170.0,
+      "end": 2181.0,
+      "t": "00:36:10",
+      "en": "Don't really find this to be inherently racist the problem is that when when you're a hammer every problem looks like a nail and I don't think this one's a nail guys I don't like I don't think",
+      "zh": "覺得這本質上種族歧視」這種燙手觀點的人？問題是：當你是錘子，每個問題都像釘子；我不覺得這個是釘子，各位。我不覺得",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 272,
+      "start": 2181.0,
+      "end": 2187.0,
+      "t": "00:36:21",
+      "en": "That this is advocating for like any sort of exclusion I don't think it's advocating for degradation I don't think",
+      "zh": "這是在主張任何排除，不覺得是在主張貶低，也不覺得",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 273,
+      "start": 2187.0,
+      "end": 2191.0,
+      "t": "00:36:27",
+      "en": "This one is that big of a deal am I crazy and I get how you could perceive",
+      "zh": "這件事有那麼嚴重。我瘋了嗎？我也理解你怎麼會把它",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 274,
+      "start": 2191.0,
+      "end": 2199.0,
+      "t": "00:36:31",
+      "en": "This as being bad I do and like I I got Fe I got a push back because I didn't get mad about Kingdom Come Deliverance",
+      "zh": "看成壞事，我真的懂；而且我因為沒對《天國降臨：救贖》發怒而被推回來，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 275,
+      "start": 2199.0,
+      "end": 2206.0,
+      "t": "00:36:39",
+      "en": "Either and I also got push back because I didn't automatically categorize south of midnight as a Dei game either even",
+      "zh": "也因為沒自動把《South of Midnight》歸類成 DEI 遊戲而被推回來——即使",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 276,
+      "start": 2206.0,
+      "end": 2215.0,
+      "t": "00:36:46",
+      "en": "Though it had a black female protagonist uh so i' I've had a number of elements and then AOW is another minor example as well I try to interpret",
+      "zh": "它有黑人女性主角。所以我遇過不少這種情形；AOW 也是另一個小例子。我試著用善意",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 277,
+      "start": 2215.0,
+      "end": 2222.0,
+      "t": "00:36:55",
+      "en": "Things in good faith seeing him do this really struck me at the time and it pushed me to rethink my own assumptions",
+      "zh": "解讀事情。當時看他這樣做真的震撼到我，也逼我重新思考自己的預設。 （對應 rethink my own assumptions）",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Challenge your own assumptions.",
+          "native": "used when urging a self-check before arguing harder",
+          "nativeZh": "辯論前先自我檢查預設"
+        },
+        {
+          "k": "vocab",
+          "v": "in good faith",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：in good faith",
+          "ex": [
+            "I'm arguing in good faith—please don't twist my words."
+          ],
+          "use": "出於善意／真誠地討論或行動，不是故意找碴或抹黑。",
+          "native": "used when stressing honest intent in a debate, not trapping the other side",
+          "nativeZh": "強調辯論出於誠意、不是設套"
+        }
+      ]
+    },
+    {
+      "id": 278,
+      "start": 2222.0,
+      "end": 2231.0,
+      "t": "00:37:02",
+      "en": "It even bettered me as a man in how I approach things critically cuz my original approach to this post was anything but graceful like I said asmin",
+      "zh": "它甚至讓我在批判性處理事情的方式上變得更好，因為我原本對那則貼文的反應一點也不優雅。就像我說的，Asmongold",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 279,
+      "start": 2231.0,
+      "end": 2238.0,
+      "t": "00:37:11",
+      "en": "Gold doesn't always do this but he does do this and it always gets his audience either thinking or actually annoyed",
+      "zh": "不總是這樣做，但他確實會；而且總會讓觀眾要嘛開始思考、要嘛真的很煩。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 280,
+      "start": 2238.0,
+      "end": 2244.0,
+      "t": "00:37:18",
+      "en": "Another great trait that I believe asmin gold has that I personally like is that he stands behind what he believes",
+      "zh": "另一個我個人喜歡、也覺得 Asmongold 很棒的特質是：他站在自己所相信的背後。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 281,
+      "start": 2244.0,
+      "end": 2251.0,
+      "t": "00:37:24",
+      "en": "Although I sometimes disagree with asmin gold approach to tackling some of these issues I really appreciate how he",
+      "zh": "雖然我有時不同意 Asmongold 處理某些議題的方式，我真的很欣賞他",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 282,
+      "start": 2251.0,
+      "end": 2257.0,
+      "t": "00:37:31",
+      "en": "Doesn't back down from what he believes in regardless of how unpopular his opinion is even live remember that",
+      "zh": "無論意見多不受歡迎，都不從信念退縮——甚至在直播裡。還記得那個",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 283,
+      "start": 2257.0,
+      "end": 2263.0,
+      "t": "00:37:37",
+      "en": "OverWatch thing about how I was defending OverWatch 2 because they didn't have loot boxes maybe it's pure",
+      "zh": "Overwatch 的事：我因為他們沒有寶箱而替 Overwatch 2 辯護。也許這純粹是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 284,
+      "start": 2263.0,
+      "end": 2271.0,
+      "t": "00:37:43",
+      "en": "Stubbornness but I think it's good because it gets his audience thinking something for me that shows either really good character or a complete lack",
+      "zh": "固執，但我覺得這很好，因為它讓觀眾開始思考。對我來說，這顯示的要嘛是很好的品格，要嘛是完全",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 285,
+      "start": 2271.0,
+      "end": 2280.0,
+      "t": "00:37:51",
+      "en": "Of caring is that despite immense wealth and fame asmin gold doesn't change got not really going to talk about the subject too much because it I don't",
+      "zh": "不在乎：儘管擁有巨大財富與名氣，Asmongold 沒有改變。我不太想多談這個主題，因為我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 286,
+      "start": 2280.0,
+      "end": 2286.0,
+      "t": "00:38:00",
+      "en": "Really like I mean the thing is that like I I don't know like I always viewed",
+      "zh": "不太喜歡……重點是，我不知道，我總是把自己看成……",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 287,
+      "start": 2286.0,
+      "end": 2292.0,
+      "t": "00:38:06",
+      "en": "Myself like I don't it's just weird people want to change their life so much like I've always been happy like that's",
+      "zh": "就是很怪，人們那麼想改變自己的人生；而我一直很開心，就這樣。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 288,
+      "start": 2292.0,
+      "end": 2299.0,
+      "t": "00:38:12",
+      "en": "It I mean there's things about my life I'm not happy about but I'm there's PE there are people in the world that try to find what's bad with what's good",
+      "zh": "我是說人生裡有些事我不滿意，但世界上有人總想在好東西裡找壞，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 289,
+      "start": 2299.0,
+      "end": 2304.0,
+      "t": "00:38:19",
+      "en": "Inside of what's good and there are people that try to find what's good inside of what's bad and I feel like",
+      "zh": "也有人想在壞東西裡找好。我覺得",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 290,
+      "start": 2304.0,
+      "end": 2311.0,
+      "t": "00:38:24",
+      "en": "Being around people that try to always find the bad in the good is one of the most exhausting emotional vampire things",
+      "zh": "跟總是在好事裡找壞事的人在一起，是最耗神的情緒吸血鬼之一，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 291,
+      "start": 2311.0,
+      "end": 2317.0,
+      "t": "00:38:31",
+      "en": "That you can ever deal with and I try very hard to not be like that and also",
+      "zh": "而我很努力不要變成那樣。另外，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 292,
+      "start": 2317.0,
+      "end": 2324.0,
+      "t": "00:38:37",
+      "en": "Like just because and I'm not also keep in mind I don't talk down like I know like Assan and xcc like they they like",
+      "zh": "就像……也請記住我不俯視別人：我知道像 Hasan 跟 xQc 他們喜歡",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 293,
+      "start": 2324.0,
+      "end": 2334.0,
+      "t": "00:38:44",
+      "en": "To spend money you know like Nick likes to spend money too and I think that's great that's good for them and so like I don't patronize people who spend money or live lavishly either uh I just have",
+      "zh": "花錢，Nick 也喜歡花錢，我覺得那很好，對他們好。所以我也不會對花錢或過奢華生活的人說教；我只是有",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 294,
+      "start": 2334.0,
+      "end": 2338.0,
+      "t": "00:38:54",
+      "en": "The way that I do things and that's what matters to me but I've seen seen wealth",
+      "zh": "自己做事的方式，那對我才重要。但我看過財富",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 295,
+      "start": 2338.0,
+      "end": 2345.0,
+      "t": "00:38:58",
+      "en": "Do some pretty terrible things to some pretty awesome people and I'm glad asman gold just stayed true to being himself",
+      "zh": "對一些很棒的人做出相當可怕的事；我很高興 Asmongold 就是忠於做自己。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 296,
+      "start": 2345.0,
+      "end": 2352.0,
+      "t": "00:39:05",
+      "en": "Didn't hire a maid for a multi-million dollar mansion he stayed humble for real 100p on a stack it is far too easy to",
+      "zh": "沒為了好幾百萬美元的豪宅去請女傭——他保持謙遜，真的，百分百。要把某人妖魔化太容易了：",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 297,
+      "start": 2352.0,
+      "end": 2359.0,
+      "t": "00:39:12",
+      "en": "Demonize someone by taking what they say out of context or pushing your own bias using their own videos against them so",
+      "zh": "把他們的話斷章取義，或用自己的偏見、拿他們自己的影片反過來打他們。所以",
+      "tags": [
+        {
+          "k": "phrase",
+          "v": "Take something out of context.",
+          "native": "used when calling out selective quotes or clipped clips",
+          "nativeZh": "批評斷章取義的引用／剪輯"
+        },
+        {
+          "k": "vocab",
+          "v": "out of context",
+          "native": "used when a quote or clip is missing the full situation that changes its meaning",
+          "nativeZh": "指缺了會改變意思的完整脈絡"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：out of context",
+          "ex": [
+            "That clip is completely out of context."
+          ],
+          "use": "脫離上下文；與 take out of context 同概念。",
+          "native": "used when a quote or clip is missing the full situation that changes its meaning",
+          "nativeZh": "指缺了會改變意思的完整脈絡"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "start": 2359.0,
+      "end": 2369.0,
+      "t": "00:39:19",
+      "en": "You could argue that I did the same thing here but instead of demonizing asman gold I did the opposite I'm not saying that asman gold is without his faults I'm just saying it's worth",
+      "zh": "你也可以說我在這裡做了同樣的事；但我不是妖魔化 Asmongold，我做的是相反的事。我不是說 Asmongold 沒有缺點；我只是說這些事值得你",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 299,
+      "start": 2369.0,
+      "end": 2376.0,
+      "t": "00:39:29",
+      "en": "Thinking critically about these things for yourself and coming to your own conclusions I think one of my goals with",
+      "zh": "自己批判性思考，並得出自己的結論。我想我 YouTube 頻道的目標之一，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 300,
+      "start": 2376.0,
+      "end": 2386.0,
+      "t": "00:39:36",
+      "en": "My YouTube channel is to try and help pull people out of any type of echo chamber they might be a part of I find myself easily slipping into Echo chambers that support my own biases but",
+      "zh": "是試著幫人拉出他們可能身處的任何回音室。我發現自己很容易滑進支持自身偏見的回音室，但我",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "echo chamber",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：echo chamber",
+          "ex": [
+            "Social media can become an echo chamber."
+          ],
+          "use": "回音室：只聽到相似觀點、強化既有信念的環境。",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "start": 2386.0,
+      "end": 2392.0,
+      "t": "00:39:46",
+      "en": "I'm always trying to broaden my perspective and look at things a little bit more critically yeah it's easy to do",
+      "zh": "總是試著拓寬視角，把事情看得更批判一點。對，這樣很容易；",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "echo chamber",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：echo chamber",
+          "ex": [
+            "Social media can become an echo chamber."
+          ],
+          "use": "回音室：只聽到相似觀點、強化既有信念的環境。",
+          "native": "used when describing spaces that only reinforce what you already believe",
+          "nativeZh": "形容只聽到同類意見的圈子"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "start": 2392.0,
+      "end": 2399.0,
+      "t": "00:39:52",
+      "en": "Like I mean really it's you have to look at things that way Pur from outside perspective wish you take care of yourself more not by three Bentleys",
+      "zh": "說真的你必須那樣看。從外人角度希望你多照顧自己，不是去買三輛賓利。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 303,
+      "start": 2399.0,
+      "end": 2408.0,
+      "t": "00:39:59",
+      "en": "Remember you can't they can't bury you with that money whenever I say I don't give a [ __ ] like I really mean that it's not a big deal to me one way or another",
+      "zh": "記住：他們不能用那筆錢把你埋了。每當我說我他媽不在乎，我是認真的——反正對我來說怎樣都不是大事。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 304,
+      "start": 2408.0,
+      "end": 2413.0,
+      "t": "00:40:08",
+      "en": "I mean I I I I don't understand why people don't like kind of get that a lot",
+      "zh": "我是說……我不懂為什麼大家好像不太懂：Asmongold 受到的很多",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 305,
+      "start": 2413.0,
+      "end": 2420.0,
+      "t": "00:40:13",
+      "en": "Of the haes Asen gold gets at least the kind people think is genuinely justified comes down to ideological differences if",
+      "zh": "仇恨——至少那種人們覺得真正正當的——往往歸結到意識形態差異。如果你",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "ideological differences",
+          "native": "used when explaining conflict as worldview clash rather than personal hatred",
+          "nativeZh": "把衝突解釋成世界觀差異"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：ideological differences",
+          "ex": [
+            "A lot of the hate comes down to ideological differences."
+          ],
+          "use": "意識形態差異；解釋立場衝突根源時常用。",
+          "native": "used when explaining conflict as worldview clash rather than personal hatred",
+          "nativeZh": "把衝突解釋成世界觀差異"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "start": 2420.0,
+      "end": 2428.0,
+      "t": "00:40:20",
+      "en": "You look around X reddits and YouTube you'll find plenty of posts from people who strongly believe in ideas like Dei",
+      "zh": "在 X、Reddit 與 YouTube 四處看，會找到很多強烈相信 DEI、",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 307,
+      "start": 2428.0,
+      "end": 2441.0,
+      "t": "00:40:28",
+      "en": "Identity politics or even critical race Theory well the reason why those people have those opinions is because the people who don't have those opinions are banned like it's not like this is an organic perspective that has just Arisen",
+      "zh": "身分政治甚至批判種族理論的貼文。那些人會有那些意見，是因為沒有那些意見的人被 ban 了——這不是網站上自然長出來的觀點，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 308,
+      "start": 2441.0,
+      "end": 2451.0,
+      "t": "00:40:41",
+      "en": "From the website it's because it's carefully curated and anybody who dis you know like who who you know goes away from that gets in trouble off to asman",
+      "zh": "而是被仔細策展的；任何偏離的人就會有麻煩。於是仇恨落到 Asmongold",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 309,
+      "start": 2451.0,
+      "end": 2459.0,
+      "t": "00:40:51",
+      "en": "Gold simply because he speaks out against these ideas what's interesting is that a lot of these people don't seem to engage with his actual points or",
+      "zh": "頭上，只因他公開反對這些想法。有趣的是，這些人很多似乎不跟他的實際論點或",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 310,
+      "start": 2459.0,
+      "end": 2466.0,
+      "t": "00:40:59",
+      "en": "Arguments they just see that he challenges certain Progressive ideas and instantly label him as problematic or",
+      "zh": "論據交手；他們只看到他挑戰某些進步派觀念，就立刻把他標成有問題或",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 311,
+      "start": 2466.0,
+      "end": 2473.0,
+      "t": "00:41:06",
+      "en": "Toxic it's more about defending their own world view than actually considering what he is saying in reality his views",
+      "zh": "有毒。這比較像在捍衛自己的世界觀，而不是真的思考他在說什麼。實際上他的觀點",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 312,
+      "start": 2473.0,
+      "end": 2480.0,
+      "t": "00:41:13",
+      "en": "Often seem more about calling out the extremes on both sides rather than attacking any one group but of course",
+      "zh": "往往比較像在點名兩邊的極端，而不是攻擊任何一個群體。但當然，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 313,
+      "start": 2480.0,
+      "end": 2487.0,
+      "t": "00:41:20",
+      "en": "New on doesn't always fit into the internet's outrage cycle Nuance doesn't fit inside of most tweets now now I do",
+      "zh": "細緻差別不一定塞得進網路的憤怒循環。細緻差別也塞不進大多數推文。現在我要",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "nuance",
+          "native": "used when asking for finer distinctions instead of a blunt label",
+          "nativeZh": "要求更細緻區分、別貼粗標籤"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：nuance",
+          "ex": [
+            "The issue needs more nuance than a tweet allows."
+          ],
+          "use": "細微差別、複雜層次；抱怨網路討論過度簡化時常用。",
+          "native": "used when asking for finer distinctions instead of a blunt label",
+          "nativeZh": "要求更細緻區分、別貼粗標籤"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "start": 2487.0,
+      "end": 2493.0,
+      "t": "00:41:27",
+      "en": "Want to add a disclaimer that I don't always agree with everything asmin gold says or does politically and",
+      "zh": "加個免責：我並不總是同意 Asmongold 在政治與",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 315,
+      "start": 2493.0,
+      "end": 2506.0,
+      "t": "00:41:33",
+      "en": "Philosophically we have quite a few differing perspectives especially when it comes to some of our World Views but this in no way should ever be a reason for me to spread hate towards him because I sometimes disagree with him he",
+      "zh": "哲學上說的或做的每一件事。我們有不少不同視角，尤其在某些世界觀上；但這絕不該成為我因為有時不同意他就散播仇恨的理由。他",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 316,
+      "start": 2506.0,
+      "end": 2514.0,
+      "t": "00:41:46",
+      "en": "Has actually encouraged me to see things from a different perspective which I appreciate and has actually taught me a lot it's natural for people to hate",
+      "zh": "其實鼓勵我從不同角度看事情，我很感激，也確實教了我很多。人們仇恨別人是很自然的：",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 317,
+      "start": 2514.0,
+      "end": 2524.0,
+      "t": "00:41:54",
+      "en": "People we're born with this instinct I personally try not to hate anyone myself but that's because I build my life on my Christian beliefs and worldview and I",
+      "zh": "我們天生有這種本能。我個人盡量不恨任何人，因為我把人生建立在基督教信仰與世界觀上，也",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 318,
+      "start": 2524.0,
+      "end": 2531.0,
+      "t": "00:42:04",
+      "en": "Also want to honor God with my life but one thing I don't believe anyone should ever do is spread unnecessary hate",
+      "zh": "想用生命榮耀上帝；但我認為任何人都不該對任何人散播不必要的仇恨，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 319,
+      "start": 2531.0,
+      "end": 2539.0,
+      "t": "00:42:11",
+      "en": "Towards anyone especially if it has no substance I am an advocate of holding individuals or corporations accountable",
+      "zh": "尤其當它毫無實質時。我主張：若有真正充分的證據，就該對個人或企業的",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "hold accountable",
+          "native": "used when insisting someone face consequences for what they did",
+          "nativeZh": "要求某人為行為承擔後果"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：hold accountable",
+          "ex": [
+            "We should hold bad actors accountable."
+          ],
+          "use": "追究責任、要求負責；新聞與社群治理用語。",
+          "native": "used when insisting someone face consequences for what they did",
+          "nativeZh": "要求某人為行為承擔後果"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "start": 2539.0,
+      "end": 2548.0,
+      "t": "00:42:19",
+      "en": "For their actions or behaviors if there is genuine warranted evidence to do so it's funny to see uh you know",
+      "zh": "行為追究責任。很好笑……你知道，每當有人看那些人們……謝謝大家觀看我的影片，也非常感謝我的 Patreon 支持者。我未來可能會做第二集，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 321,
+      "start": 2548.0,
+      "end": 2557.0,
+      "t": "00:42:28",
+      "en": "Whenever anybody looks at the kind of [ __ ] that people thank you everyone for watching my video and thank you so much to my patreons for all your support I might do a part two on this in the far",
+      "zh": "但我真的很想先把想法講出來，因為我看這場對話一陣子了，",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 322,
+      "start": 2557.0,
+      "end": 2563.0,
+      "t": "00:42:37",
+      "en": "Future but I just really wanted to get my thoughts out on here because I've been seeing this conversation for a",
+      "zh": "很多人完全沒有任何層次的批判思考。就像我說的：拜託我們不要騷擾任何人。我",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 323,
+      "start": 2563.0,
+      "end": 2570.0,
+      "t": "00:42:43",
+      "en": "Little without any level of critical thinking from a lot of people and like I said please can we not harass anyone I",
+      "zh": "不想散播那套——那跟我想做的完全相反。讓我們一起把這裡變成美好的",
+      "tags": [
+        {
+          "k": "vocab",
+          "v": "critical thinking",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ],
+      "notes": [
+        {
+          "label": "單字：critical thinking",
+          "ex": [
+            "Schools should teach critical thinking, not just memorization."
+          ],
+          "use": "批判思考：用證據與邏輯檢驗主張，教育與媒體素養討論核心詞。",
+          "native": "used when urging careful checking of claims instead of blind acceptance",
+          "nativeZh": "提醒用證據邏輯檢驗主張"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "start": 2570.0,
+      "end": 2576.0,
+      "t": "00:42:50",
+      "en": "Do not want to spread that is the complete opposite of what I'm trying to do here let's all make this a beautiful",
+      "zh": "地方，大家可以健康地不同意。如果你完全不同意我的任何論點，我很想在留言區真正跟你對話。顯然請保持文明，但我真的想看到你們對",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 325,
+      "start": 2576.0,
+      "end": 2586.0,
+      "t": "00:42:56",
+      "en": "Place where we can all disagree healthily if you completely disagree with any of my points I would love to actually converse with you in the comments below let's keep it civil obviously but I really want to see some",
+      "zh": "這些話題的一些視角；也許我們能一起努力，讓 YouTube 與",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 326,
+      "start": 2586.0,
+      "end": 2592.0,
+      "t": "00:43:06",
+      "en": "Of your perspectives on any of these topics and maybe we can all work together to Better YouTube and better",
+      "zh": "網路在任何形式上變得更好。喔靠，我覺得……我很高興我看了這支，我幾乎完全同意他說的。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 327,
+      "start": 2592.0,
+      "end": 2606.0,
+      "t": "00:43:12",
+      "en": "The internet in any shape or form oh [ __ ] I feel like this is uh I'm glad I'm glad I watched this I I really agree I mean pretty much with everything he said",
+      "zh": "而且我覺得很多恨我的人——重點是我其實覺得最大的",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 328,
+      "start": 2606.0,
+      "end": 2614.0,
+      "t": "00:43:26",
+      "en": "And and I think that a lot of the people that hate me the thing is that I actually feel like the biggest the",
+      "zh": "正面，就是那些關於我的仇恨串。我覺得關於我的仇恨串、以及網路對我的仇恨聖戰，大概是對我職涯",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 329,
+      "start": 2614.0,
+      "end": 2623.0,
+      "t": "00:43:34",
+      "en": "Biggest positive is these hate threads about me I think that the hate threads about me and the Internet Hate Crusade against me has been probably one of the",
+      "zh": "最好的事情之一：非常成功、對我極度正面。因為很多對我說的話超生氣的人，只是網上精神有狀況的白痴；所以當他們真的去",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 330,
+      "start": 2623.0,
+      "end": 2638.0,
+      "t": "00:43:43",
+      "en": "Best things for my career it's been massively successful and Incredibly positive for me because a lot of the people that get really mad about the stuff that I say are just mentally ill retards on the internet so when they go",
+      "zh": "看我的實況，本來以為「這傢伙一定是納粹、在講黑人有多糟」，結果上了實況",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 331,
+      "start": 2638.0,
+      "end": 2646.0,
+      "t": "00:43:58",
+      "en": "And they actually watch My Stream somebody's like wow I bet this guy's like actually a Nazi he's talking about like how bad black people are and I go on the stream you go on my stream and",
+      "zh": "看我的實況，本來以為「這傢伙一定是納粹、在講黑人有多糟」，結果上了實況",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 332,
+      "start": 2646.0,
+      "end": 2653.0,
+      "t": "00:44:06",
+      "en": "I'm not doing that they are like okay well actually this guy's pretty normal so it's basically advertisement the",
+      "zh": "我並沒在那樣做，他們就會想：好吧這傢伙其實挺正常。所以基本上那是廣告。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 333,
+      "start": 2653.0,
+      "end": 2658.0,
+      "t": "00:44:13",
+      "en": "Problem is that a lot of the people that are oppositional to me not only are they",
+      "zh": "問題是：很多對立於我的人，不只是",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 334,
+      "start": 2658.0,
+      "end": 2668.0,
+      "t": "00:44:18",
+      "en": "Unwilling to do that but they're actively afraid of it the one thing that they don't want is for people to hear what they're saying and they don't want to have their opinions critical",
+      "zh": "不願意那樣做，還積極害怕那樣做。他們最不想要的，就是讓人聽到他們在說什麼，也不想讓自己的意見被",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 335,
+      "start": 2668.0,
+      "end": 2674.0,
+      "t": "00:44:28",
+      "en": "Critically evaluated because they know what's going to happen and I think it's the biggest self-report of the world",
+      "zh": "批判性評估，因為他們知道會發生什麼；我覺得這是世上最大的自我揭穿。",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 336,
+      "start": 2674.0,
+      "end": 2680.0,
+      "t": "00:44:34",
+      "en": "Like why are you afraid of other people critiquing and listening to what you're saying well the reason why is because",
+      "zh": "你為什麼害怕別人檢視、聆聽你在說什麼？原因就是因為",
+      "tags": [],
+      "notes": []
+    },
+    {
+      "id": 337,
+      "start": 2680.0,
+      "end": 2692.0,
+      "t": "00:44:40",
+      "en": "You know you're wrong you know somewhere deep down inside that you're full of [ __ ] you're a [ __ ] [ __ ] and everybody knows it and that's the real",
+      "zh": "你知道自己是錯的；你內心某處知道自己在鬼扯，你就是在胡扯，大家都知道——那才是真正的。",
+      "tags": [],
+      "notes": []
+    }
+  ]
+}
