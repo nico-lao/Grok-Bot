@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>聽力練習 · $1 vs $500,000 Plane Ticket（MrBeast）</title>
+<style>
+  :root {
+    --bg: #0f1115; --card: #1a1d24; --text: #e8eaed; --muted: #9aa0a6;
+    --accent: #8ab4f8; --ok: #81c995; --warn: #fdd663; --border: #2d3139;
+    --phrase: #c58af9; --vocab: #fdd663;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: "Segoe UI", system-ui, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.55; font-size: 26px;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 72px; }
+  h1 { font-size: 1.85rem; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 16px; font-size: 1.02rem; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 16px; margin-bottom: 14px;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .stats { display: flex; flex-wrap: wrap; gap: 16px; color: var(--muted); font-size: 1rem; margin-bottom: 8px; }
+  button {
+    appearance: none; border: 1px solid var(--border); background: #252830;
+    color: var(--text); border-radius: 8px; padding: 12px 16px;
+    font-size: 1.05rem; cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); color: #0f1115; border-color: transparent; font-weight: 600; }
+  button:disabled { opacity: 0.55; cursor: default; }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; flex-wrap: wrap; }
+  .seg button { border: 0; border-radius: 0; padding: 10px 12px; font-size: 0.95rem; }
+  .seg button.active { background: var(--accent); color: #0f1115; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 1rem; }
+  .prompt { margin: 10px 0 4px; color: var(--muted); font-size: 1.05rem; }
+  .note { font-size: 0.95rem; color: var(--muted); }
+  audio { width: 100%; margin-top: 10px; }
+  .spoiler-slot {
+    margin-top: 14px; padding: 16px; border-radius: 12px;
+    background: #12151a; border: 1px solid var(--border); min-height: 4.5em;
+  }
+  .spoiler-slot.locked {
+    color: var(--muted); font-size: 1.05rem; font-weight: 500;
+  }
+  .spoiler-slot.locked .revealed-body { display: none; }
+  .spoiler-slot.open .locked-msg { display: none; }
+  .label-en { color: var(--accent); font-weight: 700; font-size: 0.95rem; margin: 0 0 4px; }
+  .label-zh { color: var(--ok); font-weight: 700; font-size: 0.95rem; margin: 14px 0 4px; }
+  .en { font-size: 1.35rem; font-weight: 600; margin: 0 0 6px; }
+  .zh { color: #c5c9d0; font-size: 1.15rem; margin: 0 0 8px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 6px; }
+  .tag {
+    display: inline-block; border-radius: 999px; padding: 4px 10px;
+    font-size: 0.82rem; font-weight: 600;
+  }
+  .tag.phrase { background: #2a1f3d; color: var(--phrase); border: 1px solid #4a3568; }
+  .tag.vocab { background: #3a3218; color: var(--vocab); border: 1px solid #6a5a28; }
+  .marker {
+    margin-top: 10px; padding: 10px 12px; border-radius: 8px;
+    background: #0f1115; border: 1px solid var(--border);
+  }
+  .marker .label { font-weight: 600; margin-bottom: 4px; }
+  .marker.phrase .label { color: var(--phrase); }
+  .marker.vocab .label { color: var(--vocab); }
+  .examples { margin: 6px 0 0; padding-left: 1.2em; color: var(--muted); font-size: 0.95rem; }
+  .usage { margin: 6px 0 0; color: #b8c0cc; font-size: 0.95rem; }
+  .native-use { color: var(--ok); font-size: 0.95rem; margin-top: 6px; line-height: 1.4; }
+  .native-use strong { color: var(--warn); font-weight: 600; }
+  .pill { font-size: 0.9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>聽力練習 · $1 vs $500,000 Plane Ticket</h1>
+  <p class="sub">MrBeast（英語原音）。先聽一段，再點「顯示內容」才會出現原文／翻譯／學習句與單字。<br/>
+  來源：<a href="https://www.youtube.com/watch?v=1WEAJ-DFkHE" target="_blank" rel="noopener">YouTube</a>
+  · <a href="../">Critical Thinking 練習</a>
+  · <a href="../iq-115/">IQ 115 練習</a></p>
+
+  <div class="card">
+    <div class="stats">
+      <span id="progress">1 / 93</span>
+      <span id="timeRange" class="meta"></span>
+      <span id="tagHint" class="pill"></span>
+    </div>
+    <div class="row" style="margin-bottom:10px">
+      <span class="note">篩選</span>
+      <div class="seg" id="filterSeg">
+        <button type="button" data-filter="all" class="active">全部</button>
+        <button type="button" data-filter="phrase">僅學習句</button>
+        <button type="button" data-filter="vocab">僅單字</button>
+        <button type="button" data-filter="tagged">有標記</button>
+      </div>
+    </div>
+    <p class="prompt">第 <span id="num">1</span> 段 · 先播放，聽完再顯示內容（預設全隱藏）</p>
+    <div class="row" style="margin-top:10px">
+      <button type="button" class="primary" id="btnPlay">▶ 播放</button>
+      <button type="button" id="btnReveal">顯示內容</button>
+      <button type="button" id="btnHide" disabled>隱藏</button>
+      <button type="button" id="btnReplay">再聽一次</button>
+    </div>
+    <div class="row" style="margin-top:10px">
+      <button type="button" id="btnPrev">← 上一段</button>
+      <button type="button" id="btnNext">下一段 →</button>
+      <button type="button" id="btnYoutube">YouTube 對應時間</button>
+    </div>
+
+    <div id="spoiler" class="spoiler-slot locked" aria-live="polite">
+      <div class="locked-msg">內容已隱藏。聽完後點「顯示內容」才會出現：原文、中文翻譯、【學習句】／【單字】。</div>
+      <div class="revealed-body" id="revealedBody"></div>
+    </div>
+    <p class="note" id="status"></p>
+    <audio id="player" controls preload="auto"></audio>
+  </div>
+
+  <div class="card">
+    <p class="note">用法：▶ 播放只聽這一段。顯示前看不到英文／中文／學習標記。標記風格對齊 Critical Thinking／IQ 115 練習頁。</p>
+    <p class="note">本頁音訊來自 GitHub Release；共 93 段，繁中翻譯齊全。先聽再顯示內容。</p>
+  </div>
+</main>
+<script>
+const SEGMENTS = [{"id": 1, "start": 0.1, "end": 11.784, "en": "We're gonna fly on this jet that costs half a million dollars per flight and we're also gonna fly on a $25,000 private jet, a $10,000 first-class seat, a blimp, and so much more.", "zh": "我們要搭這架噴射機，一趟要價五十萬美元；同時也會坐兩萬五千美元的私人飛機、一萬美元的頭等艙、一艘飛船，還有更多驚喜。", "tags": [{"k": "phrase", "v": "We're gonna fly on…", "native": "casual way to preview what's coming", "nativeZh": "口語預告接下來要做的事", "examples": ["We're gonna try the new restaurant tonight.", "We're gonna start with the easy part."], "usage": "gonna = going to，預告行程時很常用。"}, {"k": "phrase", "v": "and so much more", "native": "used to hint at extra surprises without listing them", "nativeZh": "暗示還有更多沒說完的內容", "examples": ["The tour includes hotels, meals, and so much more.", "The app has chat, maps, and so much more."], "usage": "預告或廣告結尾常用，把期待感留到後面。"}], "notes": []}, {"id": 2, "start": 11.834, "end": 18.65, "en": "But before I show you what it's like to fly on some of the most luxurious planes on the planet, we're gonna fly on the cheapest plane in the world.", "zh": "不過在帶你們看世界上最豪華的飛機是什麼感覺之前，我們先來坐全世界最便宜的飛機。", "tags": [{"k": "phrase", "v": "But before I show you…", "native": "used to delay the highlight and start with something else", "nativeZh": "先按下主菜、從別的地方開始", "examples": ["But before I show you the results, let's look at the method.", "But before we eat, let's wash up."], "usage": "影片或簡報常用：先賣關子，再切到對比項目。"}, {"k": "vocab", "v": "luxurious", "native": "very comfortable, expensive, and fancy", "nativeZh": "豪華的、奢侈舒適的", "examples": ["They stayed in a luxurious hotel.", "It's comfortable, but not luxurious."], "usage": "比 fancy 更正式一點，強調舒適與昂貴。"}], "notes": []}, {"id": 3, "start": 18.4, "end": 25.151, "en": "It's really rickety. Here's the dollar. I'm very nervous. Nothing to be nervous about. I've done this half a dozen times.", "zh": "這東西真的很破爛。這就是那一塊錢。我超緊張。沒什麼好緊張的。這種我做過大概六次了。", "tags": [{"k": "vocab", "v": "rickety", "native": "old, shaky, and not very sturdy", "nativeZh": "搖搖晃晃、不太穩固的", "examples": ["We crossed a rickety old bridge.", "Don't sit on that rickety chair."], "usage": "形容東西老舊不穩，帶點擔心它會散掉的感覺。"}, {"k": "phrase", "v": "Nothing to be nervous about.", "native": "a reassuring way to say it's safe or easy", "nativeZh": "安慰別人「沒什麼好緊張」", "examples": ["It's just a short talk. Nothing to be nervous about.", "You've practiced. Nothing to be nervous about."], "usage": "安慰語氣：把對方的擔心淡化。"}, {"k": "phrase", "v": "half a dozen times", "native": "about six times; a casual count", "nativeZh": "大概六次（口語計次）", "examples": ["I've been there half a dozen times.", "She called me half a dozen times today."], "usage": "a dozen 是 12，half a dozen 就是 6，比直接說 six 更口語。"}], "notes": []}, {"id": 4, "start": 24.901, "end": 27.151, "en": "You've done this six times?", "zh": "你做過六次？", "tags": [], "notes": []}, {"id": 5, "start": 29.701, "end": 32.218, "en": "Why does this sound like a lawn mower engine?", "zh": "為什麼這聽起來像割草機的引擎？", "tags": [{"k": "vocab", "v": "lawn mower", "native": "a machine for cutting grass", "nativeZh": "割草機", "examples": ["The lawn mower is in the garage.", "That engine sounds like a lawn mower."], "usage": "這裡用來吐槽引擎聲又小又吵，不像正式飛機。"}], "notes": []}, {"id": 6, "start": 33.133, "end": 36.25, "en": "Time for a ride on the world's cheapest plane ticket.", "zh": "來體驗全世界最便宜的機票吧。", "tags": [], "notes": []}, {"id": 7, "start": 37.334, "end": 44.051, "en": "Oh boy. Oh my... Oh my gosh, round up. We're going so fast. — Come on, get it.", "zh": "喔天哪。喔我的……我的天，加速。我們飛得好快。——加油，衝起來。", "tags": [{"k": "phrase", "v": "Oh my gosh", "native": "a burst of surprise or alarm", "nativeZh": "驚訝或緊張時的口頭禪", "examples": ["Oh my gosh, I forgot my passport.", "Oh my gosh, look at that view."], "usage": "比 oh my god 稍微委婉，驚喜或驚嚇都能用。"}, {"k": "phrase", "v": "Come on, get it.", "native": "urging someone or something to succeed", "nativeZh": "加油、快成功啊", "examples": ["Come on, get it! You can lift that.", "Come on, get it started."], "usage": "幫對方打氣，或催促機器／車輛快點啟動。"}], "notes": []}, {"id": 8, "start": 43.801, "end": 50.084, "en": "That does not sound safe. — Nah ah. They almost hit the camera. Whoo! — What are you doing?", "zh": "這聽起來一點都不安全。——才不是。他們差點撞到攝影機。嗚呼！——你在幹嘛？", "tags": [{"k": "phrase", "v": "That does not sound safe.", "native": "a blunt way to say something feels dangerous", "nativeZh": "直接說「聽起來不安全」", "examples": ["That does not sound safe. Maybe we should stop.", "Leaving the door open does not sound safe."], "usage": "用 does not 加強否定，語氣比 doesn't 更清楚、更認真。"}, {"k": "phrase", "v": "Nah ah", "native": "playful refusal; like 'nope' or 'nuh-uh'", "nativeZh": "俏皮地反駁「才不是／不行」", "examples": ["Nah ah, that's my seat.", "Nah ah, you're not leaving yet."], "usage": "口語、孩子氣一點的否認，寫成 nuh-uh / nah ah 都常見。"}], "notes": []}, {"id": 9, "start": 49.834, "end": 54.517, "en": "Keep your seatbelt on. Uh, you just focused on keeping me alive, Doug. — I'm trying.", "zh": "安全帶繫好。呃，你就專心讓我活著就好，Doug。——我在努力了。", "tags": [{"k": "phrase", "v": "Keep your seatbelt on.", "native": "a direct safety instruction", "nativeZh": "提醒把安全帶繫好", "examples": ["Keep your seatbelt on until we stop.", "The sign says to keep your seatbelt on."], "usage": "keep … on 表示維持某個狀態，不要解開。"}, {"k": "phrase", "v": "keeping me alive", "native": "jokingly depending on someone for safety", "nativeZh": "半開玩笑把性命託付給對方", "examples": ["You just focus on keeping me alive in this game.", "I'm counting on you to keep me alive."], "usage": "緊張場合常用的幽默：其實是在說「別讓我出事」。"}], "notes": []}, {"id": 10, "start": 56.033, "end": 62.45, "en": "All right, he's in there. All right, dibs on the channel. I got what I need. You can land whenever. No.", "zh": "好，他上去了。好，這個頻道我先佔了。我要的畫面有了，你隨時可以降落。不行。", "tags": [{"k": "vocab", "v": "dibs", "native": "a quick claim that something is yours first", "nativeZh": "先口頭佔有／先預訂", "examples": ["Dibs on the front seat!", "I called dibs on the last cookie."], "usage": "口語：誰先喊 dibs，那東西就先歸誰。也可以說 call dibs on something。"}, {"k": "phrase", "v": "You can land whenever.", "native": "casual permission to do it at any time", "nativeZh": "隨你什麼時候做都可以", "examples": ["I'm done here. You can leave whenever.", "The file's saved. You can close it whenever."], "usage": "whenever 單獨用，表示時間完全交給對方。"}], "notes": []}, {"id": 11, "start": 62.2, "end": 66.98, "en": "Doug, come on. Doug, please. That guy pays my bills. Be careful.", "zh": "Doug，拜託啦。Doug，求你。那個人可是付我薪水的，小心一點。", "tags": [{"k": "phrase", "v": "That guy pays my bills.", "native": "a joking reminder that someone is the boss / source of income", "nativeZh": "半開玩笑說對方是衣食父母", "examples": ["Be nice. That client pays my bills.", "I can't roast the host. He pays my bills."], "usage": "用來提醒：這人很重要，別鬧出事。"}], "notes": []}, {"id": 12, "start": 66.734, "end": 78.051, "en": "And if you guys think this is crazy, wait until later in the video when we have the world's most expensive plane ticket on the planet. Wait a minute, you're making me feel bad. Oh my god, he's coming in hot. [Doug] Get ready to land.", "zh": "如果你們覺得這已經很瘋了，等到影片後面，我們還有全世界最貴的機票。等一下，你這樣講我會不好意思。天啊，他要高速進場了。[Doug] 準備降落。", "tags": [{"k": "phrase", "v": "wait until later in the video", "native": "a teaser that something bigger is coming", "nativeZh": "預告後面還有更精彩的", "examples": ["This is wild, but wait until later in the video.", "Wait until later in the video for the reveal."], "usage": "YouTube 常用留人句：先給一點，再把高潮往後放。"}, {"k": "phrase", "v": "coming in hot", "native": "arriving fast, hard, or aggressively", "nativeZh": "高速／猛烈地靠近或進場", "examples": ["The plane is coming in hot.", "He came in hot and almost missed the turn."], "usage": "航空、賽車、遊戲都常用，帶一點「有點太快、有點危險」的感覺。"}], "notes": []}, {"id": 13, "start": 77.801, "end": 85.584, "en": "Almost. [Group] Yeah. We're on the ground, we survive. [Person] Our next plane is the $1,000 first class plane ticket.", "zh": "快了。[眾人] 耶。我們著地了，活下來了。[旁白] 下一架是一千美元的頭等艙機票。", "tags": [{"k": "phrase", "v": "We're on the ground, we survive.", "native": "a relieved, slightly joking way to say they made it", "nativeZh": "鬆一口氣：我們活著著陸了", "examples": ["We're on the ground. We made it.", "The ride's over. We survived."], "usage": "官方字幕是 we survive，口語裡更常說 we survived / we made it。"}], "notes": []}, {"id": 14, "start": 85.334, "end": 92.417, "en": "But here's the thing, boys. I bought all the first class seats, so, sit wherever you want. Would you like some miracle mist lotion? Why?", "zh": "不過重點來了，兄弟們。頭等艙座位我全買下來了，所以你們愛坐哪就坐哪。要來點奇蹟噴霧乳液嗎？為什麼？", "tags": [{"k": "phrase", "v": "here's the thing", "native": "used to introduce the key point or catch", "nativeZh": "引出重點或關鍵條件", "examples": ["Here's the thing: we only have ten minutes.", "I'd love to go, but here's the thing — I have a test."], "usage": "先把聽眾注意力拉回來，再講真正重要的那句。"}, {"k": "phrase", "v": "sit wherever you want", "native": "complete freedom to choose a seat", "nativeZh": "愛坐哪就坐哪", "examples": ["The room is ours. Sit wherever you want.", "There are no assigned seats, so sit wherever you want."], "usage": "wherever 強調沒有限制，很適合輕鬆招待別人。"}], "notes": []}, {"id": 15, "start": 92.167, "end": 101.55, "en": "Because first class, baby, fine dining, huh. [Person] Each of us has our own seat and TV. The ticket also comes with a decent meal, a free bag of toiletries and pajamas.", "zh": "因為這是頭等艙啊寶貝，精品餐飲，對吧。[旁白] 我們每個人都有自己的座位和電視。機票還附一頓還不錯的餐、一包免費盥洗用品和睡衣。", "tags": [{"k": "vocab", "v": "toiletries", "native": "small bathroom items like toothpaste or lotion", "nativeZh": "盥洗用品", "examples": ["Don't forget your toiletries.", "The hotel provides basic toiletries."], "usage": "複數名詞，泛指旅行用的洗漱小物。"}, {"k": "vocab", "v": "pajamas", "native": "clothes worn for sleeping", "nativeZh": "睡衣", "examples": ["I packed my pajamas.", "Some first-class tickets come with pajamas."], "usage": "美式拼法 pajamas；英式常寫 pyjamas。"}], "notes": []}, {"id": 16, "start": 101.3, "end": 108.283, "en": "Do we get to take all this home with us? [Person] And during longer flights... Recline. We should recline into a bed.", "zh": "這些我們都可以帶回家嗎？[旁白] 而且在較長的航班上……放倒。我們應該把座位放倒變成床。", "tags": [{"k": "vocab", "v": "recline", "native": "to lean a seat back into a flatter position", "nativeZh": "把椅背放倒", "examples": ["You can recline your seat after takeoff.", "Don't recline too far if someone is behind you."], "usage": "搭機、看電影時常用：recline the seat / recline into a bed。"}], "notes": []}, {"id": 17, "start": 108.033, "end": 116.35, "en": "I feel like I'm in a coffin, which I like. Yeah, this is crazy. [Person] And best of all... My favorite part about this $1,000 plane, I don't need to speak to Nolan.", "zh": "我覺得自己好像躺在棺材裡，不過我喜歡。對，這太狂了。[旁白] 最棒的是……這一千美元班機我最喜歡的部分是：我不必跟 Nolan 講話。", "tags": [{"k": "phrase", "v": "I feel like I'm in a coffin", "native": "a jokey complaint that a space is tight and enclosed", "nativeZh": "開玩笑抱怨空間又窄又密", "examples": ["In the bottom bunk I feel like I'm in a coffin.", "This changing room is so tiny I feel like I'm in a coffin."], "usage": "誇張比喻，聽起來負面，但這裡立刻補 which I like，變成幽默。"}, {"k": "phrase", "v": "best of all", "native": "used to introduce the most attractive point", "nativeZh": "最棒的是……", "examples": ["It's cheap, and best of all, it's nearby.", "Best of all, we don't have to wait."], "usage": "列完優點後再加一記高潮，口語和廣告都很常見。"}], "notes": []}, {"id": 18, "start": 116.1, "end": 121.58, "en": "I don't like this glass 'cause it like separates me. I'm all alone back here. That is the exact reason why I like it.", "zh": "我不喜歡這塊玻璃，因為它好像把我隔開了。我一個人待在後面。這正是我喜歡它的原因。", "tags": [{"k": "phrase", "v": "'cause", "native": "spoken short form of because", "nativeZh": "because 的口語省略", "examples": ["I'm leaving early 'cause I'm tired.", "I like it 'cause it's quiet."], "usage": "只能用在口語或很輕鬆的文字，寫正式句子仍用 because。"}, {"k": "phrase", "v": "That is the exact reason why…", "native": "emphatically pointing to the precise cause", "nativeZh": "強調「正因為這個」", "examples": ["That's the exact reason why I left early.", "This is the exact reason why we practiced."], "usage": "比 that's why 更用力，帶點「你講的點正好是關鍵」。"}], "notes": []}, {"id": 19, "start": 121.334, "end": 130.851, "en": "The only downside is that you don't get a lot of privacy. [Chris] It's really awkward filming a video with all these people walking by. So, let's see what a plane ticket 10 times more expensive will feel like.", "zh": "唯一的缺點是隱私不多。[Chris] 這麼多人走過，要拍影片真的很尷尬。那我們來看看貴十倍的機票會是什麼感覺。", "tags": [{"k": "vocab", "v": "downside", "native": "the disadvantage or catch", "nativeZh": "缺點、不好的一面", "examples": ["The downside is the price.", "Every plan has a downside."], "usage": "常用 The only downside is… 先肯定再補一句缺點。"}, {"k": "vocab", "v": "awkward", "native": "uncomfortable or embarrassing", "nativeZh": "尷尬、不自在的", "examples": ["It got awkward when nobody spoke.", "Filming in public can feel awkward."], "usage": "社交場合很常用，不一定是壞事，但氣氛別扭。"}], "notes": []}, {"id": 20, "start": 130.601, "end": 137.25, "en": "And now, the $10,000 plane ticket. Oh man, this is nice. I have unlimited legroom here.", "zh": "接下來，一萬美元的機票。喔天，這很舒服。這裡有無限的伸腿空間。", "tags": [{"k": "vocab", "v": "legroom", "native": "space for your legs in a seat", "nativeZh": "伸腿空間", "examples": ["I booked an exit row for more legroom.", "The back seats have almost no legroom."], "usage": "談飛機、汽車座位舒適度的核心詞；unlimited legroom 是誇張讚美。"}], "notes": []}, {"id": 21, "start": 137.0, "end": 144.383, "en": "Look, let's start off by analyzing what we get. A tablet, a giant touchscreen TV, my own in-seat drink bar, snacks.", "zh": "來，我們先盤點一下有什麼。一台平板、超大觸控電視、專屬座位飲料吧，還有零食。", "tags": [{"k": "phrase", "v": "let's start off by…", "native": "a casual way to begin a series of steps", "nativeZh": "先從……開始", "examples": ["Let's start off by checking the list.", "Let's start off by introducing ourselves."], "usage": "start off 等於「開頭先做這件事」，簡報、教學、開箱都很順。"}, {"k": "vocab", "v": "in-seat", "native": "built into or located at your seat", "nativeZh": "附在座位上的、座位內建的", "examples": ["The in-seat screen is bigger than I expected.", "Some trains have in-seat power outlets."], "usage": "複合形容詞，強調不用起身、就在座位旁。"}], "notes": []}, {"id": 22, "start": 144.133, "end": 153.118, "en": "This isn't Feastables chocolate. I want a refund. We're getting connected to the Wi-Fi. We might have paid $10,000 for our seat but we still have to pay $20 for Wi-Fi.", "zh": "這不是 Feastables 巧克力。我要退款。我們正在連 Wi-Fi。座位花了一萬美元，Wi-Fi 居然還要再付二十美元。", "tags": [{"k": "phrase", "v": "I want a refund", "native": "a joking or real demand to get money back", "nativeZh": "要求退款（這裡是開玩笑）", "examples": ["This isn't what I ordered. I want a refund.", "If the Wi-Fi keeps dropping, I want a refund."], "usage": "正式場合也能用；這裡是看到不是自家巧克力後的笑點。"}], "notes": []}, {"id": 23, "start": 152.868, "end": 160.25, "en": "It's not free? Now, we're taking off, which is pretty crazy because I can literally watch it on my TV. Look at how nice this bathroom is.", "zh": "不是免費的嗎？現在起飛了，這挺瘋狂的，因為我可以直接在自己的電視上看起飛畫面。你看這洗手間有多講究。", "tags": [{"k": "phrase", "v": "I can literally watch it", "native": "emphasizing that something is actually, not just figuratively, true", "nativeZh": "強調「真的可以、不是誇張」", "examples": ["I can literally see the runway from here.", "We can literally finish this in five minutes."], "usage": "口語裡 literally 常拿來加強語氣，這裡則是字面意思：真的能在螢幕上來看。"}], "notes": []}, {"id": 24, "start": 160.0, "end": 165.118, "en": "You have a sink, a toilet, and then a shower. That is crazy. Look at that.", "zh": "有洗手台、馬桶，還有淋浴間。這太狂了。你看那個。", "tags": [], "notes": []}, {"id": 25, "start": 164.868, "end": 172.817, "en": "We are 30,000 feet in the air and I can take a shower. On top of that, me and the boys can order as much gourmet food as we want.", "zh": "我們在三萬英尺高空，我還能洗澡。除此之外，我和兄弟們還能隨便點高級餐點。", "tags": [{"k": "phrase", "v": "On top of that", "native": "used to add another impressive or extra point", "nativeZh": "除此之外、而且還有", "examples": ["The room is huge. On top of that, it has a view.", "He was late, and on top of that, he forgot the keys."], "usage": "可加好消息也可加壞消息，重點是「再叠加一層」。"}, {"k": "vocab", "v": "gourmet", "native": "high-end or especially high-quality food", "nativeZh": "高級的、精品的（美食）", "examples": ["They served gourmet meals on the flight.", "It's a small but gourmet restaurant."], "usage": "多半放在 food / meal / chocolate 前面，語氣比 delicious 更「高級」。"}], "notes": []}, {"id": 26, "start": 172.567, "end": 179.25, "en": "And that's not all, we save the best for last. Hey, how's it going? There's a private lounge in the back of the plane. Hey, Jimmy.", "zh": "這還沒完，壓軸的留到最後。嘿，你好嗎？機尾還有一間私人休息室。嘿，Jimmy。", "tags": [{"k": "phrase", "v": "that's not all", "native": "a teaser that something even better is coming", "nativeZh": "這還沒完、還有下文", "examples": ["That's not all — there's dessert too.", "The prize is a ticket, and that's not all."], "usage": "常跟 we saved the best for last 連用，製造期待。"}, {"k": "phrase", "v": "save the best for last", "native": "to keep the most impressive thing until the end", "nativeZh": "把最好的留到最後", "examples": ["Let's save the best for last.", "They saved the best surprise for last."], "usage": "展示、送禮、說故事都很常用的節奏句。"}], "notes": []}, {"id": 27, "start": 179.0, "end": 184.417, "en": "Yeah. Ow. You're not dreaming. That was the $10,000 plane ticket.", "zh": "嗯。啊。你不是在做夢。那就是一萬美元的機票。", "tags": [{"k": "phrase", "v": "You're not dreaming.", "native": "used to confirm something unbelievable is real", "nativeZh": "提醒「這是真的，不是做夢」", "examples": ["You're not dreaming. That's actually the ocean.", "Pinch yourself. You're not dreaming."], "usage": "看到超乎尋常的東西時，用來加強真實感。"}], "notes": []}, {"id": 28, "start": 184.167, "end": 190.283, "en": "Point the camera up and down. And now we're at the $25,000 plane ticket that is up these stairs.", "zh": "鏡頭上下掃一下。現在我們來到兩萬五千美元的機票，要從這段樓梯上去。", "tags": [], "notes": []}, {"id": 29, "start": 190.033, "end": 196.584, "en": "That's right, there's floors. This is insane. This is crazy. We're gonna be sitting above other people. Oh my god.", "zh": "沒錯，這飛機是有樓層的。這太誇張了。這太狂了。我們會坐在其他人頭上。我的天。", "tags": [{"k": "phrase", "v": "That's right", "native": "confirming a surprising fact", "nativeZh": "證實一個讓人意外的事實", "examples": ["That's right, we get tomorrow off.", "That's right — there's a second floor."], "usage": "先丟出驚人資訊，再用 that's right 幫聽眾確認自己沒聽錯。"}], "notes": []}, {"id": 30, "start": 196.334, "end": 203.25, "en": "Now, this is your room. For $25,000, you get two massive rooms. Oh, this is crazy. I've never seen anything like this.", "zh": "現在，這是你的房間。花兩萬五千美元，你會得到兩個超大房間。喔，這太狂了。我從來沒見過這種東西。", "tags": [{"k": "phrase", "v": "I've never seen anything like this.", "native": "strong surprise at something new or extreme", "nativeZh": "表示見過最誇張／從未見過", "examples": ["I've never seen anything like this in a hotel.", "Wow, I've never seen anything like this."], "usage": "讚嘆句，比重複說 crazy / insane 更完整。"}], "notes": []}, {"id": 31, "start": 203.0, "end": 210.917, "en": "Holy... Our space on this plane is literally four times bigger than the last one. I've never seen a plane where I can comfortably do jumping jacks.", "zh": "我的天……我們在這架飛機上的空間，簡直比上一架大四倍。我從沒見過一架飛機能讓我舒舒服服地做開合跳。", "tags": [{"k": "phrase", "v": "literally four times bigger", "native": "emphasizing a real, measurable jump in size", "nativeZh": "強調真的大了四倍", "examples": ["This apartment is literally twice as big.", "The new screen is literally four times bigger."], "usage": "times bigger 用來做倍數比較；前面加 literally 是在說「不是誇張」。"}, {"k": "vocab", "v": "jumping jacks", "native": "an exercise of jumping with arms and legs spread", "nativeZh": "開合跳", "examples": ["We started with twenty jumping jacks.", "There isn't room to do jumping jacks."], "usage": "用來形容空間大到可以在飛機上做操。"}], "notes": []}, {"id": 32, "start": 210.667, "end": 217.717, "en": "Look at this. We also get two chairs, a ton of TVs. There are more TVs in this one room than all of the other planes we've been on.", "zh": "你看這個。我們還有兩張椅子、超多台電視。這一個房間的電視，比我們坐過的其他飛機加起來還多。", "tags": [{"k": "phrase", "v": "a ton of", "native": "a casual way to say a lot of", "nativeZh": "超多、大量（口語）", "examples": ["There's a ton of snacks in the kitchen.", "I have a ton of emails to answer."], "usage": "比 a lot of 更誇張一點，不適合正式報告。"}], "notes": []}, {"id": 33, "start": 217.467, "end": 223.717, "en": "Food served by a personal flight attendant. Why is it that after a certain price point, they always give you a caviar?", "zh": "餐點由專屬空服員送上。為什麼到了某個價位之後，他們總是會給你魚子醬？", "tags": [{"k": "vocab", "v": "flight attendant", "native": "a crew member who serves passengers on a plane", "nativeZh": "空服員", "examples": ["The flight attendant brought more water.", "She works as a flight attendant."], "usage": "比空姊／空少更中性、通用的說法。"}, {"k": "vocab", "v": "price point", "native": "a particular level of cost", "nativeZh": "價位、價格帶", "examples": ["At this price point, I'd expect better quality.", "They're aiming at a lower price point."], "usage": "討論商品值不值得時常用：after a certain price point…"}, {"k": "vocab", "v": "caviar", "native": "expensive fish roe served as a luxury food", "nativeZh": "魚子醬", "examples": ["They served caviar at the reception.", "Caviar is a classic luxury snack."], "usage": "常被當成「有錢人才吃」的象徵，影片裡用來吐槽豪華套餐。"}], "notes": []}, {"id": 34, "start": 223.467, "end": 227.884, "en": "And the bathroom. — Can we talk about something? This bathroom is like a disappointment.", "zh": "還有洗手間。——我們能說件事嗎？這洗手間有點讓人失望。", "tags": [{"k": "phrase", "v": "Can we talk about something?", "native": "a way to switch topics or finally raise a complaint", "nativeZh": "想換話題或終於要吐槽時用", "examples": ["Can we talk about something? This chair is broken.", "Can we talk about the plan for tomorrow?"], "usage": "表面是徵求討論，實際常常是要講一個不快的重點。"}, {"k": "vocab", "v": "disappointment", "native": "something that is worse than expected", "nativeZh": "令人失望的事物", "examples": ["The ending was a disappointment.", "The bathroom was a bit of a disappointment."], "usage": "可指心情，也可直接指那個讓人失望的東西。"}], "notes": []}, {"id": 35, "start": 227.634, "end": 233.851, "en": "No shower, no heated floors, half the size. I think the $10,000 flight was a better price point.", "zh": "沒有淋浴、沒有加熱地板，才一半大。我覺得一萬美元那班的性價比比較好。", "tags": [{"k": "vocab", "v": "heated floors", "native": "floors with built-in warming", "nativeZh": "加熱地板、地暖", "examples": ["The bathroom has heated floors.", "Heated floors feel amazing in winter."], "usage": "豪華住宅或溫泉旅館常見配備，這裡拿來當比較基準。"}, {"k": "phrase", "v": "a better price point", "native": "better value for the money", "nativeZh": "更划算的價位／性價比更好", "examples": ["The mid-range model is a better price point.", "For me, the smaller room is a better price point."], "usage": "不一定是更便宜，而是「這個價錢更值得」。"}], "notes": []}, {"id": 36, "start": 233.601, "end": 239.184, "en": "Would you pay this kind of money for a single flight? I wouldn't recommend this. I would recommend a car. Buy a car instead.", "zh": "你會為單程飛機花這種錢嗎？我不會建議這樣。我會建議買車。改買車吧。", "tags": [{"k": "phrase", "v": "I wouldn't recommend this.", "native": "a polite but clear way to advise against something", "nativeZh": "委婉但明確地不建議", "examples": ["I wouldn't recommend this restaurant at night.", "For a short trip, I wouldn't recommend the upgrade."], "usage": "比 Don't do it 更客氣，適合給建議。"}], "notes": []}, {"id": 37, "start": 238.934, "end": 244.817, "en": "And now, the best part of the room, a queen size bed. Ooh.", "zh": "接著是房間最棒的部分：一張加大雙人床。喔。", "tags": [{"k": "vocab", "v": "queen size bed", "native": "a large bed, bigger than a double but smaller than a king", "nativeZh": "加大雙人床（queen size）", "examples": ["The room has a queen size bed.", "We upgraded to a queen size bed."], "usage": "飯店和機票比較常寫 queen-size bed，口語連在一起說即可。"}], "notes": []}, {"id": 38, "start": 244.567, "end": 250.951, "en": "Why don't they just make every seat a bed? Bro, instead of three seats side by side, just put a bunk bed with three beds.", "zh": "為什麼他們不直接讓每個座位都是床？兄弟，與其三個座位並排，直接放個三層床就好了。", "tags": [{"k": "vocab", "v": "Bro", "native": "casual address among friends, often before a joke or idea", "nativeZh": "兄弟、老兄（很熟的稱呼）", "examples": ["Bro, that's a terrible idea.", "Bro, just take the day off."], "usage": "年輕人口語，不一定真的是兄弟，用來拉近距離。"}, {"k": "vocab", "v": "bunk bed", "native": "two or more beds stacked vertically", "nativeZh": "上下舖、雙層床", "examples": ["The kids share a bunk bed.", "A bunk bed would save a lot of space."], "usage": "一般是兩層；這裡說 three beds，是在開玩笑要做三層。"}], "notes": []}, {"id": 39, "start": 258.133, "end": 265.118, "en": "Good morning. That was really good sleep. Karl, wake up. We're gonna land. I slept like a rock.", "zh": "早安。剛剛睡得真好。Karl，起床了，我們要降落了。我睡得像石頭一樣沉。", "tags": [{"k": "phrase", "v": "I slept like a rock", "native": "slept very deeply and well", "nativeZh": "睡得很沉、睡得很死", "examples": ["After the hike, I slept like a rock.", "I usually toss and turn, but last night I slept like a rock."], "usage": "和 slept like a baby 類似，強調一躺就睡、不容易醒。"}], "notes": []}, {"id": 40, "start": 264.868, "end": 270.184, "en": "That was the world's most expensive commercial flight. Time for private flights.", "zh": "那就是全世界最貴的商業航班。接下來輪到私人包機。", "tags": [{"k": "vocab", "v": "commercial flight", "native": "a regular airline flight, not a private one", "nativeZh": "商業航班（一般民航）", "examples": ["It was my first commercial flight in years.", "Private jets are faster than commercial flights."], "usage": "和 private flight / private jet 對比時特別常用。"}], "notes": []}, {"id": 41, "start": 269.934, "end": 276.218, "en": "This is the $100,000 plane. This thing's huge. At this price point, you get the entire plane.", "zh": "這是十萬美元的飛機。這傢伙好大。到了這個價位，整架飛機都是你的。", "tags": [{"k": "phrase", "v": "This thing's huge", "native": "informal amazement at size", "nativeZh": "口語讚嘆「這傢伙好大」", "examples": ["This thing's huge. Will it fit in the car?", "Look at that burger. This thing's huge."], "usage": "thing 可隨便指眼前的大物件，不必先講正式名稱。"}, {"k": "phrase", "v": "you get the entire plane", "native": "the whole aircraft is yours", "nativeZh": "整架飛機都是你的", "examples": ["For this price, you get the entire cabin.", "On a charter, you get the entire plane."], "usage": "用來對比前面只能買一個座位的商業航班。"}], "notes": []}, {"id": 42, "start": 277.834, "end": 283.884, "en": "Private, private. Oh, it's like a yacht. This is wild. This is unbelievable.", "zh": "私人的、私人的。喔，好像遊艇。這太狂了。這簡直難以置信。", "tags": [{"k": "phrase", "v": "This is wild", "native": "this is amazing, crazy, or hard to believe", "nativeZh": "這太狂了、太不可思議了", "examples": ["The view from up here is wild.", "This is wild. I can't believe we got in."], "usage": "年輕人口語，情緒可以是讚嘆或難以置信。"}, {"k": "vocab", "v": "unbelievable", "native": "so extreme it is hard to accept as real", "nativeZh": "難以置信的", "examples": ["The scale of this jet is unbelievable.", "She did an unbelievable job."], "usage": "正面負面都能用，這裡是純粹驚嘆。"}], "notes": []}, {"id": 43, "start": 283.634, "end": 290.45, "en": "You wanna know the craziest part? This is just one of four rooms. [Karl] There's more to the plane, I thought this was it. Guys, come over here.", "zh": "你想知道最瘋狂的部分嗎？這只是四個房間裡的其中一間。[Karl] 飛機還有更多地方，我還以為就這樣了。各位，過來這邊。", "tags": [{"k": "phrase", "v": "You wanna know the craziest part?", "native": "a hook before an even more surprising detail", "nativeZh": "先問一句再丟出更狂的資訊", "examples": ["You wanna know the craziest part? It's free.", "Wanna know the craziest part? He already left."], "usage": "wanna = want to，說故事時很好用的轉折。"}], "notes": []}, {"id": 44, "start": 290.2, "end": 298.851, "en": "What room is this? This is literally another lounge area with a bunch of snacks and a huge TV. And if you're feeling tired, you get your own private bedroom.", "zh": "這是什麼房間？這簡直是另一個休息區，有一堆零食和超大電視。如果你覺得累了，還有自己的私人臥室。", "tags": [{"k": "vocab", "v": "lounge area", "native": "a comfortable space for sitting and relaxing", "nativeZh": "休息區、交誼廳", "examples": ["The hotel lounge area is quieter at night.", "There's a lounge area with snacks and a TV."], "usage": "機場、飯店、私人飛機都常用 lounge 指休息空間。"}], "notes": []}, {"id": 45, "start": 298.601, "end": 304.184, "en": "Dude, what? Wee. This is like a hotel. And last but not least, the bathroom.", "zh": "老兄，什麼？吁。這好像飯店。最後但同樣重要的是：洗手間。", "tags": [{"k": "phrase", "v": "last but not least", "native": "used before the final item so it still feels important", "nativeZh": "最後但同樣重要的是", "examples": ["Last but not least, thank you to the crew.", "And last but not least, the dessert."], "usage": "列舉結尾超常用，避免最後一項聽起來像隨便帶過。"}], "notes": []}, {"id": 46, "start": 303.934, "end": 312.584, "en": "Three, shut your mouth right now. Shut it. Whoa. — This is insane. There's a seat in the bathroom. Dibs. Have you ever even seen a jet half this size?", "zh": "三，現在立刻閉嘴。閉上。哇。——這太誇張了。洗手間裡還有座位。我先佔了。你有見過一半這麼大的噴射機嗎？", "tags": [{"k": "phrase", "v": "shut your mouth right now", "native": "a very blunt command to stop talking, often playful among friends", "nativeZh": "叫人立刻閉嘴（朋友間常是開玩笑）", "examples": ["Shut your mouth right now, you're going to spoil it.", "I told him to shut his mouth before he laughed."], "usage": "語氣很重，不適合對陌生人或正式場合；這裡是看到超豪華廁所時的興奮吐槽。"}, {"k": "vocab", "v": "Dibs", "native": "claiming something first", "nativeZh": "先口頭佔有", "examples": ["Dibs on the window seat.", "There's a seat in there. Dibs."], "usage": "可以單獨喊一聲 Dibs，不必每次都說 dibs on something。"}], "notes": []}, {"id": 47, "start": 312.334, "end": 319.184, "en": "No. — Never. What do we talk about while on our private jet? Well, I'll tell you, last year I had sold the (indistinct).", "zh": "沒有。——從來沒有。在私人飛機上我們該聊什麼？跟你說，去年我賣掉了那個（聽不清）。", "tags": [], "notes": []}, {"id": 48, "start": 318.934, "end": 325.55, "en": "Oh no. Oh, wait. I just realized I'm taking off backwards. Whoa. — GoPro.", "zh": "喔不。喔，等一下。我才發現我是倒著起飛的。哇。——GoPro。", "tags": [{"k": "phrase", "v": "I just realized", "native": "used when a fact suddenly becomes clear", "nativeZh": "突然反應過來時用", "examples": ["I just realized I left my phone in the car.", "Wait. I just realized we're early."], "usage": "常跟 oh wait / oh no 連用，適合描述當下的頓悟。"}], "notes": []}, {"id": 49, "start": 325.3, "end": 331.517, "en": "I didn't realize we were taking off. Not the camera. Stop! This might be the best bathroom yet. This is the toilet.", "zh": "我沒意識到我們起飛了。攝影機別動。停！這可能是目前最棒的洗手間。這是馬桶。", "tags": [{"k": "phrase", "v": "I didn't realize we were…", "native": "admitting you only just noticed what was happening", "nativeZh": "承認自己剛剛才察覺", "examples": ["I didn't realize we were already late.", "I didn't realize we were on camera."], "usage": "比 I didn't know 更著重「過程中沒注意」。"}], "notes": []}, {"id": 50, "start": 331.267, "end": 337.584, "en": "On the toilet you can watch TV. Hey, Nolan, I hope you feel comfortable in the bathroom. What's going on? I'm so confused.", "zh": "坐在馬桶上還能看電視。嘿，Nolan，希望你在洗手間裡覺得舒適。發生什麼事？我好困惑。", "tags": [{"k": "phrase", "v": "I hope you feel comfortable", "native": "a polite or teasing wish that someone is at ease", "nativeZh": "希望你覺得自在（也可帶調侃）", "examples": ["I hope you feel comfortable in the new office.", "I hope you feel comfortable speaking up."], "usage": "字面是關心，這裡是朋友把人關在廁所時的好笑禮貌話。"}], "notes": []}, {"id": 51, "start": 337.334, "end": 344.151, "en": "No, no. He's never getting out. What? — Oh wow.", "zh": "不行，不行。他永遠出不來了。什麼？——喔哇。", "tags": [{"k": "phrase", "v": "He's never getting out.", "native": "a joking exaggeration that someone is stuck", "nativeZh": "誇張地說對方出不來了", "examples": ["If he sits on that sofa, he's never getting out.", "Once she starts that game, she's never getting out."], "usage": "用現在進行式 getting，聽起來像眼前正在發生、而且沒完沒了。"}], "notes": []}, {"id": 52, "start": 343.901, "end": 349.951, "en": "I have steak, mashed potatoes, and veggies. And you guys inspired me a little bit, so I brought some pizza.", "zh": "我有牛排、薯泥和蔬菜。你們也啟發我了一點，所以我帶了披薩。", "tags": [{"k": "phrase", "v": "you guys inspired me", "native": "crediting friends for giving you an idea", "nativeZh": "說是因為你們我才有這個想法", "examples": ["You guys inspired me to cook tonight.", "Your trip inspired me to start packing."], "usage": "輕鬆感謝或開玩笑的說法，不一定是很嚴肅的啟發。"}], "notes": []}, {"id": 53, "start": 349.701, "end": 351.951, "en": "[Group] Yeah!", "zh": "[眾人] 耶！", "tags": [], "notes": []}, {"id": 54, "start": 353.1, "end": 362.984, "en": "This is my favorite plane because it has YouTube but we didn't pop up first, so now, it's not. You can tell this is a rich person bed 'cause there's like 500 pillows. This one outta here. That one outta here.", "zh": "這是我最喜歡的飛機，因為它有 YouTube，但我們沒有排在第一個，所以現在我不喜歡了。你看得出來這是有錢人的床，因為大概有五百顆枕頭。這一顆拿走。那一顆也拿走。", "tags": [{"k": "phrase", "v": "we didn't pop up first", "native": "we didn't appear at the top of the list or search results", "nativeZh": "沒有排在最前面／沒有第一個出現", "examples": ["Our video didn't pop up first in the search.", "If the app doesn't pop up first, people miss it."], "usage": "pop up 是突然出現；這裡指 YouTube 推薦或搜尋排序。"}, {"k": "phrase", "v": "outta here", "native": "casual 'out of here'; get this out / I'm leaving", "nativeZh": "口語的 out of here：拿走或離開", "examples": ["This pillow is outta here.", "I'm outta here after lunch."], "usage": "把 out of 連成 outta，很口語。這裡是把多餘枕頭丟掉。"}], "notes": []}, {"id": 55, "start": 371.601, "end": 376.817, "en": "I'm gonna fly this thingy. And that's the beauty of flying private. You can do whatever you want whenever.", "zh": "我來開這東西。這就是坐私人飛機的美妙之處：你想做什麼、什麼時候做都可以。", "tags": [{"k": "phrase", "v": "that's the beauty of…", "native": "that's the especially good thing about it", "nativeZh": "這正是……的美妙／好處", "examples": ["That's the beauty of working from home.", "That's the beauty of flying private: you set the schedule."], "usage": "先講規則或限制，再用這句點出最大優點。"}, {"k": "phrase", "v": "whenever", "native": "at any time you like", "nativeZh": "任何你想要的時間", "examples": ["You can call me whenever.", "Do whatever you want, whenever you want."], "usage": "和 whatever 連用時，強調完全自由、沒有時間限制。"}], "notes": []}, {"id": 56, "start": 376.567, "end": 382.05, "en": "Karl's flying the plane, Chandler's jamming out the pizza. Chris is taking a nap and I don't even know where Nolan went.", "zh": "Karl 在開飛機，Chandler 一邊吃披薩一邊嗨，Chris 在小睡，我甚至不知道 Nolan 去哪了。", "tags": [{"k": "phrase", "v": "jamming out", "native": "happily playing or enjoying music, often loudly", "nativeZh": "盡情沉浸在音樂裡、跟著嗨", "examples": ["He was jamming out in the car.", "They're jamming out to that new album."], "usage": "不一定真的在演奏，聽音樂很投入也可以說 jam out。"}], "notes": []}, {"id": 57, "start": 381.801, "end": 390.084, "en": "There's no layovers when you fly private and there's no TSA, so you save tons of time. Hence why? Basically, every rich person you know owns a private jet. Hey, guys. — Yeah.", "zh": "坐私人飛機沒有轉機，也沒有 TSA 安檢，所以能省下超多時間。正因如此？基本上你認識的每個有錢人都有私人飛機。嘿，各位。——嗯。", "tags": [{"k": "vocab", "v": "layovers", "native": "stops between flights on the way to a destination", "nativeZh": "轉機停留", "examples": ["The ticket is cheap, but there are two layovers.", "I hate long layovers at night."], "usage": "私人飛機常被拿來對比「不用轉機」。單數是 layover。"}, {"k": "vocab", "v": "TSA", "native": "U.S. airport security agency; often used for the security check itself", "nativeZh": "美國運輸安全管理局，也泛指機場安檢", "examples": ["We got through TSA faster than usual.", "There's no TSA when you fly private."], "usage": "口語常直接說 go through TSA，不一定要把全名念出來。"}, {"k": "phrase", "v": "Hence why?", "native": "a slightly clumsy spoken stand-in for 'that's why'", "nativeZh": "口誤／口語版的「所以才會這樣」", "examples": ["That's why every rich person owns a jet.", "Hence the long lines at security."], "usage": "標準用法是 Hence 或 That's why。影片裡的 Hence why? 是隨口轉折，學的時候建議改用 That's why。"}], "notes": []}, {"id": 58, "start": 389.834, "end": 396.051, "en": "We're gonna land soon. Wait, wait. Is Nolan still in the bathroom? I don't know, really. Karl, go let him out.", "zh": "我們快要降落了。等一下、等一下。Nolan 還在洗手間嗎？我真的不知道。Karl，去放他出來。", "tags": [{"k": "phrase", "v": "go let him out", "native": "tell someone to go and release another person", "nativeZh": "去把某人放出來", "examples": ["Go let him out of the room.", "Can you go let the dog out?"], "usage": "go + 原形動詞，口語裡用來支使旁邊的人立刻去做。"}], "notes": []}, {"id": 59, "start": 396.1, "end": 403.218, "en": "Oh, oh. — How was your flight? Still better than the $1000 plane. And now, the $300,000 blimp.", "zh": "喔、喔。——班機感覺如何？還是比那一千美元的飛機好。接下來，三十萬美元的飛船。", "tags": [{"k": "phrase", "v": "How was your flight?", "native": "the standard greeting after someone lands", "nativeZh": "落地後最常見的寒暄", "examples": ["How was your flight? Any delays?", "How was your flight? You look exhausted."], "usage": "這裡是把人從廁所放出來後的玩笑問候。"}], "notes": []}, {"id": 60, "start": 402.968, "end": 409.617, "en": "I'll unblur it in a second. Before I remove your blindfolds, what do you think is on the side of the blimp? Is it Nolan's phone number?", "zh": "我等一下會取消模糊。在我拿掉眼罩之前，你們覺得飛船側面是什麼？是 Nolan 的電話號碼嗎？", "tags": [{"k": "vocab", "v": "unblur", "native": "to remove a blur effect so something becomes visible", "nativeZh": "取消模糊、讓畫面變清楚", "examples": ["I'll unblur the image in a second.", "The app can unblur text on the sign."], "usage": "網路影片常用：先模糊避免劇透，再說 unblur it。"}, {"k": "vocab", "v": "blindfolds", "native": "covers placed over the eyes so someone cannot see", "nativeZh": "眼罩（遮住視線用）", "examples": ["They put on blindfolds before the surprise.", "Don't take the blindfold off yet."], "usage": "驚喜環節的經典道具；take off / remove your blindfolds。"}], "notes": []}, {"id": 61, "start": 409.367, "end": 414.851, "en": "Did you do Nolan's phone number? That would be funny. — Next time. Take off your blindfolds. Turn around.", "zh": "你真的弄了 Nolan 的電話號碼？那會很好笑。——下次。拿下眼罩。轉過身。", "tags": [{"k": "phrase", "v": "That would be funny.", "native": "reacting to a hypothetical joke or prank", "nativeZh": "覺得那個假設會很好笑", "examples": ["If they printed his number on the side, that would be funny.", "That would be funny, but maybe next time."], "usage": "would 表示還沒發生、只是想像。"}, {"k": "phrase", "v": "Next time", "native": "a short way to postpone an idea or promise it later", "nativeZh": "這次先不算，下次再說", "examples": ["Not today. Next time.", "I'll try the spicy one next time."], "usage": "可以是承諾，也可以是俏皮地拒絕。"}], "notes": []}, {"id": 62, "start": 415.701, "end": 421.317, "en": "I heart Karl's mom. Hold up. Why? He really loves my mom.", "zh": "我給 Karl 的媽媽一顆愛心。等一下。為什麼？他是真的愛我媽。", "tags": [{"k": "phrase", "v": "I heart …", "native": "internet-style 'I love …', like a heart emoji", "nativeZh": "網路口語：用愛心表示喜歡", "examples": ["I heart this song.", "She wrote 'I heart New York' on the cup."], "usage": "heart 當動詞，來自 I ❤，比 I love 更輕、更玩笑。"}, {"k": "phrase", "v": "Hold up", "native": "wait a second; pause to question something", "nativeZh": "等一下、先停一下", "examples": ["Hold up, did he just say that?", "Hold up. Why is my name on the board?"], "usage": "發現不對勁或很好笑時，先喊停再追問。"}], "notes": []}, {"id": 63, "start": 421.067, "end": 426.917, "en": "No, Karl, he hearts your mom. He doesn't love your mom. That'd be weird. — No, I love her. Oh. Dude, am I pushing it right now?", "zh": "不，Karl，他是「愛心」你媽，不是愛你媽。那樣會很怪。——不，我就是愛她。喔。老兄，我是不是有點過頭了？", "tags": [{"k": "phrase", "v": "That'd be weird", "native": "a quick reaction that something would feel socially off", "nativeZh": "那樣會很怪／很不自然", "examples": ["If I texted her boss, that'd be weird.", "Showing up unannounced would be weird."], "usage": "That'd = that would，用來迅速表達界線。"}, {"k": "phrase", "v": "am I pushing it right now?", "native": "asking if you're going a bit too far", "nativeZh": "問自己是不是有點過頭了", "examples": ["One more joke? Am I pushing it?", "I asked for a discount, but I might be pushing it."], "usage": "push it 表示把玩笑、要求或尺度再往前推一點。"}], "notes": []}, {"id": 64, "start": 426.667, "end": 432.25, "en": "Ooh, it's like moving. This giant aircraft can literally just be pulled by a rope.", "zh": "喔，它好像在動。這麼大的飛行器，居然可以用一條繩子拉著走。", "tags": [{"k": "vocab", "v": "aircraft", "native": "any flying machine, such as a plane or blimp", "nativeZh": "飛行器（飛機、飛船等的總稱）", "examples": ["The aircraft is ready for boarding.", "A blimp is a kind of aircraft."], "usage": "比 plane 更總稱、稍正式；單複數同形。"}, {"k": "phrase", "v": "can literally just be pulled by a rope", "native": "emphasizing an surprisingly simple fact", "nativeZh": "強調「真的只用一條繩子就能拉」", "examples": ["The cart can literally just be pulled by one person.", "It's huge, but it can literally be moved by hand."], "usage": "literally just 把難以置信的簡單動作講得很直白。"}], "notes": []}, {"id": 65, "start": 432.0, "end": 437.884, "en": "Let's see if it stops floating when I get on it. That's gains, dude. Does that mean I'm fat?", "zh": "看看我上去之後它還會不會浮著。那是增肌，兄弟。所以那是說我很胖嗎？", "tags": [{"k": "phrase", "v": "That's gains, dude", "native": "gym slang meaning that's muscle you've built", "nativeZh": "健身圈口語：那是練出來的肌肉", "examples": ["Those shoulders? That's gains, dude.", "He looked at the photo and said, 'That's gains.'"], "usage": "gains 指增肌成果。這裡朋友拿來解釋飛船為什麼下沉，順便開玩笑。"}], "notes": []}, {"id": 66, "start": 437.634, "end": 444.851, "en": "It means you work out a lot. — Or I'm fat. All right, let's do this. Goodbye, Chandler. Goodbye, forever. I think I heard forever.", "zh": "意思是你很常健身。——或者我很胖。好，我們開始吧。再見，Chandler。永遠再見。我好像聽到「永遠」。", "tags": [{"k": "phrase", "v": "Goodbye, forever", "native": "a dramatic, often joking farewell", "nativeZh": "誇張地說永別了", "examples": ["Goodbye, forever, my old phone.", "He waved and said, 'Goodbye, forever.'"], "usage": "語氣過火，所以聽的人會特別注意到 forever 這個詞。"}], "notes": []}, {"id": 67, "start": 444.634, "end": 451.851, "en": "[Chris] He could have promoted anything and he chose Karl's mom. I'm terrified. This ain't picking up speed. Well, we'll see you at the race.", "zh": "[Chris] 他要宣傳什麼都行，結果選了 Karl 的媽媽。我嚇死了。這速度完全沒有起來。那我們比賽現場見。", "tags": [{"k": "phrase", "v": "He could have promoted anything", "native": "he had every option, but chose this one", "nativeZh": "他要宣傳什麼都行，結果選了這個", "examples": ["She could have promoted anything, and she chose her dog.", "He could have promoted the brand, but he didn't."], "usage": "could have + 過去分詞，用來對比「明明有更好選擇」。"}, {"k": "phrase", "v": "This ain't picking up speed", "native": "this is not accelerating; informal ain't", "nativeZh": "速度完全拉不起來", "examples": ["The bike ain't picking up speed.", "We're moving, but we aren't picking up speed."], "usage": "ain't = isn't / aren't / am not，很口語。pick up speed 就是加速。"}], "notes": []}, {"id": 68, "start": 451.601, "end": 458.65, "en": "Oh, and I forgot to mention, we're flying this blimp over 150,000 people at the world's largest race car event.", "zh": "喔，我忘了說，我們要開著這艘飛船飛過十五萬人的頭頂，地點是全世界最大的賽車活動。", "tags": [{"k": "phrase", "v": "I forgot to mention", "native": "used to add an important leftover detail", "nativeZh": "補上一句剛才忘了說的重點", "examples": ["Oh, I forgot to mention: dinner is at seven.", "I forgot to mention we're leaving early."], "usage": "常在 already 出發或故事中途，再補一個關鍵資訊。"}], "notes": []}, {"id": 69, "start": 458.4, "end": 460.65, "en": "And Karl has no idea.", "zh": "而且 Karl 完全不知道。", "tags": [{"k": "phrase", "v": "has no idea", "native": "is completely unaware", "nativeZh": "完全不知情、毫無頭緒", "examples": ["He has no idea we're planning a party.", "I had no idea the shop was closed."], "usage": "have no idea 比 doesn't know 更強調「一點都不知道」。"}], "notes": []}, {"id": 70, "start": 462.767, "end": 470.45, "en": "We are now over the Daytona 500 which is one of the busiest events ever. [Karl] You couldn't have put something better on the blimp. — No, this is perfect.", "zh": "我們現在正在 Daytona 500 上空，這是最熱鬧的活動之一。[Karl] 你就不能在飛船上放點更好的東西嗎？——不，這樣最完美。", "tags": [{"k": "vocab", "v": "Daytona 500", "native": "a famous U.S. stock-car race in Daytona Beach, Florida", "nativeZh": "美國最知名的大賽車之一（戴通納 500）", "examples": ["They're flying over the Daytona 500.", "The Daytona 500 is packed every year."], "usage": "專有名詞，聽力裡碰到直接當活動名稱記即可。"}], "notes": []}, {"id": 71, "start": 470.2, "end": 475.151, "en": "This is wrong. [Chris] Can they see us? [MrBeast] You can see 'em.", "zh": "這不對。[Chris] 他們看得到我們嗎？[MrBeast] 你看得到他們。", "tags": [{"k": "phrase", "v": "You can see 'em", "native": "informal 'you can see them'", "nativeZh": "口語：看得到他們", "examples": ["Look down. You can see 'em from here.", "I can't see 'em yet."], "usage": "'em 是 them 的口語弱讀，前面常接 see / tell / get。"}], "notes": []}, {"id": 72, "start": 474.901, "end": 481.917, "en": "Karl, I can confirm. Everyone loves your mom down here. I love Karl's mom. Everybody's like, \"We love...\"", "zh": "Karl，我可以確認。下面每個人都愛你媽。我愛 Karl 的媽媽。大家都在喊：「我們愛……」", "tags": [{"k": "phrase", "v": "I can confirm", "native": "a playful or formal-sounding way to back up a claim", "nativeZh": "我可以確認／我證實一下", "examples": ["I can confirm the rumor is true.", "I can confirm everyone had a good time."], "usage": "本是較正式用法，用在玩笑裡會有一點假裝一本正經的效果。"}], "notes": []}, {"id": 73, "start": 481.667, "end": 487.617, "en": "[Crowd] I love Karl's mom. Karl's mom, if you're watching, you're a lovely lady.", "zh": "[觀眾] 我愛 Karl 的媽媽。Karl 的媽媽，如果你正在看，你是一位很可愛的女士。", "tags": [{"k": "phrase", "v": "if you're watching", "native": "addressing someone who might be in the audience", "nativeZh": "對可能正在看的人直接喊話", "examples": ["Mom, if you're watching, hi.", "If you're watching at home, try this with us."], "usage": "直播、影片裡常拿來跟特定觀眾互動。"}, {"k": "vocab", "v": "lovely lady", "native": "a warm, polite compliment for a woman", "nativeZh": "對女士溫暖有禮的讚美", "examples": ["Thank you, you're a lovely lady.", "She's a lovely lady, and everyone likes her."], "usage": "語氣偏禮貌、老派一點，適合當眾示好，不帶輕浮。"}], "notes": []}, {"id": 74, "start": 487.367, "end": 494.55, "en": "[Crowd] We love Karl's mom. And now, the most expensive private plane ticket on the planet.", "zh": "[觀眾] 我們愛 Karl 的媽媽。接下來，地球上最貴的私人機票。", "tags": [], "notes": []}, {"id": 75, "start": 496.968, "end": 504.118, "en": "Hi, welcome aboard. I suggest you take your shoes off. That carpet's actually $2 million. She's like, \"I suggest it, really hard.\"", "zh": "嗨，歡迎登機。我建議你把鞋子脫掉。那塊地毯其實值兩百萬美元。她的語氣像在說：「我是認真建議你脫的。」", "tags": [{"k": "phrase", "v": "welcome aboard", "native": "the standard greeting when someone gets on a plane or ship", "nativeZh": "歡迎登機／歡迎上船", "examples": ["Hi, welcome aboard. Please find your seat.", "The captain welcomed us aboard."], "usage": "航空、遊輪的固定用語；官方字幕曾寫成 welcome board，正確是 aboard。"}, {"k": "phrase", "v": "I suggest you…", "native": "a polite instruction that is still basically a request", "nativeZh": "禮貌地建議，其實常是在請你照做", "examples": ["I suggest you take your seats.", "I suggest you check the weather first."], "usage": "比 Please 稍軟、又比 You should 客氣。後面可接原形動詞。"}], "notes": []}, {"id": 76, "start": 503.868, "end": 510.617, "en": "[MrBeast] And by square feet, this is bigger than our houses. It's almost impossible to imagine how big this jet actually is.", "zh": "[MrBeast] 而且以平方英尺來算，這比我們的房子還大。這架噴射機到底有多大，幾乎無法想像。", "tags": [{"k": "phrase", "v": "by square feet", "native": "measured according to floor area", "nativeZh": "以平方英尺來算（面積）", "examples": ["By square feet, this office is bigger than my apartment.", "They price the shop by square feet."], "usage": "美國常用 square feet 講房屋或機艙面積。"}, {"k": "phrase", "v": "It's almost impossible to imagine", "native": "it is extremely hard to picture or believe", "nativeZh": "幾乎無法想像", "examples": ["It's almost impossible to imagine a jet this big.", "It's almost impossible to imagine finishing tonight."], "usage": "用來強調規模或難度超出直覺。"}], "notes": []}, {"id": 77, "start": 510.367, "end": 516.851, "en": "Right here is a bedroom. Wow. — A bedroom. Another bedroom, another bedroom. Keep going.", "zh": "這裡是一間臥室。哇。——一間臥室。又一間臥室，又一間臥室。繼續走。", "tags": [{"k": "phrase", "v": "Keep going", "native": "don't stop; continue in the same direction", "nativeZh": "繼續走、別停", "examples": ["Keep going down the hall.", "You're doing great. Keep going."], "usage": "可以指方向，也可以當加油；這裡是帶路時叫人繼續往前。"}], "notes": []}, {"id": 78, "start": 516.601, "end": 524.65, "en": "This is for the crew, another bedroom. Hoo! — What'd you find? My dibs? The bedrooms on this plane are way more extravagant.", "zh": "這是機組人員的，又一間臥室。呼！——你找到什麼？我先佔了？這架飛機上的臥室豪華得多。", "tags": [{"k": "vocab", "v": "extravagant", "native": "very fancy, luxurious, or more than necessary", "nativeZh": "極其豪華、鋪張的", "examples": ["The decoration is a bit extravagant.", "They threw an extravagant party."], "usage": "比 luxurious 多一點「過頭、超奢華」的意思。"}, {"k": "phrase", "v": "My dibs?", "native": "checking whether you can claim something first", "nativeZh": "問「這個我能先佔嗎？」", "examples": ["My dibs on that room?", "I found the seat. My dibs?"], "usage": "把 dibs 變成一句確認，有點得意、有點開玩笑。"}], "notes": []}, {"id": 79, "start": 524.4, "end": 533.118, "en": "Gold plated sinks, multiple showers. Wait, what's in there? — That's the toilet. This plane comes with its own theater room, a lounge that can seat up to 12 people.", "zh": "鍍金洗手台，好幾個淋浴間。等一下，那裡面是什麼？——那是馬桶。這架飛機還有專屬劇院、可以坐到十二人的休息室。", "tags": [{"k": "vocab", "v": "gold plated", "native": "covered with a thin layer of gold", "nativeZh": "鍍金的", "examples": ["The faucet is gold plated.", "It looks expensive, but it's only gold plated."], "usage": "複合形容詞，常寫 gold-plated。指表面鍍金，不一定是實心金。"}, {"k": "vocab", "v": "theater room", "native": "a room set up for watching films", "nativeZh": "劇院室、小型放映間", "examples": ["The house has a theater room in the basement.", "The jet comes with its own theater room."], "usage": "私人住宅或豪華交通工具裡的家庭劇院空間。"}], "notes": []}, {"id": 80, "start": 532.868, "end": 538.95, "en": "[MrBeast] And then over here is the living room. This is like a bigger couch than what I have in my house.", "zh": "[MrBeast] 然後這邊是客廳。這沙發比我家的還大。", "tags": [{"k": "vocab", "v": "living room", "native": "the main sitting room in a home", "nativeZh": "客廳", "examples": ["They're watching TV in the living room.", "This jet even has a living room."], "usage": "用家裡的房間名稱來形容飛機，是在強調它有多大、多像房子。"}], "notes": []}, {"id": 81, "start": 538.701, "end": 545.917, "en": "I just want you to know you've only seen a third of the plane so far. There's more. [Chris] What? Oh, got some good stuff. You can call flight attendants in your bedroom.", "zh": "我只是想讓你知道，到目前為止你才看過這架飛機的三分之一。還有更多。[Chris] 什麼？喔，有好東西。你可以在臥室裡呼叫空服員。", "tags": [{"k": "phrase", "v": "a third of", "native": "one of three equal parts", "nativeZh": "三分之一", "examples": ["We've only seen a third of the museum.", "A third of the class was absent."], "usage": "分數寫法是 a third of + 名詞。two thirds 是三分之二。"}, {"k": "phrase", "v": "got some good stuff", "native": "found or noticed something impressive or enjoyable", "nativeZh": "找到／碰到好東西了", "examples": ["Oh, we got some good stuff in this box.", "This playlist has some good stuff."], "usage": "stuff 很口語，泛指不錯的內容或物品。"}], "notes": []}, {"id": 82, "start": 545.667, "end": 552.751, "en": "If we could do this every time we fly, I'd live in the air. Whoa, whoa, what is that? Sorry, I'm turning the lights on and off. How did I miss this room?", "zh": "如果每次搭飛機都能這樣，我願意住在天上。哇，哇，那是什麼？抱歉，我在開關燈。我怎麼會漏掉這個房間？", "tags": [{"k": "phrase", "v": "I'd live in the air", "native": "I'd happily spend my life traveling by plane", "nativeZh": "我願意一直住在天上／一直飛行", "examples": ["If every flight felt like this, I'd live in the air.", "He loves airports so much he'd live in the air."], "usage": "誇張的假設句，用來表達有多享受當下。"}, {"k": "phrase", "v": "How did I miss this…", "native": "surprise that you somehow overlooked something obvious", "nativeZh": "訝異自己怎麼會漏掉", "examples": ["How did I miss this room on the tour?", "How did I miss this email?"], "usage": "帶一點自責或難以置信，適合用在找東西、參觀場合。"}], "notes": []}, {"id": 83, "start": 552.501, "end": 558.884, "en": "Like we walked around the whole plane. And in case you thought you saw everything, there's also massages on this plane. How is it, Karl?", "zh": "我們明明把整架飛機走了一圈。而且如果你以為都看完了，這架飛機還有按摩。感覺如何，Karl？", "tags": [{"k": "phrase", "v": "in case you thought…", "native": "used to correct a wrong assumption before it settles", "nativeZh": "以免你以為……其實不是", "examples": ["And in case you thought we were done, there's dessert.", "In case you thought I forgot, here's the file."], "usage": "先假設對方的想法，再補上更驚人的事實。"}], "notes": []}, {"id": 84, "start": 558.634, "end": 562.417, "en": "It's amazing. So, I really just shouldn't.", "zh": "太舒服了。所以我真的不該這樣。", "tags": [], "notes": []}, {"id": 85, "start": 563.334, "end": 573.218, "en": "Gentlemen, how were we able to afford this plane? I would say only our fans. And because of that, we invited a bunch of random subscribers on this half a million-dollar plane ride.", "zh": "各位，我們怎麼負擔得起這架飛機？我只能說，全靠我們的粉絲。也因為這樣，我們邀請了一群隨機訂閱者，來搭這趟價值五十萬美元的飛機。", "tags": [{"k": "phrase", "v": "how were we able to afford…", "native": "asking what made an expensive thing possible", "nativeZh": "問「我們怎麼負擔得起」", "examples": ["How were we able to afford this trip?", "I still don't know how they were able to afford the upgrade."], "usage": "be able to afford 是談金錢能力的穩妥說法。"}, {"k": "vocab", "v": "subscribers", "native": "people who follow a channel or service", "nativeZh": "訂閱者", "examples": ["They invited random subscribers on the trip.", "The channel has a million subscribers."], "usage": "YouTube 場景的核心詞；subscribe 是對應動詞。"}], "notes": []}, {"id": 86, "start": 572.968, "end": 577.951, "en": "Have you ever flown on a private jet before? No. This is my first time. And it's the most expensive one on the planet.", "zh": "你以前坐過私人飛機嗎？沒有。這是我第一次。而且還是地球上最貴的那一架。", "tags": [{"k": "phrase", "v": "Have you ever flown on…", "native": "asking if someone has had a particular travel experience", "nativeZh": "問對方有沒有搭過某種交通工具", "examples": ["Have you ever flown on a private jet before?", "Have you ever flown on a red-eye?"], "usage": "Have you ever + 過去分詞，是分享經歷前最自然的開場。"}], "notes": []}, {"id": 87, "start": 577.701, "end": 584.784, "en": "I've never seen anything like this on a plane. Like this is crazy. [Karl] What the heck is over this way? [Chris] Yo, this gotta be a secret room.", "zh": "我在飛機上從沒見過這種東西。這太狂了。[Karl] 這邊到底是什麼？[Chris] 唷，這肯定是密道房間。", "tags": [{"k": "phrase", "v": "What the heck", "native": "a milder way to say 'what the hell' when confused or surprised", "nativeZh": "驚訝或困惑時較溫和的咒罵替代", "examples": ["What the heck is that noise?", "What the heck happened here?"], "usage": "比 what the hell 客氣，仍偏口語，不適合很正式的場合。"}, {"k": "phrase", "v": "this gotta be", "native": "informal 'this has got to be' / 'this must be'", "nativeZh": "口語：這肯定是……", "examples": ["This gotta be the exit.", "This has got to be a joke."], "usage": "完整一點是 this has got to be 或 this has gotta be；省略 has 很口語。"}], "notes": []}, {"id": 88, "start": 584.534, "end": 590.151, "en": "That's where the crew is. We just got a bunch of funny looks. Attention, boys. We're about to take off.", "zh": "那是機組人員的地方。我們剛剛換來一堆奇怪的眼神。注意了，男孩子們。我們即將起飛。", "tags": [{"k": "phrase", "v": "funny looks", "native": "strange or disapproving glances from other people", "nativeZh": "別人投來的古怪／不以為然的眼神", "examples": ["We got a few funny looks in the elevator.", "Wear that hat and you'll get funny looks."], "usage": "funny 這裡不是「好笑」，而是「怪異、耐人尋味」。"}, {"k": "phrase", "v": "We're about to take off", "native": "we will leave the ground very soon", "nativeZh": "我們即將起飛", "examples": ["Please sit down. We're about to take off.", "We're about to take off, so text you later."], "usage": "be about to 表示馬上要發生，航空廣播超常用。"}], "notes": []}, {"id": 89, "start": 589.901, "end": 592.617, "en": "Fasten your seat belts, stop being hooligans. Thank you.", "zh": "請繫好安全帶，別再當小混混了。謝謝。", "tags": [{"k": "phrase", "v": "Fasten your seat belts", "native": "the standard instruction to buckle up", "nativeZh": "請繫好安全帶", "examples": ["Fasten your seat belts and return your trays.", "The sign tells you to fasten your seat belt."], "usage": "比 keep your seatbelt on 更像正式廣播用語。"}, {"k": "vocab", "v": "hooligans", "native": "people behaving in a rowdy, mischievous, or disorderly way", "nativeZh": "搗蛋鬼、鬧事的人（常是半開玩笑）", "examples": ["Stop being hooligans and sit down.", "A few hooligans were shouting in the street."], "usage": "本義偏負面，朋友間或機長喊話時也可以帶點戲謔。"}], "notes": []}, {"id": 90, "start": 595.033, "end": 601.151, "en": "At this price point, they serve the highest quality food anytime you want it and wherever on the plane you want it.", "zh": "到了這個價位，他們會在你想吃的任何時間、飛機上的任何位置，提供最高品質的餐點。", "tags": [{"k": "phrase", "v": "anytime you want it", "native": "available at whatever time you choose", "nativeZh": "你想什麼時候要都可以", "examples": ["You can order room service anytime you want it.", "The car is ready anytime you want it."], "usage": "和 wherever 搭配時，強調時間和地點都完全自由。"}], "notes": []}, {"id": 91, "start": 600.901, "end": 605.017, "en": "Even in your own private master suite. You want some?", "zh": "就算在你自己的私人主套房裡也可以。要來一點嗎？", "tags": [{"k": "vocab", "v": "master suite", "native": "the largest, most private bedroom, often with its own bathroom", "nativeZh": "主套房", "examples": ["The master suite has a huge window.", "Guests stayed in the master suite."], "usage": "房屋和豪華交通工具都用，比 bedroom 更高一級。"}], "notes": []}, {"id": 92, "start": 606.067, "end": 614.084, "en": "Do you guys even know where we're going? [Group] No. We're taking you all to Disney World and we're gonna give you two days of all expense paid trips to do whatever you want.", "zh": "你們知道我們要去哪嗎？[眾人] 不知道。我們要帶你們去迪士尼世界，再給你們兩天一切費用全包的行程，想做什麼都可以。", "tags": [{"k": "phrase", "v": "all expense paid", "native": "someone else pays every cost of the trip", "nativeZh": "一切費用全包的", "examples": ["She won an all-expense-paid vacation.", "They're giving us two days, all expenses paid."], "usage": "常見寫法是 all-expenses-paid；口語也會說 all expense paid。"}], "notes": []}, {"id": 93, "start": 614.667, "end": 620.817, "en": "No way. So, if you wanna fly on the most expensive jet in the world and then spend two days all paid for in Disney World, subscribe.", "zh": "不可能吧。所以，如果你想坐世界上最貴的噴射機，再花兩天在迪士尼世界盡情玩、全部免費，記得訂閱。", "tags": [{"k": "phrase", "v": "if you wanna…, subscribe", "native": "a call to action that ties the wish to hitting subscribe", "nativeZh": "把願望和「請訂閱」綁在一起的行動呼籲", "examples": ["If you wanna see the next trip, subscribe.", "If you wanna come with us next time, subscribe."], "usage": "YouTube 片尾超典型：wanna = want to，最後收在 subscribe。"}], "notes": []}];
+const YT = "https://www.youtube.com/watch?v=1WEAJ-DFkHE";
+const AUDIO_CANDIDATES = [
+  "https://github.com/nico-lao/Grok-Bot/releases/download/mrbeast-plane-audio-v1/mrbeast-plane.mp3",
+  "audio.mp3",
+  "./audio.mp3"
+];
+
+const player = document.getElementById('player');
+const spoiler = document.getElementById('spoiler');
+const revealedBody = document.getElementById('revealedBody');
+const progressEl = document.getElementById('progress');
+const numEl = document.getElementById('num');
+const timeEl = document.getElementById('timeRange');
+const tagHint = document.getElementById('tagHint');
+const statusEl = document.getElementById('status');
+const btnPlay = document.getElementById('btnPlay');
+const btnReveal = document.getElementById('btnReveal');
+const btnHide = document.getElementById('btnHide');
+const btnReplay = document.getElementById('btnReplay');
+const btnPrev = document.getElementById('btnPrev');
+const btnNext = document.getElementById('btnNext');
+const btnYoutube = document.getElementById('btnYoutube');
+
+let filter = 'all';
+let order = SEGMENTS.map((_, i) => i);
+let pos = 0; // index into order
+let revealed = false;
+let playToken = 0;
+let stopAtSec = 0;
+let audioReady = false;
+
+function esc(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  })[c]);
+}
+
+function fmt(sec) {
+  sec = Math.max(0, sec || 0);
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return m + ':' + String(s).padStart(2, '0');
+}
+
+function hasKind(seg, k) {
+  return (seg.tags || []).some(t => t.k === k);
+}
+
+function rebuildOrder() {
+  order = [];
+  for (let i = 0; i < SEGMENTS.length; i++) {
+    const s = SEGMENTS[i];
+    const tags = s.tags || [];
+    if (filter === 'all') order.push(i);
+    else if (filter === 'phrase' && hasKind(s, 'phrase')) order.push(i);
+    else if (filter === 'vocab' && hasKind(s, 'vocab')) order.push(i);
+    else if (filter === 'tagged' && tags.length) order.push(i);
+  }
+  if (!order.length) {
+    statusEl.textContent = '此篩選沒有段落，已回到「全部」。';
+    filter = 'all';
+    document.querySelectorAll('#filterSeg button').forEach(b => {
+      b.classList.toggle('active', b.dataset.filter === 'all');
+    });
+    rebuildOrder();
+    return;
+  }
+  pos = Math.min(pos, order.length - 1);
+}
+
+function current() { return SEGMENTS[order[pos]]; }
+
+function markerHtml(t) {
+  const kind = t.k === 'vocab' ? 'vocab' : 'phrase';
+  const label = kind === 'vocab'
+    ? `【單字：${esc(t.v)}】`
+    : `【學習句：${esc(t.v)}】`;
+  const ex = (t.examples || []).map(e => `<li>${esc(e)}</li>`).join('');
+  const usage = t.usage ? `<div class="usage">Usage：${esc(t.usage)}</div>` : '';
+  const nativeLine = t.native
+    ? `<div class="native-use"><strong>Native use / 母語情境</strong>：${esc(t.native)}${t.nativeZh ? '（' + esc(t.nativeZh) + '）' : ''}</div>`
+    : '';
+  return `<div class="marker ${kind}">
+    <div class="label">${label}</div>
+    ${ex ? `<ul class="examples">${ex}</ul>` : ''}
+    ${usage}
+    ${nativeLine}
+  </div>`;
+}
+
+function buildRevealedHtml(s) {
+  const tags = s.tags || [];
+  const pills = tags.map(t => {
+    const kind = t.k === 'vocab' ? 'vocab' : 'phrase';
+    const name = kind === 'vocab' ? '單字' : '學習句';
+    return `<span class="tag ${kind}">${name}：${esc(t.v)}</span>`;
+  }).join('');
+  const markers = tags.map(markerHtml).join('');
+  return `
+    <div class="label-en">原文</div>
+    <div class="en">${esc(s.en)}</div>
+    <div class="label-zh">翻譯</div>
+    <div class="zh">${esc(s.zh)}</div>
+    ${pills ? `<div class="tags">${pills}</div>` : '<p class="note">此段暫無學習句／單字標記。</p>'}
+    ${markers}
+  `;
+}
+
+function hideContent() {
+  revealed = false;
+  spoiler.classList.add('locked');
+  spoiler.classList.remove('open');
+  revealedBody.innerHTML = '';
+  btnHide.disabled = true;
+  btnReveal.disabled = false;
+}
+
+function showContent() {
+  const s = current();
+  revealed = true;
+  revealedBody.innerHTML = buildRevealedHtml(s);
+  spoiler.classList.remove('locked');
+  spoiler.classList.add('open');
+  btnHide.disabled = false;
+  btnReveal.disabled = true;
+}
+
+function render() {
+  const s = current();
+  progressEl.textContent = (pos + 1) + ' / ' + order.length + (filter !== 'all' ? `（篩選 · 全庫 ${SEGMENTS.length}）` : '');
+  numEl.textContent = String(s.id);
+  timeEl.textContent = fmt(s.start) + ' – ' + fmt(s.end);
+  const nPhrase = (s.tags || []).filter(t => t.k === 'phrase').length;
+  const nVocab = (s.tags || []).filter(t => t.k === 'vocab').length;
+  const bits = [];
+  if (nPhrase) bits.push('學習句 ' + nPhrase);
+  if (nVocab) bits.push('單字 ' + nVocab);
+  tagHint.textContent = bits.length ? ('本段有 ' + bits.join(' · ')) : '本段無標記（仍有原文／翻譯）';
+  hideContent();
+  btnPrev.disabled = pos <= 0;
+  btnNext.disabled = pos >= order.length - 1;
+  if (!statusEl.textContent.includes('音訊')) statusEl.textContent = '';
+  stopClip(false);
+}
+
+function resetPlayBtn() {
+  btnPlay.disabled = false;
+  btnPlay.textContent = '▶ 播放';
+}
+
+function stopClip(resetBtn = true) {
+  playToken += 1;
+  try { player.pause(); } catch (_) {}
+  if (resetBtn) resetPlayBtn();
+}
+
+function onTick() {
+  try {
+    if (player.currentTime >= stopAtSec - 0.04) {
+      const token = playToken;
+      try { player.pause(); } catch (_) {}
+      if (token === playToken) resetPlayBtn();
+    }
+  } catch (_) {}
+}
+
+async function playSeg() {
+  const s = current();
+  if (!audioReady) {
+    statusEl.textContent = '音訊還在載入，請稍候再按播放。';
+    return;
+  }
+  stopClip(false);
+  const token = ++playToken;
+  stopAtSec = s.end;
+  btnPlay.disabled = true;
+  btnPlay.textContent = '播放中…';
+  const startPlay = () => {
+    if (token !== playToken) return;
+    const p = player.play();
+    if (p && p.catch) p.catch(() => {
+      statusEl.textContent = '無法自動播放，請先點一下頁面或音訊控件。';
+      resetPlayBtn();
+    });
+  };
+  try { player.currentTime = s.start; } catch (_) {}
+  if (Math.abs((player.currentTime || 0) - s.start) > 0.35) {
+    const onSeeked = () => {
+      player.removeEventListener('seeked', onSeeked);
+      startPlay();
+    };
+    player.addEventListener('seeked', onSeeked);
+    try { player.currentTime = s.start; } catch (_) { startPlay(); }
+  } else {
+    startPlay();
+  }
+}
+
+btnPlay.addEventListener('click', playSeg);
+btnReplay.addEventListener('click', playSeg);
+btnReveal.addEventListener('click', showContent);
+btnHide.addEventListener('click', hideContent);
+btnPrev.addEventListener('click', () => { if (pos > 0) { pos -= 1; render(); } });
+btnNext.addEventListener('click', () => { if (pos < order.length - 1) { pos += 1; render(); } });
+btnYoutube.addEventListener('click', () => {
+  const s = current();
+  const url = YT + (YT.includes('?') ? '&' : '?') + 't=' + Math.floor(s.start) + 's';
+  window.open(url, '_blank', 'noopener');
+});
+document.querySelectorAll('#filterSeg button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    filter = btn.dataset.filter;
+    document.querySelectorAll('#filterSeg button').forEach(b => b.classList.toggle('active', b === btn));
+    pos = 0;
+    rebuildOrder();
+    render();
+  });
+});
+
+player.addEventListener('timeupdate', onTick);
+player.addEventListener('ended', () => resetPlayBtn());
+
+async function loadAudio() {
+  for (const src of AUDIO_CANDIDATES) {
+    try {
+      await new Promise((resolve, reject) => {
+        const onOk = () => { cleanup(); resolve(); };
+        const onErr = () => { cleanup(); reject(new Error('fail')); };
+        const cleanup = () => {
+          player.removeEventListener('loadedmetadata', onOk);
+          player.removeEventListener('canplay', onOk);
+          player.removeEventListener('error', onErr);
+        };
+        player.addEventListener('loadedmetadata', onOk);
+        player.addEventListener('canplay', onOk);
+        player.addEventListener('error', onErr);
+        player.src = src;
+        player.load();
+      });
+      audioReady = true;
+      statusEl.textContent = '音訊已就緒。';
+      return;
+    } catch (_) {}
+  }
+  statusEl.textContent = '音訊載入失敗：請檢查網路或稍後再試。';
+}
+
+rebuildOrder();
+render();
+loadAudio();
+</script>
+</body>
+</html>
