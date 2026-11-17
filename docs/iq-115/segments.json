@@ -37,7 +37,10 @@
           "usage": "用 Why do some… 提問某個群體／類型的行為模式，比直接指責更中性。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 2,
@@ -169,7 +172,11 @@
           "usage": "先講常見看法，再用 In reality 翻轉，解說很常用。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        12
+      ]
     },
     {
       "id": 6,
@@ -202,7 +209,10 @@
           "usage": "比 learn to 更強調「方法／步驟」。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 7,
@@ -235,7 +245,11 @@
           "usage": "收束說明、強調並不複雜時很好用。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        10
+      ]
     },
     {
       "id": 8,
@@ -257,7 +271,10 @@
           "usage": "產品體驗、說明設計時高頻；也可說 This is intuitive."
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 9,
@@ -290,7 +307,10 @@
           "usage": "履歷與面試超常見複合詞。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 10,
@@ -334,7 +354,11 @@
           "usage": "稍正式，說明某情況天然容易產生某種結果。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        13
+      ]
     },
     {
       "id": 11,
@@ -486,7 +510,11 @@
           ]
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        2
+      ]
     },
     {
       "id": 17,
@@ -508,7 +536,10 @@
           "usage": "批評拖延或逃避時很口語。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 18,
@@ -541,7 +572,11 @@
           "usage": "先承認重要性，再避免絕對化，討論很成熟。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 19,
@@ -574,7 +609,10 @@
           "usage": "短句加重肯定，回應對方疑問時很有力。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 20,
@@ -596,7 +634,10 @@
           "usage": "新聞與正式討論常用複數。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 21,
@@ -628,7 +669,10 @@
       "en": "The 83 as well. Like I It's really funny because this guy does a lot of One of my favorite things about these videos is",
       "zh": "八十三也一樣。我覺得很好笑，因為這個人做很多……我最喜歡這類影片的一點是：",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 23,
@@ -661,7 +705,10 @@
           "usage": "強調「連察覺都沒有」，口語很自然。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 24,
@@ -694,7 +741,12 @@
           "usage": "補充理所當然的理由，語氣軟。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        10,
+        12
+      ]
     },
     {
       "id": 25,
@@ -727,7 +779,10 @@
           "usage": "溫和號召行動句型：If you…, consider…"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 26,
@@ -953,7 +1008,10 @@
       "en": "Studies were done comparing the predicted IQs of Circle Star Stop talking. children in private kindergartens for Star people and compared against the general populace's children.",
       "zh": "有研究拿圓星族——別再說了——在給星星族群上的私立幼稚園小孩的預測智商，去跟一般大眾的小孩比。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 36,
@@ -986,7 +1044,11 @@
           "usage": "concede＝承認對方有理，語氣比 admit 更「不情願」。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        9
+      ]
     },
     {
       "id": 37,
@@ -1008,7 +1070,11 @@
           "usage": "談人生經驗用現在完成式，超常用。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 38,
@@ -1062,7 +1128,10 @@
       "en": "To discover the true IQ of Circle Stars, all we have to do is visit their fictional country of Yahustan.",
       "zh": "要找出圓星族真正的智商，我們只要去他們虛構的國家「Yahustan」就行。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9
+      ]
     },
     {
       "id": 41,
@@ -1084,7 +1153,11 @@
           "usage": "禮貌表示陌生，學習與會議都常用。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 42,
@@ -1106,7 +1179,10 @@
           "usage": "補充或修正前一句，語氣自然。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 43,
@@ -1182,7 +1258,10 @@
           "usage": "虛擬語氣談假設選擇；正式寫作常用 If I were。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 47,
@@ -1204,7 +1283,10 @@
           "usage": "比 If we 稍正式，簡報假設情境好用。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 48,
@@ -1269,7 +1351,10 @@
           "usage": "強調因果，語氣明確。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 50,
@@ -1300,7 +1385,10 @@
       "en": "WITH THE Circle Stars addressed, what about the triangles? Yes, they also blatantly cheat IQ scores, especially this country, Winnie-the-Pooh-land, which reports an average IQ of 105 to",
       "zh": "圓星族講完了，那三角形呢？對，他們也公然灌水智商分數，尤其這個「小熊維尼國」，回報平均智商 105 到",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 52,
@@ -1386,7 +1474,10 @@
           ]
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 55,
@@ -1418,7 +1509,10 @@
           "usage": "美式口語強調肯定：Do they ever!"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 57,
@@ -1482,7 +1576,12 @@
           ]
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        8,
+        12
+      ]
     },
     {
       "id": 59,
@@ -1515,7 +1614,10 @@
           "usage": "口語，flop＝失敗得明顯。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 60,
@@ -1537,7 +1639,11 @@
           "usage": "半開玩笑提醒「說漏嘴」。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        12
+      ]
     },
     {
       "id": 61,
@@ -1559,7 +1665,11 @@
           "usage": "引出後果說明，語氣可以認真也可以玩笑。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        11
+      ]
     },
     {
       "id": 62,
@@ -1581,7 +1691,12 @@
           "usage": "職場學習高頻：refresher＝複習課／快速回顧。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12,
+        13
+      ]
     },
     {
       "id": 63,
@@ -1603,7 +1718,10 @@
           "usage": "like 在口語常當「大概」的模糊語。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        3
+      ]
     },
     {
       "id": 64,
@@ -1625,7 +1743,10 @@
           "usage": "先批評後補平衡觀點，討論很加分。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 65,
@@ -1657,7 +1778,10 @@
           "usage": "數據與判斷都可用。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 67,
@@ -1744,7 +1868,10 @@
           "usage": "口語推論＋條件。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 70,
@@ -1808,7 +1935,10 @@
           ]
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 73,
@@ -1830,7 +1960,11 @@
           "usage": "排除干擾條件，語氣堅定。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11,
+        12
+      ]
     },
     {
       "id": 74,
@@ -1862,7 +1996,11 @@
           "usage": "選擇／條件萬能結構。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        12
+      ]
     },
     {
       "id": 75,
@@ -1935,7 +2073,10 @@
           "usage": "勸人把力氣用在刀口上。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 78,
@@ -1989,7 +2130,10 @@
           "usage": "分享舊有看法，常接 but now…"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9
+      ]
     },
     {
       "id": 80,
@@ -2043,7 +2187,11 @@
           "usage": "美式口語推理，語氣輕鬆帶點嘲諷。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        12
+      ]
     },
     {
       "id": 82,
@@ -2109,7 +2257,10 @@
           "usage": "提醒樣本偏差的口語說法。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8
+      ]
     },
     {
       "id": 85,
@@ -2164,7 +2315,12 @@
           "usage": "語氣比 It's bad 溫和。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        11,
+        12
+      ]
     }
   ],
   "enrichment": {

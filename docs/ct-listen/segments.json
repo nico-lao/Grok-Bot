@@ -111,6 +111,10 @@
           "native": "used when asking someone to support a claim with sources",
           "nativeZh": "要求用來源支持說法"
         }
+      ],
+      "patterns": [
+        12,
+        13
       ]
     },
     {
@@ -131,7 +135,10 @@
       "en": "People who hate her do so simply because others do because it's become a popular Trend I remember watching a video on",
       "zh": "討厭她的人，只是因為別人也討厭她——因為這變成了一種流行趨勢。我記得看過一支",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 6,
@@ -234,6 +241,10 @@
           "native": "used when proposing a hypothetical to test logic without endorsing it",
           "nativeZh": "提出假設來測邏輯、未必採納"
         }
+      ],
+      "patterns": [
+        11,
+        12
       ]
     },
     {
@@ -284,6 +295,9 @@
           "native": "used when calling out reverse-engineered reasoning from a fixed conclusion",
           "nativeZh": "批評從固定結論倒推找理由"
         }
+      ],
+      "patterns": [
+        7
       ]
     },
     {
@@ -294,7 +308,12 @@
       "en": "Now so now that we're looking at minutes lat there's not much difference between me or her do you think it's fair that she's being attacked by a large group of people and like you said at the",
       "zh": "現在……我們看著這些片段，其實我和她之間沒那麼大差別。你覺得她被一大群人圍攻公平嗎？而且就像你在",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7,
+        12
+      ]
     },
     {
       "id": 13,
@@ -304,7 +323,10 @@
       "en": "Beginning of this conversation you said given the fact that JK Rowling is transphobic how do you feel about Harry Potter they start with the conclusion you're actively looking at that statement do you think that that was the",
       "zh": "這段對話一開始說的：你說「既然 JK Rowling 恐跨，你對《哈利波特》有什麼感覺？」——他們先下結論。你仔細看那句話，你覺得那樣",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 14,
@@ -324,7 +346,10 @@
       "en": "Of people on the internet would have never said that but at the end of that they would have said oh bro you really a",
       "zh": "網友大概永遠說不出那種話；到最後他們只會說：喔兄弟你真的是個",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 16,
@@ -405,6 +430,9 @@
           "native": "used when urging careful checking of claims instead of blind acceptance",
           "nativeZh": "提醒用證據邏輯檢驗主張"
         }
+      ],
+      "patterns": [
+        12
       ]
     },
     {
@@ -499,7 +527,13 @@
       "en": "You're on and people don't want to be on the wrong side because one thing we've learned about the internet is that if you're wrong by 1% you might as well just be the opposite the more I looked",
       "zh": "而人們不想站在「錯的那邊」，因為我們從網路學到一件事：你只要錯 1%，就幾乎等於站到對面去了。我越深入",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        10,
+        12,
+        13
+      ]
     },
     {
       "id": 25,
@@ -546,7 +580,10 @@
       "en": "Moderate wing of fascism thing also asmin Gold's editor is a Nazi so ad junor my editor is a Nazi I guess we're",
       "zh": "還有人說 Asmongold 的剪輯師是納粹。所以 Ad（剪輯）我的剪輯師是納粹？我猜我們",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 28,
@@ -566,7 +603,10 @@
       "en": "And I don't respect him at all I maybe his audience is like 12-year-old boys maybe they really buy this and think it's funny he's",
       "zh": "我一點也不尊重他。也許他的觀眾都是十二歲男孩，也許他們真的買單、覺得好笑。他",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 30,
@@ -603,7 +643,10 @@
       "en": "Is so much hate against as gold first off by what I've seen a lot of the hate against Asma gold seems to have stemmed from other YouTubers disdain for react",
       "zh": "對 Asmongold 的仇恨這麼多。首先，以我所見，很多對他的恨，似乎來自其他 YouTuber 對「反應／二創反應」內容的厭惡。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 33,
@@ -623,7 +666,11 @@
       "en": "Done a U-turn is that now people are not mad that I'm reacting they're mad that I",
       "zh": "大轉彎了——現在大家氣的不是我在反應，而是我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        12
+      ]
     },
     {
       "id": 35,
@@ -633,7 +680,11 @@
       "en": "Aren't reacting sorry that that I'm not reacting like there'll be a video that comes out and they'll be mad at me because I haven't watched it and and",
       "zh": "沒在反應。抱歉，是我沒反應：會有一支影片出來，然後他們氣我還沒看，而且他們",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 36,
@@ -643,7 +694,10 @@
       "en": "They saw that and this happened with like the Elon Musk thing with Quinn's video it happened with I remember there",
       "zh": "看到了這點。像 Elon Musk 跟 Quinn 那支影片就是這樣；我記得也有",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 37,
@@ -663,7 +717,11 @@
       "en": "Narrative has shifted from no longer am I this parasite but I'm now the I I'm",
       "zh": "敘事變了：我不再是那個「寄生蟲」，我現在變成",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 39,
@@ -683,7 +741,10 @@
       "en": "Totally turned this around as is bad why I don't like asmin gold videos by a channel called savior",
       "zh": "完全把這件事翻過來了。Asmongold 很爛？為什麼我不喜歡 Asmongold——來自名為 Savior",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 41,
@@ -693,7 +754,11 @@
       "en": "3.0 so this in this video that he's reacting to my video he's going to talk about how reactions are bad okay here the usual rant about react content having a negative impact on other channels and",
       "zh": "3.0 的頻道。所以在這支他反應我影片的影片裡，他要講反應內容有多糟。好，來了：老套抱怨 react 內容對其他頻道與",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        11
+      ]
     },
     {
       "id": 42,
@@ -703,7 +768,11 @@
       "en": "YouTube as a platform he get the benefit from all of this unpaid labor he gets the benefit from all of this hard work from other content creators but he doesn't actually have to do any of the",
       "zh": "YouTube 平台有負面影響。他從這些無償勞動得到好處，從其他創作者的辛苦中受益，自己卻不用做任何",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        12
+      ]
     },
     {
       "id": 43,
@@ -723,7 +792,11 @@
       "en": "Au spoke in depth about why react content is bad for channels and the platform as a whole not this guy has been mad about me for like I think four or five years now it's been crazy how",
       "zh": "DarkViperAU 深入講了為什麼 react 內容對頻道與整個平台有害。這傢伙生我的氣大概四五年了，久到誇張。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        13
+      ]
     },
     {
       "id": 45,
@@ -733,7 +806,10 @@
       "en": "Long this guy's been mad over the last few months I've learned that very few people seem to understand why react content is harmful react content is a system of exploitation that siphons an incalculable amount of money and",
       "zh": "過去幾個月我發現，很少人真正懂 react 內容為什麼有害：它是一種剝削系統，把難以計算的金錢與曝光",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 46,
@@ -763,7 +839,10 @@
       "en": "Read a comment that I found while watching this video because I think it best describes the problem with this argument I don't agree with the idea that reaction content is stealing when",
       "zh": "讀一則我看片時看到的留言，因為我覺得它最能說明這個論點的問題：我不同意「反應內容就是偷竊」的說法。看",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 49,
@@ -773,7 +852,10 @@
       "en": "Watching someone like asmin gold it's not about the original video content itself but rather about his personal",
       "zh": "Asmongold 這類人時，重點往往不是原片內容本身，而是他個人的",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 50,
@@ -783,7 +865,10 @@
       "en": "Take and commentary people watch him because they want to hear his thoughts see his reactions and experience his",
       "zh": "解讀與評論。大家看他，是想聽他怎麼想、看他的反應、體驗他",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10
+      ]
     },
     {
       "id": 51,
@@ -823,7 +908,10 @@
       "en": "This is nearly a perfect comment well that's that's why a lot of people watch the videos that I do right I mean there are people that like you know there are",
       "zh": "這則留言幾乎完美。對啊，這就是很多人看我影片的原因。我是說，有些人反應得……我記得",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8
+      ]
     },
     {
       "id": 55,
@@ -843,7 +931,11 @@
       "en": "She was going to watch my video about the stake and she was watching with Bonnie and the entire video they're not",
       "zh": "沒在反應、也沒在討論我在做什麼；他們只是把",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11,
+        12
+      ]
     },
     {
       "id": 57,
@@ -873,7 +965,10 @@
       "en": "Losing my mind getting mad about this I was yeah bad yeah they didn't even react",
       "zh": "但唯一還能爭議的是：並非所有 react 內容",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 60,
@@ -930,7 +1025,10 @@
       "en": "How he spoke to asman gold and asmin agreed to watch his videos a few days off the release in the future what I realized is that if you're a big Creator who's going to react to someone's video",
       "zh": "我體悟到：如果你是大創作者要反應別人的影片，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 64,
@@ -940,7 +1038,10 @@
       "en": "You should wait at least 4 days for it to be pushed in the algorithm naturally",
       "zh": "至少該等四天，讓它先被演算法自然推送。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9
+      ]
     },
     {
       "id": 65,
@@ -950,7 +1051,11 @@
       "en": "And that's what asmin and I talked about and agreed on after he and I we're totally good like I I like the act man a lot we've talked about that number of other things too the actman then went on",
       "zh": "那就是 Asmongold 跟我談妥的；之後我們完全沒問題。我很喜歡 The Act Man，我們也聊過很多別的事。接著 The Act Man 繼續",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        13
+      ]
     },
     {
       "id": 66,
@@ -960,7 +1065,10 @@
       "en": "To talk about the positive impact reactors like asmin gold have had on his channel some might say but act man he's stealing views from you those views",
       "zh": "談到像 Asmongold 這樣的反應者對他頻道的正面影響。有人會說：Act Man，他偷了你的觀看數，那些觀看",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 67,
@@ -970,7 +1078,10 @@
       "en": "Belong to you maybe they do I can't say for certain but what I can say is a lot of people who are subscribed to my channel wouldn't be subscribed if asmin",
       "zh": "本來該是你的。也許是吧，我不能確定；但我能說的是：我頻道上很多訂閱者，如果 Asmongold",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 68,
@@ -980,7 +1091,11 @@
       "en": "Gold never made these videos although I agree with positives and negatives I I think that's the truth is with with react content there are positives and",
       "zh": "從沒做那些影片，根本不會訂閱我。雖然我同意有好有壞——我覺得真相就是：react 內容有正面也有",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        12
+      ]
     },
     {
       "id": 69,
@@ -990,7 +1105,10 @@
       "en": "Negatives um each case is going to be a little bit different I personally think that if you make the argument with react",
       "zh": "負面，每個個案都不太一樣。我個人覺得，如果你用 react 內容的論點去講——",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 70,
@@ -1000,7 +1118,11 @@
       "en": "Content I actually and this is going to be maybe controversial I don't think that you",
       "zh": "這可能有點爭議——我其實不認為你",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11,
+        12
+      ]
     },
     {
       "id": 71,
@@ -1010,7 +1132,10 @@
       "en": "Can't make that argument towards video games because I think that watching somebody play a video game can because",
       "zh": "不能把同樣論點用到電玩上，因為我覺得看別人玩遊戲，可能也會……",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 72,
@@ -1060,7 +1185,10 @@
       "en": "A disproportionate benefit from somebody else's labor and work that in some cases causes a market replacement for",
       "zh": "在某些情況下會造成對「購買該作品」的市場替代。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 77,
@@ -1080,7 +1208,11 @@
       "en": "Reacting to a video is not that much different than reacting to playing a video game of Dark Viper au's video",
       "zh": "反應一支影片，跟「反應／實況」一款遊戲，其實沒差那麼多。關於 DarkViperAU 的影片，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        12
+      ]
     },
     {
       "id": 79,
@@ -1100,7 +1232,10 @@
       "en": "Entirely or almost entirely have gone to other content creators if not for asmin Gold's interference not just the people",
       "zh": "幾乎會全部流向其他創作者——不只是那些",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 81,
@@ -1120,7 +1255,11 @@
       "en": "Viper Au Dark Viper has 1.5 billion views that could have otherwise gone somewhere else if he didn't have his channel bottom line a react video has the same value proposition as going to a movie with a friend seeing and",
       "zh": "ViperAU。DarkViper 有 15 億觀看，若沒有他的頻道，那些觀看本來也可能去別處。說到底，反應影片的價值主張，就像跟朋友去看電影：一起看、",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11,
+        12
+      ]
     },
     {
       "id": 83,
@@ -1130,7 +1269,11 @@
       "en": "Discussing a movie with a friend can be more enjoyable than seeing it alone but you would never say that the friend who took you to the movie should get a cut of the movies proceeds for sitting in",
       "zh": "一起討論，可能比自己看更有趣；但你絕不會說：帶你去看電影的朋友，因為坐在椅子上給了意見，就該分走電影票房。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        12
+      ]
     },
     {
       "id": 84,
@@ -1140,7 +1283,10 @@
       "en": "The chair and giving you his opinion on it this for me is a gross oversimplification",
       "zh": "對我來說，這是嚴重過度簡化。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        3
+      ]
     },
     {
       "id": 85,
@@ -1160,7 +1306,10 @@
       "en": "Review the the movies Dark Viper au's video while incredibly wellmade also lacks a very basic understanding people",
       "zh": "DarkViperAU 的影片製作得很精良，但也很缺一個基本認知：有些人就是比較想看 react，而不是原片。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 87,
@@ -1170,7 +1319,10 @@
       "en": "Prefer to watch react content over original videos behind it some people do some people don't like for a lot of people like that was actually one of the reasons too why there's a lot of video",
       "zh": "有人喜歡、有人不喜歡。對很多人來說，這也是為什麼有很多影片",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 88,
@@ -1180,7 +1332,11 @@
       "en": "That I don't really react to them right away because I don't want to accidentally cannibalize views cuz I",
       "zh": "我不會立刻去反應——我不想不小心蠶食別人的觀看數，因為我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        12
+      ]
     },
     {
       "id": 89,
@@ -1190,7 +1346,11 @@
       "en": "Know how the YouTube algorithm works very well and that was one of the other like kind of secondary or tertiary reasons why I didn't react to Ethan's video right away the argument that asmin",
       "zh": "很懂 YouTube 演算法。這也是我沒立刻反應 Ethan 那支影片的次要／第三層原因之一。說 Asmongold",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        12
+      ]
     },
     {
       "id": 90,
@@ -1200,7 +1360,10 @@
       "en": "Gold interferes with other people's ability to make money is a massive OV exaggeration this video clumps people",
       "zh": "干擾別人賺錢的能力，是嚴重誇大。這支影片把看 Asmongold 的人",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 91,
@@ -1210,7 +1373,10 @@
       "en": "Who watch asmin gold as this Collective hive mind that doesn't really think for itself I would consider myself an asmin",
       "zh": "講成一個不會自己思考的集體蜂巢心智。我會把自己算成 Asmongold",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 92,
@@ -1220,7 +1386,10 @@
       "en": "Gold enjoyer and I have absolutely nothing to do with anyone else who watches asmin Gold's videos I just",
       "zh": "的觀眾／喜歡他的人，但我跟其他看他影片的人完全沒有關係；我只是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 93,
@@ -1230,7 +1399,10 @@
       "en": "Choose what I want to do with my time as a casual guy going about my life what",
       "zh": "作為過日常生活的普通人，選擇怎麼花自己的時間。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10
+      ]
     },
     {
       "id": 94,
@@ -1240,7 +1412,10 @@
       "en": "You do not see is every time any reaction video appears where your video would have otherwise appeared any time where one of your videos would have gotten impression except it then went to a reaction video not true your your",
       "zh": "你看不到的是：每一次反應影片出現、排擠了你影片本該出現的位置；每一次你本該拿到曝光、卻流向反應影片——這並不真的成立。你的",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 95,
@@ -1250,7 +1425,10 @@
       "en": "Recommendeds are based off of the things that you watch so if I wasn't watching it then and if you weren't watching the original Channel it would have never been recommended in the first place you",
       "zh": "推薦是根據你看過的東西；如果我本來就不看它，而你也不看原頻道，它一開始就不會被推薦給你。你",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 96,
@@ -1260,7 +1438,10 @@
       "en": "Also do not see every time a reaction video is chosen by a viewer instead of one of your videos now I am not saying what Dark Viper is arguing is entirely",
       "zh": "也看不到每一次觀眾「選了反應片、沒選你的片」。我不是說 DarkViper 的論點完全",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 97,
@@ -1270,7 +1451,10 @@
       "en": "Untrue there are people who would have watched some of these videos without first having seen them through Asen gold",
       "zh": "不成立——確實有人若不先透過 Asmongold 看到，可能還是會去看某些原片；",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8
+      ]
     },
     {
       "id": 98,
@@ -1280,7 +1464,10 @@
       "en": "But there's absolutely no way of knowing this especially to what extent if it were as simple as Dark Viper Au puts it then I don't think react channels are the real issue anyway consumer I I I",
       "zh": "但絕對無法知道比例到什麼程度。如果真像 DarkViperAU 講得那麼單純，那我反而不覺得反應頻道才是真正問題。消費者……我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 99,
@@ -1377,6 +1564,9 @@
           "native": "used when naming people who deliberately harm or manipulate a community",
           "nativeZh": "指故意傷害／操弄社群的人"
         }
+      ],
+      "patterns": [
+        8
       ]
     },
     {
@@ -1438,7 +1628,11 @@
           "nativeZh": "拒絕非黑即白、承認程度差"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        12
+      ]
     },
     {
       "id": 108,
@@ -1488,7 +1682,10 @@
       "en": "About this pretty isn't perfectly balanced this all incels and Chads there it is subscribers aren't",
       "zh": "這件事。訂閱數並不完全平衡……好，來了——「全是incel 跟 Chad」。訂閱數其實",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 113,
@@ -1508,7 +1705,10 @@
       "en": "Time relative to their length every time asmin gold has watched one of my videos thousands of people have popped in to leave a like comment or even subscribe",
       "zh": "每次 Asmongold 看我的影片，都有成千上萬人跑進來按讚、留言甚至訂閱。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 115,
@@ -1528,7 +1728,10 @@
       "en": "But then naturally they click off and go about their day as they should it only takes a few seconds for them to do this but in the background YouTube is tracking how long people are actually",
       "zh": "但他們通常看一下就點走、繼續過自己的日子，本來就該這樣。只要幾秒；但背景裡 YouTube 在追蹤人們實際",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9
+      ]
     },
     {
       "id": 117,
@@ -1555,7 +1758,10 @@
           "nativeZh": "收束並點出最終關鍵"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 119,
@@ -1575,7 +1781,10 @@
       "en": "Be incredibly beneficial while the initial burst of traffic from a big Creator's reaction may not convert into",
       "zh": "可以非常有幫助。大創作者反應帶來的流量爆發，也許不會立刻轉成",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 121,
@@ -1595,7 +1804,11 @@
       "en": "That would have otherwise never discovered you channels that I've watched and they've they've received a",
       "zh": "本來永遠不會發現你的人面前。我看過的一些頻道，因為我看了他們的影片之類的，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 123,
@@ -1615,7 +1828,10 @@
       "en": "It's logical that that would happen as well and yeah I think anybody could assume that percentage of these viewers",
       "zh": "對，誰都能假設這些觀眾裡有一定比例",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 125,
@@ -1625,7 +1841,10 @@
       "en": "Don't stick around small fraction will those who genuinely enjoy your content beyond the reaction will come back and",
       "zh": "不會留下；但一小部分會。真正喜歡你內容、不只是看反應的人，會回來",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 126,
@@ -1665,7 +1884,10 @@
       "en": "Worth checking out in my case having Asen gold react to my videos helped give me credibility as a voice in the gaming",
       "zh": "以我來說，Asmongold 反應我的影片，幫我在遊戲領域建立了發言可信度。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        3
+      ]
     },
     {
       "id": 130,
@@ -1675,7 +1897,10 @@
       "en": "Space I'm going to be honest like this guy he's really cooking with this video I actually think this is probably the one of the best dissections of like the",
       "zh": "老實說這傢伙這支片真的在輸出；我覺得這大概是我看過對「這些事情在遊戲裡為什麼發生」最好的拆解之一。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 131,
@@ -1685,7 +1910,10 @@
       "en": "Philosophy behind why these things happen in games that like I've seen this is good it's also one of the reasons why",
       "zh": "這很好。這也是為什麼並非所有 react 內容都等價；我覺得也是很多人看我影片的原因——我用正面的方式談，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 132,
@@ -1695,7 +1923,11 @@
       "en": "All react content isn't created equal and I think also that's why a lot of people watch my videos it's because I talk about it in a way that's positive",
       "zh": "也會主動找我認為有幫助的影片。我通常不太「恨意觀看」很多影片；當然有時會，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 133,
@@ -1705,7 +1937,10 @@
       "en": "And I also try to actively look for videos that I think will be beneficial like I generally don't hate watch a lot of videos now obviously I do sometimes",
       "zh": "但平常不會。你有沒有為了錢做過？我有沒有為了錢去反應一支 YouTube 影片？技術上答案是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 134,
@@ -1715,7 +1950,11 @@
       "en": "But uh you know regularly no have you done it for money have I ever reacted to a YouTube video for money so the answer",
       "zh": "但平常不會。你有沒有為了錢做過？我有沒有為了錢去反應一支 YouTube 影片？技術上答案是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        13
+      ]
     },
     {
       "id": 135,
@@ -1725,7 +1964,10 @@
       "en": "To that is a technical yes because uh I've been paid in a sponsorship to react",
       "zh": "技術上答案是有，因為我曾在贊助案裡被付錢去反應",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 136,
@@ -1745,7 +1987,10 @@
       "en": "Another YouTuber paid me money to watch their video the answer to that question would be no and has opened doors to",
       "zh": "其他 YouTuber 付錢要我看他們的影片？答案是沒有。而這也打開了",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        3
+      ]
     },
     {
       "id": 138,
@@ -1755,7 +2000,10 @@
       "en": "Collaboration technically sponsors and other opportunities that wouldn't have otherwise been possible I also think that a potential fix would be a system where YouTube splits revenue from react",
       "zh": "合作、技術上還有贊助與其他原本不可能的機會。我也覺得一個可能解法是系統：讓 YouTube 從 react",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 139,
@@ -1765,7 +2013,11 @@
       "en": "Channels creating a more collaborative platform but this is just wishful thinking just a quick side note on this I've recently been seeing people say that Asma Gold's React videos are just him nodding or agreeing or raising his",
       "zh": "頻道分潤，創造更協作的平台——不過這只是一廂情願。順便一提：我最近常看到人說 Asmongold 的反應片只是他一直點頭、同意或挑",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        13
+      ]
     },
     {
       "id": 140,
@@ -1785,7 +2037,10 @@
       "en": "The word sure a lot like the person true anyone who actually takes a few minutes to look into this would see that this is just not true just look at my video side",
       "zh": "「sure」很多的人。誰真的花幾分鐘查一下就會發現這根本不真。把我的影片跟他的反應並排看，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 142,
@@ -1815,7 +2070,12 @@
       "en": "He has ever seen he doesn't well that's partially true he doesn't hold much moral values he seems to basically",
       "zh": "他並不……嗯那算部分對。他沒抱持多少道德價值，似乎會",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12,
+        13
+      ]
     },
     {
       "id": 145,
@@ -1825,7 +2085,10 @@
       "en": "Flip-flop between any type of argument which basically benefits him to his audience he doesn't yeah well that is a",
       "zh": "在任何對他觀眾有利的論點之間反覆橫跳。他沒有……對，嗯，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 146,
@@ -1835,7 +2098,12 @@
       "en": "Moral value is this good for me or not good for me it's good for me okay then I like it it's bad for me okay I don't like it have any moral consistency it",
       "zh": "「這對我好不好」本身也是一種道德價值：對我好我就喜歡，對我不好我就不喜歡。看起來他沒有道德一致性。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7,
+        12
+      ]
     },
     {
       "id": 147,
@@ -1845,7 +2113,10 @@
       "en": "Seems like from a lot of his advice and a lot of the stuff that he talks about it seems asmin gold views values as baseless and he doesn't hold religion or",
       "zh": "從他很多建議與談論的內容看，Asmongold 似乎把價值觀當成沒有根基，也不太把宗教或",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 148,
@@ -1919,6 +2190,9 @@
           "native": "used when describing spaces that only reinforce what you already believe",
           "nativeZh": "形容只聽到同類意見的圈子"
         }
+      ],
+      "patterns": [
+        1
       ]
     },
     {
@@ -1929,7 +2203,11 @@
       "en": "No evidence in his video that he has actually ever watched an asthma Gold Video because he even states that asmin gold preaches his lifestyle to his massive audience which clearly couldn't be further from the truth the problem",
       "zh": "他影片裡幾乎沒證據顯示他真看過 Asmongold 的影片；他甚至說 Asmongold 向龐大觀眾宣揚自己的生活方式，這明顯離事實很遠。問題是：",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 153,
@@ -1939,7 +2217,10 @@
       "en": "With that is if he doesn't have any educational insights if he doesn't do any self-development of himself but he's",
       "zh": "如果他自己沒有教育洞見、也不自我成長，卻在",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 154,
@@ -1949,7 +2230,10 @@
       "en": "Preaching educational ideas to the m I'm preaching educational ideas that's interesting I wonder when I do that this",
       "zh": "對大眾宣揚教育理念——我在宣揚教育理念？有意思，我想知道我什麼時候這樣做。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 155,
@@ -1969,7 +2253,10 @@
       "en": "A great steak I remember eating that steak such a good Stak one of the best Stakes I've made probably in my top 100",
       "zh": "一塊超棒的牛排，我記得吃那塊牛排，真的好吃，大概能進我做過的前一百名",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 157,
@@ -1979,7 +2266,11 @@
       "en": "Best Stakes now to probably what he is saying yes as mold has definitely shared some nihilistic takes in the past but I wouldn't say he has fully embraced nihilism in its traditional sense for",
       "zh": "牛排。回到他大概想說的：對，Asmongold 過去確實分享過一些虛無主義論點，但我不會說他完全擁抱傳統意義上的虛無主義。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 158,
@@ -1989,7 +2280,10 @@
       "en": "Those who aren't aware nihilism is defined as the rejection of all religious and moral principles in the",
       "zh": "不了解的人可以這樣定義：虛無主義是拒絕一切宗教與道德原則，並",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 159,
@@ -1999,7 +2293,11 @@
       "en": "Belief that life is meaningless yes as mold has shared his take on how he believes life is meaningless in the grand scheme of things I place like pretty much no value and like principles or morality I I think that these are top",
       "zh": "相信人生沒有意義。對，Asmongold 分享過他認為從宏觀看人生沒意義的想法。我幾乎不把原則或道德當一回事；我覺得那些是由上而下",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        13
+      ]
     },
     {
       "id": 160,
@@ -2009,7 +2307,10 @@
       "en": "Down ideas that are given to you by the elites and I think that if you look at most people that are in like a an advantageous position those people don't",
       "zh": "由精英灌給你的觀念；而且你看多數處於優勢位置的人，那些人根本",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 161,
@@ -2049,7 +2350,11 @@
       "en": "What you have to do to win and the thing is that I won I did immediately it wasn't even close",
       "zh": "你要贏必須做的。結果我立刻贏了，根本不是對手。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        12
+      ]
     },
     {
       "id": 165,
@@ -2059,7 +2364,10 @@
       "en": "Arguing that if life has no built- in meaning we can still create our own because it's not like an aimless life I",
       "zh": "論點是：即使人生沒有內建意義，我們仍可創造自己的意義，因為那並非漫無目的的人生。我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 166,
@@ -2069,7 +2377,11 @@
       "en": "Do what I want to do so you have goals I do have some goals yeah I have things that I want to do right but he by no means has ever encouraged or preached at",
       "zh": "做我想做的事。所以你有目標？對，我有一些目標，有想做的事。但他絕沒有鼓勵或宣揚",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        13
+      ]
     },
     {
       "id": 167,
@@ -2079,7 +2391,10 @@
       "en": "His audience to have the same mindset that he has himself it's weird that people say that I'm like super nihilistic in that way because like I'm actually one of the like I I do stuff",
       "zh": "觀眾要跟他同一個心態。很怪大家說我超虛無，因為我其實是那種一直在",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 168,
@@ -2089,7 +2404,10 @@
       "en": "All the time like I'm always being active like yesterday as I said I didn't do [ __ ] anything right but it was like that was a super super rare day uh",
       "zh": "做事、總是很活躍的人。昨天我是說我什麼都沒幹，但那是超罕見的一天；",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 169,
@@ -2109,7 +2427,11 @@
       "en": "Uh everything my my for my whole life nobody should watch My Stream and say I want to be like this this animal listen",
       "zh": "我這輩子……不該有人看我的實況然後說「我想變成這隻動物」。聽著，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        10
+      ]
     },
     {
       "id": 171,
@@ -2119,7 +2441,12 @@
       "en": "I don't think anybody with a successful life should want to be like me and I really mean that I I I genuinely mean that you don't want to live the way that I live the way that I live is not",
       "zh": "我不覺得任何人生成功的人會想跟我一樣；我是認真的。你不會想過我過的那種生活：那不是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        10,
+        12
+      ]
     },
     {
       "id": 172,
@@ -2129,7 +2456,11 @@
       "en": "Some sort of enlightened in Buddhist Nirvana it is absolute pure degeneracy there's this natural tendency that we have as humans that's right I've said this many times nobody wants to be what I am yeah it feels like you're super",
       "zh": "什麼開悟的佛教涅槃，那是絕對純粹的墮落。我們作為人類有這種自然傾向——對，我說過很多次：沒人想變成我這樣。對，感覺你超",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        13
+      ]
     },
     {
       "id": 173,
@@ -2139,7 +2470,10 @@
       "en": "Nihilistic but at the same time you're not the presence of nihilism does not precipitate the absence of a degree of",
       "zh": "虛無，但同時你又不是。虛無主義的存在，並不必然導致完全沒有某種程度的",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 174,
@@ -2149,7 +2483,10 @@
       "en": "Uh optimism I think that the idea that there's no Divine ordering of the world can be replaced with the opportunity of",
       "zh": "樂觀。我覺得「世界沒有神聖秩序」這個想法，可以被「用你認為合適的方式去",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 175,
@@ -2169,7 +2506,10 @@
       "en": "Replace what people can consider religion or something like that and this has been a very this very very commonly",
       "zh": "取代人們所謂的宗教之類的東西。這其實是個被談得非常非常多的",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 177,
@@ -2189,7 +2529,10 @@
       "en": "Views that are either completely unfamiliar to us or contrary to what we ourselves believe not everyone is like this but a lot of us are like this nihilism is easy to correlate with",
       "zh": "不是每個人都這樣，但很多人是。虛無主義很容易被聯想到",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 179,
@@ -2209,7 +2552,12 @@
       "en": "Give justification for spreading lies now I do want to ask please do not go onto savior's channel to harass him or",
       "zh": "散播謊言的正當化。現在我要拜託：請不要去 Savior 的頻道騷擾他或",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        10,
+        12
+      ]
     },
     {
       "id": 181,
@@ -2269,7 +2617,10 @@
       "en": "Right here you hear this this is that you can't do that anymore you can't do",
       "zh": "你聽到了嗎？這種事你現在不能再做了，你不能再",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 184,
@@ -2332,6 +2683,9 @@
           "native": "describing people whose opinions are shaped by living on the internet",
           "nativeZh": "形容觀點被網路生活形塑的人"
         }
+      ],
+      "patterns": [
+        12
       ]
     },
     {
@@ -2342,7 +2696,10 @@
       "en": "And we all know people don't like it when others are like this America deserve 911 dude it I'm saying it",
       "zh": "我們都知道人們不喜歡別人這樣。美國活該 911……我是在舉例。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 189,
@@ -2352,7 +2709,10 @@
       "en": "Example of this would be the controversies surrounding asmin Gold's take on AI and art last year artists",
       "zh": "這類例子也包括去年圍繞 Asmongold 對 AI 與藝術看法的爭議。藝術家的",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 190,
@@ -2362,7 +2722,10 @@
       "en": "Opinions don't matter because what matters is the opinion of you remember how mad all those fies got over this",
       "zh": "意見不重要，因為重要的是……你還記得那些人對這件事有多生氣嗎？",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 191,
@@ -2382,7 +2745,10 @@
       "en": "Because I was right it's genuinely sad that people seem unable to disagree in a healthy constructive way asmin gold",
       "zh": "因為我是對的。人們似乎無法以健康、建設性的方式不同意，這真的很悲哀。Asmongold",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 193,
@@ -2392,7 +2758,11 @@
       "en": "Doesn't shy away from controversial takes and some people don't like this I've gone around many twitch what the",
       "zh": "不迴避爭議立場，有些人就是不喜歡這點。我跑了很多 Twitch……什麼",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 194,
@@ -2402,7 +2772,10 @@
       "en": "What are the tweets about what are the people saying uh I was beginning watching as going stream people reaction",
       "zh": "推文在講什麼？大家在說什麼？我開始看 Asmongold 實況，大家的反應是：",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 195,
@@ -2429,6 +2802,9 @@
           "native": "used when describing someone who digs in harder after pushback",
           "nativeZh": "形容挨批後反而更堅持"
         }
+      ],
+      "patterns": [
+        7
       ]
     },
     {
@@ -2439,7 +2815,12 @@
       "en": "This is it's so funny to see these people crying about this I'm going to give you guys a little bit of a hint a lot of companies now are already using",
       "zh": "太好笑了看這些人哭這個。我給你們一點提示：現在很多公司已經在用",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        3,
+        11
+      ]
     },
     {
       "id": 197,
@@ -2466,6 +2847,9 @@
           "native": "used when describing spaces that only reinforce what you already believe",
           "nativeZh": "形容只聽到同類意見的圈子"
         }
+      ],
+      "patterns": [
+        13
       ]
     },
     {
@@ -2476,7 +2860,10 @@
       "en": "But I can also see how those who don't actually watch asmin gold can point fingers at his channel and say the same thing but I've actually never seen a content creator who sides against his",
       "zh": "但我也理解那些沒真正看過 Asmongold 的人，會用手指他的頻道說同樣的話。不過我幾乎沒見過哪個創作者像 Asmongold 這樣，經常在直播裡站到",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 199,
@@ -2486,7 +2873,11 @@
       "en": "Entire audience live as much as asman gold does I really do that a lot don't I people get mad the man has even riled me",
       "zh": "整個觀眾的對立面。我真的很常這樣，對吧？大家會生氣。這個人有時連我都會被他某些立場惹毛，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 200,
@@ -2496,7 +2887,11 @@
       "en": "Up at times with some of his takes like the fact that Halo infinite didn't launch with an official Battle Royale mode is unforgivable but I believe this",
       "zh": "像是 Halo Infinite 上市沒有正式大逃殺模式就不可原諒——但我相信這",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 201,
@@ -2506,7 +2901,11 @@
       "en": "Is actually healthy and I'll hey hey 343 Studios if at first you don't succeed well you keep failing for 10 years but they're going to get it right next time because they renamed the studio yeah I",
       "zh": "其實是健康的。嘿 343 Studios，如果一次不成功……那你們就失敗十年吧，但下次會對，因為他們把工作室改名了。對，我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11,
+        12
+      ]
     },
     {
       "id": 202,
@@ -2553,7 +2952,10 @@
       "en": "That's longer than I would expect that's pretty good how about that the most racist and misogynistic takes on gaming",
       "zh": "比我預期的還長，不錯嘛。關於遊戲、以及一般來說我聽過最種族主義、最厭女的言論——",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 206,
@@ -2563,7 +2965,10 @@
       "en": "And just in general that I've ever am I the racist the most racist and misogynistic person sometimes this is",
       "zh": "我是種族主義者？最種族主義、最厭女的人？有時這是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 207,
@@ -2573,7 +2978,11 @@
       "en": "Me being racist agreeing with a guy who's black that Assassin's Creed Shadows is problematic but I'm the one that's racist because so if I was racist why would I agree with a black person like where's the logic here there's no",
       "zh": "我「在當種族主義者」：同意一個黑人說《刺客教條：影》有問題——結果我才是種族主義者？如果我是種族主義者，為什麼會同意一個黑人？邏輯在哪？根本沒有",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 208,
@@ -2583,7 +2992,10 @@
       "en": "Logic it's just feeling and thinking like there's no there's no thinking involved in this at all this guy literally spent the rest of the whole video ranting about asmin Gold's living",
       "zh": "邏輯，只剩感覺，完全沒有思考。這傢伙整支影片剩下的時間都在抱怨 Asmongold 的生活方式",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 209,
@@ -2593,7 +3005,11 @@
       "en": "Choices and hygiene how do people view asmin gold as a respected streamer and they value his opinions on G he's mad so",
       "zh": "與衛生。人們怎麼會把 Asmongold 當受尊敬的實況主、還重視他對遊戲的意見？他很氣，所以",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7
+      ]
     },
     {
       "id": 210,
@@ -2613,7 +3029,11 @@
       "en": "Already playing it on hard mode so if I'm still getting through to people doesn't that mean that my message is even stronger because like it can",
       "zh": "已經在困難模式開打；如果我还能打動人，不就表示我的訊息更強？因為它能",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 212,
@@ -2650,7 +3070,10 @@
       "en": "Always result in real evidence of why there is the hate if we look at history or even fiction there are many figures that automatically draw hate out of us",
       "zh": "總會帶來為什麼恨的真實證據。如果看歷史甚至虛構，很多人物會自動讓我們生出恨意，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8
+      ]
     },
     {
       "id": 214,
@@ -2660,7 +3083,10 @@
       "en": "Mostly because of at least one fundamental cause at least one decision that these figures have made that have brought this hate upon themselves and it",
       "zh": "多半至少因為一個根本原因：這些人物做過至少一個決定，把恨招到自己身上；而那",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 215,
@@ -2670,7 +3096,10 @@
       "en": "Is always a decision that has affected other beings saying that you hate asman gold because you think he is gross when",
       "zh": "總是影響到其他生命的決定。說你恨 Asmongold 是因為你覺得他很髒，而",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 216,
@@ -2680,7 +3109,10 @@
       "en": "His decisions actually don't negatively impact anyone but himself shows me that there is a problem with you more than",
       "zh": "他的決定其實只傷害自己、不負面影響任何人——這更像是你有問題，而不是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 217,
@@ -2690,7 +3122,10 @@
       "en": "There is a problem with asmon I would understand wanting to show him maybe Compassion or sympathy but this has no",
       "zh": "Asmongold 有問題。我能理解想對他展現同情或憐憫；但這完全沒有",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 218,
@@ -2700,7 +3135,10 @@
       "en": "Grounds for hate I would completely understand the hate if he had maybe a one wife or a child or a pet that he was directly affecting but he doesn't why",
       "zh": "構成仇恨的理由。如果他有妻子、孩子或寵物被他直接影響，我完全能理解那種恨；但他沒有。為什麼？",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 219,
@@ -2710,7 +3148,10 @@
       "en": "Look I have a plan I have had this Elden ring plant for a while anyway uh this is",
       "zh": "聽著，我有個計畫：我養這盆《艾爾登法環》的植物一陣子了。這是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 220,
@@ -2720,7 +3161,10 @@
       "en": "A plant that I got uh Bandy Namco sent me this on the release of Elden ring and",
       "zh": "Bandai Namco 在《艾爾登法環》發行時寄給我的，我種下並一直照顧。這些……看起來不太好，我也不知道為什麼這些沒養好，就這樣吧；但這邊這株是綠的，你",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        3
+      ]
     },
     {
       "id": 221,
@@ -2730,7 +3174,11 @@
       "en": "I planted it and I've been taking care now these these not so good right I mean like I I don't know why these ones didn't they they you know it is what it is but this right here this is green you",
       "zh": "看到了嗎？這株植物撐過了整個《艾爾登法環》，也撐過了 DLC，大概還會撐到",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 222,
@@ -2740,7 +3188,11 @@
       "en": "See that this plant has survived the entirety of Elden ring and it survived the DLC it's probably going to survive",
       "zh": "《Nightreign》。然後還有那麼多人因此對 Asmongold 丟仇恨與羞辱。現在來看",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11,
+        13
+      ]
     },
     {
       "id": 223,
@@ -2760,7 +3212,10 @@
       "en": "Another reason for the hate against as RAC this one has no substance and I know",
       "zh": "因為我真心去找過證據；但在某些社群裡，我們看到人們不斷想……「我恨",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 225,
@@ -2817,6 +3272,9 @@
           "native": "used when referring to a serious claim that someone did something wrong",
           "nativeZh": "指某人做錯事的嚴重說法"
         }
+      ],
+      "patterns": [
+        2
       ]
     },
     {
@@ -2834,7 +3292,11 @@
           "nativeZh": "收束並點出最終關鍵"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        10
+      ]
     },
     {
       "id": 230,
@@ -2854,7 +3316,10 @@
       "en": "Culture there is a level of truth from the perspective of extremist religions but asman gold didn't say this instead",
       "zh": "用很粗的筆觸一筆帶過，點名整個文化。他搞砸了；但你知道誰也覺得自己真的搞砸了嗎？Asmongold 自己。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 232,
@@ -2874,7 +3339,11 @@
       "en": "This is why I've tried to do better uh since then because I like I feel like when I do something like this is this me",
       "zh": "想法用有效的方式傳達好？",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        13
+      ]
     },
     {
       "id": 234,
@@ -2884,7 +3353,10 @@
       "en": "Being fair am I doing a good job of being a person that is communicating an",
       "zh": "答案是沒有。我說了一些",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 235,
@@ -2894,7 +3366,10 @@
       "en": "Idea in an effective way the answer is no I'm not I I said something about it",
       "zh": "噁心的話。對，我說過我不在乎無辜的人被另一股力量殺害之類的，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 236,
@@ -2904,7 +3379,10 @@
       "en": "That was disgusting yeah I said that I didn't care about innocent people getting killed by another Force spite",
       "zh": "我想說：有證據顯示這是我之後有帶著走、有反省的事。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 237,
@@ -2914,7 +3392,11 @@
       "en": "Anything and I want to say that evidence that this is something that I have carried forward",
       "zh": "在兩週 Twitch 停權期間，我忍不住發現 X 上對這件事幾乎只有兩種極端觀點：一邊",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        13
+      ]
     },
     {
       "id": 238,
@@ -2924,7 +3406,10 @@
       "en": "During the two we twitch suspension as gold faced I couldn't help but find either one of these two extreme views on the situation all over X on one side",
       "zh": "為 Asmongold 辯護、說他在講事實；另一邊叫他種族主義者、法西斯，還有些字我甚至",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 239,
@@ -2934,7 +3419,10 @@
       "en": "People were defending asmin gold and saying he was stating facts and on the other side we had people calling him racist fascist and words I don't even",
       "zh": "不想在這裡重複。但有一件事無可爭議：Asmongold 確實搞砸了。他對自己說出口的話做了糟糕的判斷，並承擔後果。而這裡是我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 240,
@@ -2944,7 +3432,11 @@
       "en": "Want to repeat here but one thing that can't be disputed here is the fact that asmin gold actually messed up he made an awful judgment on what he said and he faced the consequences now this is where",
       "zh": "個人對他產生巨大敬意的地方：Asmongold 為自己的行為負責。他沒有對抗它；",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        12
+      ]
     },
     {
       "id": 241,
@@ -2954,7 +3446,10 @@
       "en": "I personally Garner enormous respect for him asmin gold took responsibility for his actions he didn't fight against it",
       "zh": "事實上他甚至對被要求負責表示感激，因為他能退一步，看到自己正變成他覺得可惡的人。這件事超瘋狂——",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 242,
@@ -2981,7 +3476,10 @@
       "en": "It I think this has been going on now for like 2 years this is again more evidence about how I am the most humble streamer everybody knows this though his",
       "zh": "這件事的回應真正顯示了他的本色：他扛下了，也道歉了。接著我簡直不敢相信他自己部分觀眾對道歉的反應：有些人覺得 Asmongold 遵守一條不成文的金科玉律——",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 244,
@@ -2991,7 +3489,10 @@
       "en": "Response to the situation really shows his true colors he took the Al and he apologized I then couldn't believe the reaction from some of his own audience when he apologized some of them believed asman gold followed an Unwritten Golden",
       "zh": "任何情況下都永不道歉——這明顯完全誤解了他真正的",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 245,
@@ -3001,7 +3502,10 @@
       "en": "Rule of never apologizing under any circumstances which is clearly a complete misinterpretation of his actual",
       "zh": "立場。他們那樣說，只是因為他們同意我說的話，並氣我承認那其實沒有他們想像中那麼準確。我覺得這是很多",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 246,
@@ -3011,7 +3515,11 @@
       "en": "Stance just said that because they agreed with what I said and they were mad that I said that it wasn't really as accurate as I as they had imagined it to be this is a big problem that I think a",
       "zh": "群體的大問題：他們透過「佔上風／失分」的透鏡看一切；",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        12
+      ]
     },
     {
       "id": 247,
@@ -3054,6 +3562,10 @@
           "native": "used when naming people who deliberately harm or manipulate a community",
           "nativeZh": "指故意傷害／操弄社群的人"
         }
+      ],
+      "patterns": [
+        1,
+        12
       ]
     },
     {
@@ -3084,7 +3596,11 @@
       "en": "Always been against apologizing if you don't believe you've done anything wrong apologizing is never a weakness if it's",
       "zh": "我相信 Asmongold 的反應讓不少觀眾變好了：看到他這樣回應，也挑戰了他們。也許不夠多",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12,
+        13
+      ]
     },
     {
       "id": 252,
@@ -3094,7 +3610,10 @@
       "en": "Genuine I believe asman Gold's reaction bettered quite a lot of his audience people seeing him respond like this challenged them as well maybe not enough",
       "zh": "人真正看到發生了什麼；但那是我希望在其他創作者或網紅身上也看到的真誠品格跡象。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 253,
@@ -3124,7 +3643,10 @@
       "en": "They don't apologize they don't ever try to walk back statements that were a little bit too extreme and they don't",
       "zh": "在很多情況下也不追究社群與——你怎麼說——實況裡惡意行為者的責任。例如大家看那段納粹片段，而大家",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 256,
@@ -3157,6 +3679,9 @@
           "native": "used when naming people who deliberately harm or manipulate a community",
           "nativeZh": "指故意傷害／操弄社群的人"
         }
+      ],
+      "patterns": [
+        7
       ]
     },
     {
@@ -3167,7 +3692,10 @@
       "en": "Didn't see about that is like all the people saying W nais is that all the those people were banned immediately and",
       "zh": "沒看到的是：所有說「W Nazis」之類的人立刻都被 ban 了，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 258,
@@ -3231,7 +3759,11 @@
       "en": "Accountability is a content creator that I believe is worth following I don't believe this controversy makes asman gold a racist it actually just reaffirms",
       "zh": "問責的創作者，我都覺得值得追隨。我不認為這場爭議讓 Asmongold 變成種族主義者；它其實更再確認",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 262,
@@ -3285,6 +3817,9 @@
           "native": "used when arguing the opposite side on purpose to stress-test an idea",
           "nativeZh": "故意辯護反方來壓力測試論點"
         }
+      ],
+      "patterns": [
+        2
       ]
     },
     {
@@ -3312,6 +3847,10 @@
           "native": "used when stressing honest intent in a debate, not trapping the other side",
           "nativeZh": "強調辯論出於誠意、不是設套"
         }
+      ],
+      "patterns": [
+        12,
+        13
       ]
     },
     {
@@ -3322,7 +3861,10 @@
       "en": "Always do this but when he does I find myself personally challenged this has naturally encouraged his audience",
       "zh": "總是這樣做；但當他這樣做時，我會覺得自己被挑戰。這自然也鼓勵了他的觀眾——",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 266,
@@ -3352,7 +3894,10 @@
       "en": "Polarizing the gaming industry has become in recent years it would be easy to look at her post and label her as an anti-white liberal elitist and move on",
       "zh": "遊戲產業有多兩極化，很容易看了她的貼文就把她標成反白人的自由派精英，然後了事。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 269,
@@ -3372,7 +3917,14 @@
       "en": "His audience and himself by sharing how he viewed kayy's post from her perspective am I the person that's going to have to have the hot take that this isn't really that big of a deal and I",
       "zh": "他的觀眾與他自己，分享他如何從 Kelly 的視角看那則貼文。我是不是那個得放「這其實沒那麼嚴重、我也不",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        7,
+        9,
+        11,
+        12
+      ]
     },
     {
       "id": 271,
@@ -3382,7 +3934,10 @@
       "en": "Don't really find this to be inherently racist the problem is that when when you're a hammer every problem looks like a nail and I don't think this one's a nail guys I don't like I don't think",
       "zh": "覺得這本質上種族歧視」這種燙手觀點的人？問題是：當你是錘子，每個問題都像釘子；我不覺得這個是釘子，各位。我不覺得",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 272,
@@ -3392,7 +3947,10 @@
       "en": "That this is advocating for like any sort of exclusion I don't think it's advocating for degradation I don't think",
       "zh": "這是在主張任何排除，不覺得是在主張貶低，也不覺得",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 273,
@@ -3402,7 +3960,10 @@
       "en": "This one is that big of a deal am I crazy and I get how you could perceive",
       "zh": "這件事有那麼嚴重。我瘋了嗎？我也理解你怎麼會把它",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 274,
@@ -3412,7 +3973,10 @@
       "en": "This as being bad I do and like I I got Fe I got a push back because I didn't get mad about Kingdom Come Deliverance",
       "zh": "看成壞事，我真的懂；而且我因為沒對《天國降臨：救贖》發怒而被推回來，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 275,
@@ -3422,7 +3986,10 @@
       "en": "Either and I also got push back because I didn't automatically categorize south of midnight as a Dei game either even",
       "zh": "也因為沒自動把《South of Midnight》歸類成 DEI 遊戲而被推回來——即使",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 276,
@@ -3432,7 +3999,10 @@
       "en": "Though it had a black female protagonist uh so i' I've had a number of elements and then AOW is another minor example as well I try to interpret",
       "zh": "它有黑人女性主角。所以我遇過不少這種情形；AOW 也是另一個小例子。我試著用善意",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 277,
@@ -3485,7 +4055,10 @@
       "en": "Gold doesn't always do this but he does do this and it always gets his audience either thinking or actually annoyed",
       "zh": "不總是這樣做，但他確實會；而且總會讓觀眾要嘛開始思考、要嘛真的很煩。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 280,
@@ -3515,7 +4088,10 @@
       "en": "Doesn't back down from what he believes in regardless of how unpopular his opinion is even live remember that",
       "zh": "無論意見多不受歡迎，都不從信念退縮——甚至在直播裡。還記得那個",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 283,
@@ -3525,7 +4101,10 @@
       "en": "OverWatch thing about how I was defending OverWatch 2 because they didn't have loot boxes maybe it's pure",
       "zh": "Overwatch 的事：我因為他們沒有寶箱而替 Overwatch 2 辯護。也許這純粹是",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 284,
@@ -3535,7 +4114,10 @@
       "en": "Stubbornness but I think it's good because it gets his audience thinking something for me that shows either really good character or a complete lack",
       "zh": "固執，但我覺得這很好，因為它讓觀眾開始思考。對我來說，這顯示的要嘛是很好的品格，要嘛是完全",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 285,
@@ -3545,7 +4127,11 @@
       "en": "Of caring is that despite immense wealth and fame asmin gold doesn't change got not really going to talk about the subject too much because it I don't",
       "zh": "不在乎：儘管擁有巨大財富與名氣，Asmongold 沒有改變。我不太想多談這個主題，因為我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11,
+        12
+      ]
     },
     {
       "id": 286,
@@ -3555,7 +4141,10 @@
       "en": "Really like I mean the thing is that like I I don't know like I always viewed",
       "zh": "不太喜歡……重點是，我不知道，我總是把自己看成……",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 287,
@@ -3565,7 +4154,12 @@
       "en": "Myself like I don't it's just weird people want to change their life so much like I've always been happy like that's",
       "zh": "就是很怪，人們那麼想改變自己的人生；而我一直很開心，就這樣。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        12,
+        13
+      ]
     },
     {
       "id": 288,
@@ -3575,7 +4169,12 @@
       "en": "It I mean there's things about my life I'm not happy about but I'm there's PE there are people in the world that try to find what's bad with what's good",
       "zh": "我是說人生裡有些事我不滿意，但世界上有人總想在好東西裡找壞，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        8,
+        12
+      ]
     },
     {
       "id": 289,
@@ -3585,7 +4184,10 @@
       "en": "Inside of what's good and there are people that try to find what's good inside of what's bad and I feel like",
       "zh": "也有人想在壞東西裡找好。我覺得",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8
+      ]
     },
     {
       "id": 290,
@@ -3615,7 +4217,10 @@
       "en": "Like just because and I'm not also keep in mind I don't talk down like I know like Assan and xcc like they they like",
       "zh": "就像……也請記住我不俯視別人：我知道像 Hasan 跟 xQc 他們喜歡",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 293,
@@ -3625,7 +4230,11 @@
       "en": "To spend money you know like Nick likes to spend money too and I think that's great that's good for them and so like I don't patronize people who spend money or live lavishly either uh I just have",
       "zh": "花錢，Nick 也喜歡花錢，我覺得那很好，對他們好。所以我也不會對花錢或過奢華生活的人說教；我只是有",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 294,
@@ -3655,7 +4264,11 @@
       "en": "Didn't hire a maid for a multi-million dollar mansion he stayed humble for real 100p on a stack it is far too easy to",
       "zh": "沒為了好幾百萬美元的豪宅去請女傭——他保持謙遜，真的，百分百。要把某人妖魔化太容易了：",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 297,
@@ -3698,7 +4311,11 @@
       "en": "You could argue that I did the same thing here but instead of demonizing asman gold I did the opposite I'm not saying that asman gold is without his faults I'm just saying it's worth",
       "zh": "你也可以說我在這裡做了同樣的事；但我不是妖魔化 Asmongold，我做的是相反的事。我不是說 Asmongold 沒有缺點；我只是說這些事值得你",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 299,
@@ -3762,6 +4379,9 @@
           "native": "used when describing spaces that only reinforce what you already believe",
           "nativeZh": "形容只聽到同類意見的圈子"
         }
+      ],
+      "patterns": [
+        1
       ]
     },
     {
@@ -3772,7 +4392,10 @@
       "en": "Like I mean really it's you have to look at things that way Pur from outside perspective wish you take care of yourself more not by three Bentleys",
       "zh": "說真的你必須那樣看。從外人角度希望你多照顧自己，不是去買三輛賓利。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9
+      ]
     },
     {
       "id": 303,
@@ -3782,7 +4405,10 @@
       "en": "Remember you can't they can't bury you with that money whenever I say I don't give a [ __ ] like I really mean that it's not a big deal to me one way or another",
       "zh": "記住：他們不能用那筆錢把你埋了。每當我說我他媽不在乎，我是認真的——反正對我來說怎樣都不是大事。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 304,
@@ -3792,7 +4418,10 @@
       "en": "I mean I I I I don't understand why people don't like kind of get that a lot",
       "zh": "我是說……我不懂為什麼大家好像不太懂：Asmongold 受到的很多",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 305,
@@ -3839,7 +4468,10 @@
       "en": "Identity politics or even critical race Theory well the reason why those people have those opinions is because the people who don't have those opinions are banned like it's not like this is an organic perspective that has just Arisen",
       "zh": "身分政治甚至批判種族理論的貼文。那些人會有那些意見，是因為沒有那些意見的人被 ban 了——這不是網站上自然長出來的觀點，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 308,
@@ -3859,7 +4491,10 @@
       "en": "Gold simply because he speaks out against these ideas what's interesting is that a lot of these people don't seem to engage with his actual points or",
       "zh": "頭上，只因他公開反對這些想法。有趣的是，這些人很多似乎不跟他的實際論點或",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 310,
@@ -3916,6 +4551,10 @@
           "native": "used when asking for finer distinctions instead of a blunt label",
           "nativeZh": "要求更細緻區分、別貼粗標籤"
         }
+      ],
+      "patterns": [
+        2,
+        12
       ]
     },
     {
@@ -3926,7 +4565,11 @@
       "en": "Want to add a disclaimer that I don't always agree with everything asmin gold says or does politically and",
       "zh": "加個免責：我並不總是同意 Asmongold 在政治與",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        12
+      ]
     },
     {
       "id": 315,
@@ -3936,7 +4579,10 @@
       "en": "Philosophically we have quite a few differing perspectives especially when it comes to some of our World Views but this in no way should ever be a reason for me to spread hate towards him because I sometimes disagree with him he",
       "zh": "哲學上說的或做的每一件事。我們有不少不同視角，尤其在某些世界觀上；但這絕不該成為我因為有時不同意他就散播仇恨的理由。他",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9
+      ]
     },
     {
       "id": 316,
@@ -3946,7 +4592,12 @@
       "en": "Has actually encouraged me to see things from a different perspective which I appreciate and has actually taught me a lot it's natural for people to hate",
       "zh": "其實鼓勵我從不同角度看事情，我很感激，也確實教了我很多。人們仇恨別人是很自然的：",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        3,
+        13
+      ]
     },
     {
       "id": 317,
@@ -3966,7 +4617,12 @@
       "en": "Also want to honor God with my life but one thing I don't believe anyone should ever do is spread unnecessary hate",
       "zh": "想用生命榮耀上帝；但我認為任何人都不該對任何人散播不必要的仇恨，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        10,
+        12
+      ]
     },
     {
       "id": 319,
@@ -3993,6 +4649,9 @@
           "native": "used when insisting someone face consequences for what they did",
           "nativeZh": "要求某人為行為承擔後果"
         }
+      ],
+      "patterns": [
+        12
       ]
     },
     {
@@ -4003,7 +4662,10 @@
       "en": "For their actions or behaviors if there is genuine warranted evidence to do so it's funny to see uh you know",
       "zh": "行為追究責任。很好笑……你知道，每當有人看那些人們……謝謝大家觀看我的影片，也非常感謝我的 Patreon 支持者。我未來可能會做第二集，",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 321,
@@ -4023,7 +4685,11 @@
       "en": "Future but I just really wanted to get my thoughts out on here because I've been seeing this conversation for a",
       "zh": "很多人完全沒有任何層次的批判思考。就像我說的：拜託我們不要騷擾任何人。我",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        13
+      ]
     },
     {
       "id": 323,
@@ -4050,6 +4716,9 @@
           "native": "used when urging careful checking of claims instead of blind acceptance",
           "nativeZh": "提醒用證據邏輯檢驗主張"
         }
+      ],
+      "patterns": [
+        7
       ]
     },
     {
@@ -4060,7 +4729,11 @@
       "en": "Do not want to spread that is the complete opposite of what I'm trying to do here let's all make this a beautiful",
       "zh": "地方，大家可以健康地不同意。如果你完全不同意我的任何論點，我很想在留言區真正跟你對話。顯然請保持文明，但我真的想看到你們對",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10,
+        12
+      ]
     },
     {
       "id": 325,
@@ -4070,7 +4743,10 @@
       "en": "Place where we can all disagree healthily if you completely disagree with any of my points I would love to actually converse with you in the comments below let's keep it civil obviously but I really want to see some",
       "zh": "這些話題的一些視角；也許我們能一起努力，讓 YouTube 與",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10
+      ]
     },
     {
       "id": 326,
@@ -4090,7 +4766,10 @@
       "en": "The internet in any shape or form oh [ __ ] I feel like this is uh I'm glad I'm glad I watched this I I really agree I mean pretty much with everything he said",
       "zh": "而且我覺得很多恨我的人——重點是我其實覺得最大的",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 328,
@@ -4110,7 +4789,10 @@
       "en": "Biggest positive is these hate threads about me I think that the hate threads about me and the Internet Hate Crusade against me has been probably one of the",
       "zh": "最好的事情之一：非常成功、對我極度正面。因為很多對我說的話超生氣的人，只是網上精神有狀況的白痴；所以當他們真的去",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 330,
@@ -4120,7 +4802,10 @@
       "en": "Best things for my career it's been massively successful and Incredibly positive for me because a lot of the people that get really mad about the stuff that I say are just mentally ill retards on the internet so when they go",
       "zh": "看我的實況，本來以為「這傢伙一定是納粹、在講黑人有多糟」，結果上了實況",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 331,
@@ -4140,7 +4825,11 @@
       "en": "I'm not doing that they are like okay well actually this guy's pretty normal so it's basically advertisement the",
       "zh": "我並沒在那樣做，他們就會想：好吧這傢伙其實挺正常。所以基本上那是廣告。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 333,
@@ -4160,7 +4849,12 @@
       "en": "Unwilling to do that but they're actively afraid of it the one thing that they don't want is for people to hear what they're saying and they don't want to have their opinions critical",
       "zh": "不願意那樣做，還積極害怕那樣做。他們最不想要的，就是讓人聽到他們在說什麼，也不想讓自己的意見被",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        10,
+        12
+      ]
     },
     {
       "id": 335,
@@ -4170,7 +4864,10 @@
       "en": "Critically evaluated because they know what's going to happen and I think it's the biggest self-report of the world",
       "zh": "批判性評估，因為他們知道會發生什麼；我覺得這是世上最大的自我揭穿。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 336,
@@ -4180,7 +4877,10 @@
       "en": "Like why are you afraid of other people critiquing and listening to what you're saying well the reason why is because",
       "zh": "你為什麼害怕別人檢視、聆聽你在說什麼？原因就是因為",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 337,
@@ -4190,7 +4890,10 @@
       "en": "You know you're wrong you know somewhere deep down inside that you're full of [ __ ] you're a [ __ ] [ __ ] and everybody knows it and that's the real",
       "zh": "你知道自己是錯的；你內心某處知道自己在鬼扯，你就是在胡扯，大家都知道——那才是真正的。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     }
   ]
 }
