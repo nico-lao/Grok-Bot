@@ -37,7 +37,10 @@
           "usage": "預告或廣告結尾常用，把期待感留到後面。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 2,
@@ -70,7 +73,10 @@
           "usage": "比 fancy 更正式一點，強調舒適與昂貴。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 3,
@@ -114,7 +120,11 @@
           "usage": "a dozen 是 12，half a dozen 就是 6，比直接說 six 更口語。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        13
+      ]
     },
     {
       "id": 4,
@@ -124,7 +134,11 @@
       "en": "You've done this six times?",
       "zh": "你做過六次？",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        13
+      ]
     },
     {
       "id": 5,
@@ -146,7 +160,10 @@
           "usage": "這裡用來吐槽引擎聲又小又吵，不像正式飛機。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 6,
@@ -156,7 +173,10 @@
       "en": "Time for a ride on the world's cheapest plane ticket.",
       "zh": "來體驗全世界最便宜的機票吧。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 7,
@@ -222,7 +242,11 @@
           "usage": "口語、孩子氣一點的否認，寫成 nuh-uh / nah ah 都常見。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        12
+      ]
     },
     {
       "id": 9,
@@ -343,7 +367,11 @@
           "usage": "航空、賽車、遊戲都常用，帶一點「有點太快、有點危險」的感覺。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        2
+      ]
     },
     {
       "id": 13,
@@ -398,7 +426,10 @@
           "usage": "wherever 強調沒有限制，很適合輕鬆招待別人。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 15,
@@ -453,7 +484,11 @@
           "usage": "搭機、看電影時常用：recline the seat / recline into a bed。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        9
+      ]
     },
     {
       "id": 17,
@@ -486,7 +521,12 @@
           "usage": "列完優點後再加一記高潮，口語和廣告都很常見。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        9,
+        12
+      ]
     },
     {
       "id": 18,
@@ -519,7 +559,11 @@
           "usage": "比 that's why 更用力，帶點「你講的點正好是關鍵」。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 19,
@@ -552,7 +596,11 @@
           "usage": "社交場合很常用，不一定是壞事，但氣氛別扭。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 20,
@@ -574,7 +622,10 @@
           "usage": "談飛機、汽車座位舒適度的核心詞；unlimited legroom 是誇張讚美。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 21,
@@ -629,7 +680,11 @@
           "usage": "正式場合也能用；這裡是看到不是自家巧克力後的笑點。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        9,
+        12
+      ]
     },
     {
       "id": 23,
@@ -651,7 +706,12 @@
           "usage": "口語裡 literally 常拿來加強語氣，這裡則是字面意思：真的能在螢幕上來看。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7,
+        12
+      ]
     },
     {
       "id": 24,
@@ -661,7 +721,10 @@
       "en": "You have a sink, a toilet, and then a shower. That is crazy. Look at that.",
       "zh": "有洗手台、馬桶，還有淋浴間。這太狂了。你看那個。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 25,
@@ -727,7 +790,11 @@
           "usage": "展示、送禮、說故事都很常用的節奏句。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        12
+      ]
     },
     {
       "id": 27,
@@ -749,7 +816,10 @@
           "usage": "看到超乎尋常的東西時，用來加強真實感。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 28,
@@ -781,7 +851,11 @@
           "usage": "先丟出驚人資訊，再用 that's right 幫聽眾確認自己沒聽錯。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        11
+      ]
     },
     {
       "id": 30,
@@ -803,7 +877,12 @@
           "usage": "讚嘆句，比重複說 crazy / insane 更完整。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12,
+        13
+      ]
     },
     {
       "id": 31,
@@ -836,7 +915,12 @@
           "usage": "用來形容空間大到可以在飛機上做操。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12,
+        13
+      ]
     },
     {
       "id": 32,
@@ -858,7 +942,11 @@
           "usage": "比 a lot of 更誇張一點，不適合正式報告。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        8,
+        13
+      ]
     },
     {
       "id": 33,
@@ -902,7 +990,11 @@
           "usage": "常被當成「有錢人才吃」的象徵，影片裡用來吐槽豪華套餐。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        4,
+        7
+      ]
     },
     {
       "id": 34,
@@ -935,7 +1027,10 @@
           "usage": "可指心情，也可直接指那個讓人失望的東西。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 35,
@@ -968,7 +1063,10 @@
           "usage": "不一定是更便宜，而是「這個價錢更值得」。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 36,
@@ -990,7 +1088,11 @@
           "usage": "比 Don't do it 更客氣，適合給建議。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        12
+      ]
     },
     {
       "id": 37,
@@ -1045,7 +1147,11 @@
           "usage": "一般是兩層；這裡說 three beds，是在開玩笑要做三層。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        12
+      ]
     },
     {
       "id": 39,
@@ -1067,7 +1173,10 @@
           "usage": "和 slept like a baby 類似，強調一躺就睡、不容易醒。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 40,
@@ -1089,7 +1198,10 @@
           "usage": "和 private flight / private jet 對比時特別常用。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 41,
@@ -1122,7 +1234,10 @@
           "usage": "用來對比前面只能買一個座位的商業航班。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 42,
@@ -1155,7 +1270,10 @@
           "usage": "正面負面都能用，這裡是純粹驚嘆。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 43,
@@ -1177,7 +1295,11 @@
           "usage": "wanna = want to，說故事時很好用的轉折。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        10
+      ]
     },
     {
       "id": 44,
@@ -1199,7 +1321,10 @@
           "usage": "機場、飯店、私人飛機都常用 lounge 指休息空間。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 45,
@@ -1254,7 +1379,12 @@
           "usage": "可以單獨喊一聲 Dibs，不必每次都說 dibs on something。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7,
+        13
+      ]
     },
     {
       "id": 47,
@@ -1264,7 +1394,10 @@
       "en": "No. — Never. What do we talk about while on our private jet? Well, I'll tell you, last year I had sold the (indistinct).",
       "zh": "沒有。——從來沒有。在私人飛機上我們該聊什麼？跟你說，去年我賣掉了那個（聽不清）。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 48,
@@ -1308,7 +1441,10 @@
           "usage": "比 I didn't know 更著重「過程中沒注意」。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 50,
@@ -1330,7 +1466,11 @@
           "usage": "字面是關心，這裡是朋友把人關在廁所時的好笑禮貌話。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7
+      ]
     },
     {
       "id": 51,
@@ -1352,7 +1492,10 @@
           "usage": "用現在進行式 getting，聽起來像眼前正在發生、而且沒完沒了。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 52,
@@ -1417,7 +1560,10 @@
           "usage": "把 out of 連成 outta，很口語。這裡是把多餘枕頭丟掉。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 55,
@@ -1450,7 +1596,10 @@
           "usage": "和 whatever 連用時，強調完全自由、沒有時間限制。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        11
+      ]
     },
     {
       "id": 56,
@@ -1472,7 +1621,10 @@
           "usage": "不一定真的在演奏，聽音樂很投入也可以說 jam out。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 57,
@@ -1516,7 +1668,10 @@
           "usage": "標準用法是 Hence 或 That's why。影片裡的 Hence why? 是隨口轉折，學的時候建議改用 That's why。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 58,
@@ -1538,7 +1693,12 @@
           "usage": "go + 原形動詞，口語裡用來支使旁邊的人立刻去做。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        11,
+        12
+      ]
     },
     {
       "id": 59,
@@ -1560,7 +1720,10 @@
           "usage": "這裡是把人從廁所放出來後的玩笑問候。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 60,
@@ -1593,7 +1756,11 @@
           "usage": "驚喜環節的經典道具；take off / remove your blindfolds。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        7
+      ]
     },
     {
       "id": 61,
@@ -1626,7 +1793,11 @@
           "usage": "可以是承諾，也可以是俏皮地拒絕。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2,
+        7
+      ]
     },
     {
       "id": 62,
@@ -1659,7 +1830,10 @@
           "usage": "發現不對勁或很好笑時，先喊停再追問。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 63,
@@ -1692,7 +1866,11 @@
           "usage": "push it 表示把玩笑、要求或尺度再往前推一點。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        12
+      ]
     },
     {
       "id": 64,
@@ -1747,7 +1925,10 @@
           "usage": "gains 指增肌成果。這裡朋友拿來解釋飛船為什麼下沉，順便開玩笑。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 66,
@@ -1769,7 +1950,10 @@
           "usage": "語氣過火，所以聽的人會特別注意到 forever 這個詞。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 67,
@@ -1802,7 +1986,12 @@
           "usage": "ain't = isn't / aren't / am not，很口語。pick up speed 就是加速。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        2,
+        12
+      ]
     },
     {
       "id": 68,
@@ -1824,7 +2013,10 @@
           "usage": "常在 already 出發或故事中途，再補一個關鍵資訊。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 69,
@@ -1846,7 +2038,10 @@
           "usage": "have no idea 比 doesn't know 更強調「一點都不知道」。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        12
+      ]
     },
     {
       "id": 70,
@@ -1868,7 +2063,11 @@
           "usage": "專有名詞，聽力裡碰到直接當活動名稱記即可。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        12
+      ]
     },
     {
       "id": 71,
@@ -1890,7 +2089,11 @@
           "usage": "'em 是 them 的口語弱讀，前面常接 see / tell / get。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7
+      ]
     },
     {
       "id": 72,
@@ -1912,7 +2115,10 @@
           "usage": "本是較正式用法，用在玩笑裡會有一點假裝一本正經的效果。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 73,
@@ -1945,7 +2151,10 @@
           "usage": "語氣偏禮貌、老派一點，適合當眾示好，不帶輕浮。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 74,
@@ -1955,7 +2164,10 @@
       "en": "[Crowd] We love Karl's mom. And now, the most expensive private plane ticket on the planet.",
       "zh": "[觀眾] 我們愛 Karl 的媽媽。接下來，地球上最貴的私人機票。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        2
+      ]
     },
     {
       "id": 75,
@@ -2021,7 +2233,10 @@
           "usage": "用來強調規模或難度超出直覺。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1
+      ]
     },
     {
       "id": 77,
@@ -2076,7 +2291,11 @@
           "usage": "把 dibs 變成一句確認，有點得意、有點開玩笑。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        8
+      ]
     },
     {
       "id": 79,
@@ -2109,7 +2328,10 @@
           "usage": "私人住宅或豪華交通工具裡的家庭劇院空間。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 80,
@@ -2164,7 +2386,10 @@
           "usage": "stuff 很口語，泛指不錯的內容或物品。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        13
+      ]
     },
     {
       "id": 82,
@@ -2197,7 +2422,10 @@
           "usage": "帶一點自責或難以置信，適合用在找東西、參觀場合。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 83,
@@ -2219,7 +2447,10 @@
           "usage": "先假設對方的想法，再補上更驚人的事實。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 84,
@@ -2229,7 +2460,12 @@
       "en": "It's amazing. So, I really just shouldn't.",
       "zh": "太舒服了。所以我真的不該這樣。",
       "tags": [],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        9,
+        12
+      ]
     },
     {
       "id": 85,
@@ -2262,7 +2498,10 @@
           "usage": "YouTube 場景的核心詞；subscribe 是對應動詞。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 86,
@@ -2284,7 +2523,11 @@
           "usage": "Have you ever + 過去分詞，是分享經歷前最自然的開場。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7,
+        13
+      ]
     },
     {
       "id": 87,
@@ -2317,7 +2560,13 @@
           "usage": "完整一點是 this has got to be 或 this has gotta be；省略 has 很口語。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        1,
+        7,
+        12,
+        13
+      ]
     },
     {
       "id": 88,
@@ -2427,7 +2676,10 @@
           "usage": "房屋和豪華交通工具都用，比 bedroom 更高一級。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        7
+      ]
     },
     {
       "id": 92,
@@ -2449,7 +2701,12 @@
           "usage": "常見寫法是 all-expenses-paid；口語也會說 all expense paid。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        4,
+        7,
+        11
+      ]
     },
     {
       "id": 93,
@@ -2471,7 +2728,10 @@
           "usage": "YouTube 片尾超典型：wanna = want to，最後收在 subscribe。"
         }
       ],
-      "notes": []
+      "notes": [],
+      "patterns": [
+        10
+      ]
     }
   ],
   "enrichment": {
